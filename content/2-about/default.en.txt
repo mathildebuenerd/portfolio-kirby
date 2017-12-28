@@ -1,0 +1,9 @@
+Title: About
+
+----
+
+Intro: This page demonstrates how you can utilize subpages to store content, like our team members shown below. This approach is especially useful when you have to handle a large number of datasets, many different kinds of data (like page sections) or very complex data with a lot of media files or fields.
+
+----
+
+Text: I am something between a student/designer/artist/coder, exploring the connections between language, algorithms and social relationships. What will the algorithmic futures look like ? What happens when we bring together computational imagination and the unexpectedness of life ? How to add a little spice to the electronic products we use on a daily basis ? I strongly think that designers have something to say into the way we are envisioning our future.

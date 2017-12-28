@@ -1,0 +1,37 @@
+Title: New Pretender
+
+----
+
+Year: 2016
+
+----
+
+Smalldescription: Un coach personnel qui sussure à l'oreille de son interprète le discours à tenir pour séduire une femme.
+
+----
+
+Tags: alternative controller,coach
+
+----
+
+Categories: fictionDesign, interactionDesign
+
+----
+
+Thematics: rhetorics, autocomplete, socialHacking
+
+----
+
+Maindescription: New Pretender est un coach personnel qui sussure à l'oreille de son interprète le discours à tenir pour séduire une femme. L'homme, devenu un véritable orateur, peut expérimenter en temps réel les techniques de manipulation (complimenter, faire des gestes évocateurs, mentir, promettre...), en jouant au sens littéral (avec un joystick) avec la personne en face de lui.
+
+----
+
+Website: 
+
+----
+
+Press: http://www.tilllate.com/de/story/new-pretender
+
+----
+
+Misc: 

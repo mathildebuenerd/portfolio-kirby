@@ -1,0 +1,85 @@
+/* Titles */
+@import url('https://fonts.googleapis.com/css?family=Fira+Mono:400,700');
+
+
+
+/* PROJECT page */
+
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-color: black;
+  color: white;
+  font-family: "Fira Mono", monospace;
+}
+
+.text-content {
+  background-color: black;
+  color: white;
+  padding: 15px 25px;
+  font-size: 0.8em;
+  font-family: "Space Mono", monospace;
+  width: 500px;
+}
+
+.main figure:first-child img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  z-index: -1;
+}
+
+
+/*****
+
+    PROJECTS = HOME PAGE
+
+******/
+
+#preview-projects article {
+    width: 200px;
+}
+
+.project-main-image {
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+}
+
+.project-main-image img {
+  width: 250px;
+  height: auto;
+}
+
+.single-project {
+  width: 250px;
+  font-family:
+}
+
+.single-project a {
+  text-decoration: none;
+}
+
+.single-project h3 {
+  font-size: 2em;
+}
+
+.single-project div > span {
+  padding: 5px;
+  color: white;
+}
+
+.single-project .tags span {
+  background-color: #222222;
+}
+
+.single-project .thematics span {
+  background-color: #560bed;
+}
+
+.single-project .categories span {
+  background-color: blue;
+}
