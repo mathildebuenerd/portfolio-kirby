@@ -6,9 +6,6 @@
 /* PROJECT page */
 
 body {
-  width: 100vw;
-  height: 100vh;
-  overflow: hidden;
   background-color: black;
   color: white;
   font-family: "Fira Mono", monospace;
@@ -39,8 +36,13 @@ body {
 
 ******/
 
+#preview-projects {
+  display: flex;
+}
+
 #preview-projects article {
     width: 200px;
+  margin-right: 20px;
 }
 
 .project-main-image {
@@ -65,9 +67,11 @@ body {
 
 .single-project h3 {
   font-size: 2em;
+  color: white;
 }
 
 .single-project div > span {
+  font-size: 0.8em;
   padding: 5px;
   color: white;
 }
@@ -82,4 +86,12 @@ body {
 
 .single-project .categories span {
   background-color: blue;
+}
+
+#controls {
+  position: absolute;
+  top:0;
+  right: 0;
+  padding: 10px;
+  border: 1px solid white;
 }

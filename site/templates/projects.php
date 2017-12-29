@@ -15,29 +15,31 @@
     </div>
 
     <section id="controls">
-      <!-- <div id="mode"> 
-      mode: 
-        <div>text</div>
-        <div>image</div>
-      </div> -->
       <form id="discover">
-          <h2>Search</h2>
+          <h2>Controls</h2>
           <!--
             - on pourrait avoir des mots randoms en placeholder
             - les mots tapés pourraient automatiquement être changés pour coller à des mots clés qui font partie du contenu
             - à l'inverse les mots tapés dans la barre de recherche pourraient s'inclure dans le contenu de la page
           -->
-          <input type="search" name="search" placeholder="show me...">
+          <div>
+              search:
+              <input type="search" name="search" placeholder="show me...">
+          </div>
 
-          mode:
-            <input type="radio" name="type-of-display" value="text">text</input>
-            <input type="radio" name="type-of-display" value="image">image</input>
+          <div>
+              mode:
+              <input type="radio" name="type-of-display" value="text">text</input>
+              <input type="radio" name="type-of-display" value="image">image</input>
+          </div>
 
           show:
+<!--          <?php //$alltags = $page->children()->visible()->split('tags', ',', true); ?>-->
+          <div>
+<!--              <?php //echo html($alltags) ?>-->
+          </div>
 
       </form>
-
-
     </section>
 
 
