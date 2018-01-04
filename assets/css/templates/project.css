@@ -1,5 +1,77 @@
+/*****
+
+  GENERAL
+
+ ******/
+
 body {
     width: 100vw;
     height: 100vh;
     overflow: hidden;
+}
+
+/*****
+
+  IMAGES
+
+ ******/
+
+.allimages figure {
+
+}
+
+.allimages figure img:first-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    margin: 0;
+    object-fit: cover;
+}
+
+
+/*****
+
+    TEXT
+
+ ******/
+
+.text-content {
+    background-color: black;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    color: white;
+    padding: 15px 25px;
+    font-size: 0.8em;
+    font-family: "Space Mono", monospace;
+    width: 500px;
+}
+
+.alltags {
+    position: absolute;
+    right: 20px;
+    text-align: right;
+    bottom: 20px;
+    font-size: 1.2em;
+}
+
+.alltags span {
+    /*margin: 0 2px;*/
+}
+
+
+
+/*****
+
+  FOOTER
+
+ ******/
+
+.footer-madewithkirby {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
 }

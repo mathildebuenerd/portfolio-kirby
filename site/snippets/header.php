@@ -10,15 +10,22 @@
 
   <?= css('assets/css/mystyle.css') ?>
 
+<!--    inclue jquery and jquery ui -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <script>
+        // all the elements with the "draggable" class are now draggable
+        $(function() {
+            $(".draggable").draggable();
+        });
+    </script>
+
 </head>
 <body>
 
   <header class="header wrap wide" role="banner">
     <div class="grid">
 
-      <div class="branding column">
-        <a href="<?= url() ?>" rel="home"><?= $site->title()->html() ?></a>
-      </div>
 
       <?php snippet('menu') ?>
 

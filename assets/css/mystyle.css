@@ -3,6 +3,39 @@
 
 
 
+/*****
+
+    MENU
+
+ ******/
+
+.menu {
+  display: flex;
+  position: fixed;
+  top:0;
+  left: 0;
+  width: 100vw;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+.menu li {
+  margin: 10px 15px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: white;
+}
+
+
+
+
+
+
+
 /* PROJECT page */
 
 body {
@@ -11,23 +44,11 @@ body {
   font-family: "Fira Mono", monospace;
 }
 
-.text-content {
-  background-color: black;
-  color: white;
-  padding: 15px 25px;
-  font-size: 0.8em;
-  font-family: "Space Mono", monospace;
-  width: 500px;
-}
 
-.main figure:first-child img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: auto;
-  z-index: -1;
-}
+
+
+
+
 
 
 /*****
@@ -61,6 +82,16 @@ body {
   font-family:
 }
 
+.single-project div {
+  opacity: 0;
+  transition: 0.3s ease;
+}
+
+.single-project:hover div {
+  opacity: 1;
+  transition: 0.3s ease;
+}
+
 .single-project a {
   text-decoration: none;
 }
@@ -70,23 +101,29 @@ body {
   color: white;
 }
 
-.single-project div > span {
+.tags span, .thematics span, .categories span {
   font-size: 0.8em;
   padding: 5px;
   color: white;
 }
 
-.single-project .tags span {
+.tags span {
   background-color: #222222;
 }
 
-.single-project .thematics span {
+.thematics span {
   background-color: #560bed;
 }
 
-.single-project .categories span {
+.categories span {
   background-color: blue;
 }
+
+/*****
+
+   CONTROLS
+
+ *****/
 
 #controls {
   position: absolute;
@@ -94,4 +131,28 @@ body {
   right: 0;
   padding: 10px;
   border: 1px solid white;
+}
+
+
+
+
+/*****
+
+  FOOTER
+
+ ******/
+
+.footer-madewithkirby {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+.footer-madewithkirby a {
+  text-decoration: none;
+  color: #555555;
+}
+
+.footer-madewithkirby .heart {
+  color: #560bed;
 }

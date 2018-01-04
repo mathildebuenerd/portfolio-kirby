@@ -14,5 +14,7 @@
     </div>
   </footer>
 
+  <?php echo js('assets/js/heartcolor.js') ?>
+
 </body>
 </html>

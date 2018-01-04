@@ -1,14 +1,6 @@
 <?php snippet('header') ?>
 
   <main class="main" role="main">
-
-    <header class="wrap">
-      <h1><?= $page->title()->html() ?></h1>
-      <div class="intro text">
-        <?= $page->text()->kirbytext() ?>
-      </div>
-      <hr />
-    </header>
       
     <div class="wrap wide">    
       <?php snippet('showcase') ?>
@@ -34,11 +26,44 @@
           </div>
 
           show:
-<!--          <?php //$alltags = $page->children()->visible()->split('tags', ',', true); ?>-->
           <div>
-<!--              <?php //echo html($alltags) ?>-->
-          </div>
+            <?php
+            $alltags = [];
+            foreach($page->children() as $subpage):
+                ?>
+                <?php foreach($subpage->content()->categories()->split(',') as $tag):
+            ?>
+                    <span>
+                      <?php
+                        echo '<script>console.log("' . implode($alltags) . '")</script>';
 
+                        $isNew = function ($alltags, $tag) {
+                            echo '<script>console.log("salut")</script>';
+
+                            for ($i = 0; $i < sizeOf($alltags); $i++) {
+                              echo '<script>console.log("' . $i . '")</script>';
+
+                              if ($alltags[$i] == $tag) {
+                                  echo '<script>console.log("false")</script>';
+                                  return false;
+                              }
+                          }
+                          echo '<script>console.log("salut")</script>';
+                          array_push($alltags, $tag);
+                          return true;
+                      };
+
+
+
+                      if ($isNew === true) {
+                          echo html($tag);
+                      }
+
+                      ?>
+                    </span>
+                <?php endforeach ?>
+            <?php endforeach ?>
+          </div>
       </form>
     </section>
 
@@ -46,7 +71,7 @@
     <!-- <h2>Subpages</h2> -->
 <section id="preview-projects">
   <?php foreach($page->children() as $subpage): ?>
-  <article class="single-project">
+  <article class="single-project draggable">
     <a href="<?php echo $subpage->url() ?>">
       
       <div class="project-main-image">
@@ -89,5 +114,7 @@
 </section>
 
   </main>
+
+<?php echo js('assets/js/homelayout.js') ?>
 
 <?php snippet('footer') ?>

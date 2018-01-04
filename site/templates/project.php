@@ -1,5 +1,7 @@
 <?php snippet('header') ?>
 
+<?php echo css('@auto') ?>
+
   <main class="main" role="main">
     
     <header class="wrap">
@@ -9,7 +11,7 @@
     
     <section class="text wrap">
 
-    <div class="text-content">
+    <div class="text-content draggable">
 
       <h1><?= $page->title()->html() ?></h1>
       
@@ -20,20 +22,7 @@
       <div class="small-description">
         <?= $page->smalldescription() ?>
       </div>
-      
-      <div class="alltags">
-        <div class="myags">
-          <?= $page->tags() ?>
-        </div>
 
-        <div class="categories">
-          <?= $page->categories() ?>
-        </div>
-
-        <div class="thematics">
-          <?= $page->thematics() ?>
-        </div>
-      </div>
 
       <div class="main-description">  
         <?= $page->maindescription() ?>
@@ -68,6 +57,35 @@
       <?php endforeach ?>
     </div> <!-- allimages -->
 
+
+        <div class="alltags">
+            <div class="tags">
+                <!-- La fonction split permet de séparer chaque tag -->
+                <?php foreach($page->content()->tags()->split(',') as $tag): ?>
+                    <span>
+          <?php echo html($tag) ?>
+        </span>
+                <?php endforeach ?>
+
+            </div>
+
+            <div class="thematics">
+                <?php foreach($page->content()->thematics()->split(',') as $thematic): ?>
+                    <span>
+          <?php echo html($thematic) ?>
+        </span>
+                <?php endforeach ?>
+            </div>
+
+            <div class="categories">
+                <?php foreach($page->content()->categories()->split(',') as $category): ?>
+                    <span>
+          <?php echo html($category) ?>
+        </span>
+                <?php endforeach ?>
+
+            </div>
+        </div>
 
     </section>
     

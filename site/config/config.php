@@ -15,6 +15,9 @@ for more information: http://getkirby.com/license
 
 */
 
+/* set "Projects" as default homepage */
+c::set('home', 'projects');
+
 c::set('license', 'put your license key here');
 
 c::set('debug',true);
