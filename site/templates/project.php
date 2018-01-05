@@ -11,6 +11,8 @@
     
     <section class="text wrap">
 
+        <div id="return"><a href="<?php echo $site->homePage()->url() ?>">⇜</a></div>
+
     <div class="text-content draggable">
 
       <h1><?= $page->title()->html() ?></h1>

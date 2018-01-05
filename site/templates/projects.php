@@ -82,6 +82,7 @@
         <?php echo html($subpage->title()) ?>
       </h3>
 
+        <div class="alltags">
       <div class="tags">
       <!-- La fonction split permet de séparer chaque tag -->
         <?php foreach($subpage->content()->tags()->split(',') as $tag): ?>
@@ -108,6 +109,8 @@
         <?php endforeach ?>
 
       </div>
+
+        </div> <!-- all tags -->
     </a>
   </article>
   <?php endforeach ?>

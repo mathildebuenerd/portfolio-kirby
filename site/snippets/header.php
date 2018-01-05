@@ -10,7 +10,7 @@
 
   <?= css('assets/css/mystyle.css') ?>
 
-<!--    inclue jquery and jquery ui -->
+<!--    include jquery and jquery ui -->
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
     <script>
@@ -19,6 +19,9 @@
             $(".draggable").draggable();
         });
     </script>
+
+<!--    include p5 library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.16/p5.js"></script>
 
 </head>
 <body>

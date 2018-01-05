@@ -10,6 +10,20 @@ body {
     overflow: hidden;
 }
 
+#return {
+    position: absolute;
+    top: 45px;
+    left: 0;
+    background-color: black;
+    padding: 0 20px 5px;
+    font-size: 2em;
+}
+
+#return a, #return a:visited {
+    text-decoration: none;
+    color: white;
+}
+
 /*****
 
   IMAGES
@@ -41,8 +55,8 @@ body {
 .text-content {
     background-color: black;
     position: absolute;
-    top: 100px;
-    left: 100px;
+    top: 45px;
+    left: 75px;
     color: white;
     padding: 15px 25px;
     font-size: 0.8em;
