@@ -71,7 +71,7 @@
     <!-- <h2>Subpages</h2> -->
 <section id="preview-projects">
   <?php foreach($page->children() as $subpage): ?>
-  <article class="single-project draggable">
+  <article class="single-project draggable" id="<?php echo html($subpage->title()) ?>">
     <a href="<?php echo $subpage->url() ?>">
       
       <div class="project-main-image">

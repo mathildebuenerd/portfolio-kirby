@@ -22,6 +22,8 @@ function setup() {
 //     for(var i=0; i<projects.length; i++) {
 //         projectsObj.push(new Project(projects[i])); // we have created a Project class, in order to make it move smoothly
 //     }
+
+    console.log(alltags);
  }
 
 
@@ -33,22 +35,46 @@ function draw() {
         // we iterate through all the projects with the same tag in order to link them
         if (alltags[k].projects !== undefined) { // if a category is shared by more than one person
             for (var l=0; l<alltags[k].projects.length; l++) {
+                var x1 = '';
+                var y1 = '';
+                var x2 = '';
+                var y2 = '';
                 if (l !== alltags[k].projects.length-1) {
-                    var x1 = alltags[k].projects[l].offsetLeft;
-                    var y1 = alltags[k].projects[l].offsetTop;
-                    var x2 = alltags[k].projects[l+1].offsetLeft;
-                    var y2 = alltags[k].projects[l+1].offsetTop;
+                    x1 = alltags[k].projects[l].offsetLeft;
+                    y1 = alltags[k].projects[l].offsetTop + (alltags[k].projects[l].offsetHeight)/2;
+                    x2 = alltags[k].projects[l+1].offsetLeft;
+                    y2 = alltags[k].projects[l+1].offsetTop + (alltags[k].projects[l+1].offsetHeight)/2;
                 } else {
-                    var x1 = alltags[k].projects[l].offsetLeft;
-                    var y1 = alltags[k].projects[l].offsetTop;
-                    var x1 = alltags[k].projects[0].offsetLeft;
-                    var y1 = alltags[k].projects[0].offsetTop;
+                    x1 = alltags[k].projects[l].offsetLeft;
+                    y1 = alltags[k].projects[l].offsetTop + (alltags[k].projects[l].offsetHeight)/2;
+                    x2 = alltags[k].projects[0].offsetLeft;
+                    y2 = alltags[k].projects[0].offsetTop + (alltags[k].projects[0].offsetHeight)/2;
                 }
                 // console.log(x1 + " " + y1 + " " + x2 + " " + y2);
-                stroke(255);
+
+                // The color of the word/the stroke depends on the type of relationship between the elements : tags, thematics or categories
+                var color;
+                if(alltags[k].cat === 'tags') {
+                    color = 100;
+                } else if (alltags[k].cat === 'thematics') {
+                    color = '#560bed';
+                } else {
+                    color = '#0000ff';
+                }
+
+
+                stroke(color);
                 strokeWeight(1);
-                // text()
                 line(x1, y1, x2, y2);
+
+                // display the relationship in text (which category is similar)
+                var xtext = x1 + (x2-x1)/2;
+                var ytext = y1 + (y2-y1)/2;
+
+                noStroke();
+                fill(color);
+                text(alltags[k].tag, xtext, ytext);
+
             }
         }
     }
@@ -72,7 +98,7 @@ function makeLinks() {
 
     var projects = document.querySelectorAll(".single-project");
     alltags = listAllUsedTags();
-
+    console.log(alltags);
     function listAllUsedTags() {
         var alltags = document.querySelectorAll('.alltags');
         var differentTags = [];
@@ -96,20 +122,6 @@ function makeLinks() {
         return differentTags;
     }
 
-    console.log(alltags);
-
-    var allSimilarProjects = []; // we create an array to store all projects that have the same tag
-    // it's gonna look like
-    // allSimilarProjects = [
-    //     tag1: [
-    //         element1,
-    //         element2
-    //     ],
-    //     tag2: [
-    //         ...
-    //     ]
-    // ]
-
     for (var i=0; i<alltags.length; i++) {
         var similarProjects = [];
         for (var j=0; j<projects.length; j++) {
@@ -122,18 +134,36 @@ function makeLinks() {
             alltags[i].projects = similarProjects; // we had the element to the big array
         }
 
+        // creates the html lists of relationships between projects
+        if (alltags[i].projects !== undefined) { // if a category is shared by more than one person
+            for (var l=0; l<alltags[i].projects.length; l++) {
+                var project1 = '';
+                var project2 = '';
+                if (l !== alltags[i].projects.length-1) {
+                    project1 = alltags[i].projects[l];
+                    project2 = alltags[i].projects[l+1];
+                } else {
+                    project1 = alltags[i].projects[l];
+                    project2 = alltags[i].projects[0];
+                }
+
+                var relationship = '';
+                if (document.querySelector('#' + project1 + '-' + project2) !== undefined) { // if the relationship doesn't already exist (thanks to another cat for example)
+                    relationship = document.createElement('ul');
+                    relationship.setAttribute('id', project1 + '-' + project2);
+                    relationship.setAttribute('class', 'relationship');
+                } else {
+                    relationship = document.querySelector('#' + project1 + '-' + project2);
+                }
+
+                var relation = document.createElement('li');
+                relation.setAttribute('class', 'rel-' + alltags[i].cat);
+                relation.textContent = alltags[i].tag;
+                relationship.appendChild(relation);
+
+            }
+        }
     }
-
-    console.log(alltags);
-    console.log(alltags[3].projects[0]);
-
-
-
-
-
-    // console.log(alltags);
-
-
 
 }
 
