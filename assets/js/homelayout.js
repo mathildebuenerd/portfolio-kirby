@@ -98,9 +98,11 @@ function makeLinks() {
 
     var projects = document.querySelectorAll(".single-project");
     alltags = listAllUsedTags();
-    console.log(alltags);
+    // console.log('alltags');
+    // console.log(alltags);
     function listAllUsedTags() {
-        var alltags = document.querySelectorAll('.alltags');
+        var alltags = document.querySelectorAll('.alltags'); // takes all the tag list for each project
+
         var differentTags = [];
         for (var i = 0; i < alltags.length; i++) {
             var singleTags = alltags[i].querySelectorAll('span');
@@ -108,7 +110,18 @@ function makeLinks() {
                 var tag = (singleTags[j].textContent).replace(/\s/g, ''); // at that moment the tag contain some spaces and \n before and after, so we remove it
 
                 // we check that the tag is not already in the array before adding it, in order to not have duplicate tags
-                if (!differentTags.includes(tag)) {
+                // console.log("tag " + tag);
+                var isNewTag = funcIsNewTag();
+                function funcIsNewTag() {
+                    for (var k=0; k<differentTags.length; k++) {
+                        if (differentTags[k].tag === tag) {
+                            return false;
+                        }
+                    }
+                    return true;
+                }
+
+                if(isNewTag) {
                     // we create an object that contain the tag and the category (tag, category or thematic)
                     var atag = {
                         tag: tag,
@@ -116,11 +129,19 @@ function makeLinks() {
                     };
                     differentTags.push(atag);
                 }
+                // console.log('differentTags');
+                // console.log(differentTags);
+
+
             }
         }
 
         return differentTags;
     }
+
+    var relationshipsBlock = document.createElement('section');
+    relationshipsBlock.classList.add('all-relationships');
+    document.body.appendChild(relationshipsBlock);
 
     for (var i=0; i<alltags.length; i++) {
         var similarProjects = [];
@@ -147,23 +168,48 @@ function makeLinks() {
                     project2 = alltags[i].projects[0];
                 }
 
-                var relationship = '';
-                if (document.querySelector('#' + project1 + '-' + project2) !== undefined) { // if the relationship doesn't already exist (thanks to another cat for example)
+                // format the ids to give a clean class
+                // for example, 'Front des éditions' becomes 'frontdeséditions'
+                project1 = project1.id;
+                project1 = project1.replace(/\s/g, '');
+                project1 = project1.toLowerCase();
+                project2 = project2.id;
+                project2 = project2.replace(/\s/g, '');
+                project2 = project2.toLowerCase();
+
+                // console.log(newproject1);
+
+                var relationship;
+                console.log("." + project1 + "-" + project2);
+                console.log(document.querySelector('.newpretender-asb-bag'));
+                if (document.querySelector('.' + project1 + '-' + project2) === null
+                 && document.querySelector('.' + project2 + '-' + project1) === null ) { // if the relationship doesn't already exist (thanks to another cat for example)
+                    console.log('if');
                     relationship = document.createElement('ul');
-                    relationship.setAttribute('id', project1 + '-' + project2);
-                    relationship.setAttribute('class', 'relationship');
+                    relationship.classList.add(project1 + '-' + project2);
+                    relationship.classList.add('relationship');
+                    relationshipsBlock.appendChild(relationship);
                 } else {
-                    relationship = document.querySelector('#' + project1 + '-' + project2);
+                    console.log('else');
+                    console.log('.' + project1 + '-' + project2);
+                    relationship = document.querySelector('.' + project1 + '-' + project2); // if the class already exist, we select it
+                    if (relationship === null) { // as the relationship could be either 'project1-project2' or 'project2-project1' we try both
+                        relationship = document.querySelector('.' + project2 + '-' + project1);
+                    }
+                    console.log(relationship);
                 }
 
                 var relation = document.createElement('li');
                 relation.setAttribute('class', 'rel-' + alltags[i].cat);
                 relation.textContent = alltags[i].tag;
                 relationship.appendChild(relation);
-
+                // relationshipsBlock.appendChild(relationship);
             }
+
         }
     }
+
+
 
 }
 
