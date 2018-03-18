@@ -96,3 +96,5 @@
   </main>
 
 <?php snippet('footer') ?>
+
+<?php echo js('assets/js/templates/project.js') ?>

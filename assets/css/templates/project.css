@@ -7,7 +7,7 @@
 body {
     width: 100vw;
     height: 100vh;
-    overflow: hidden;
+    /*overflow: hidden;*/
 }
 
 #return {
@@ -30,18 +30,34 @@ body {
 
  ******/
 
-.allimages figure {
-
+body {
+    opacity: 1;
+    transition: 1s ease;
+    overflow: hidden;
 }
 
-.allimages figure img:first-child {
+.allimages {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling:touch;
+    white-space: nowrap;
     position: absolute;
     top: 0;
     left: 0;
     width: 100vw;
-    height: 100vh;
+    height: 102vh;
     z-index: -1;
-    margin: 0;
+}
+
+.allimages figure {
+    display: inline-block;
+    margin: 0 !important;
+    width: 100vw;
+    overflow: hidden;
+    padding: 0;
+}
+
+.allimages figure img {
     object-fit: cover;
 }
 
@@ -86,6 +102,6 @@ body {
 
 .footer-madewithkirby {
     position: absolute;
-    bottom: 10px;
+    bottom: 0;
     left: 10px;
 }

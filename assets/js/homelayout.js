@@ -71,6 +71,10 @@ function draw() {
                 var xtext = x1 + (x2-x1)/2;
                 var ytext = y1 + (y2-y1)/2;
 
+                function placeRelationships() {
+
+                }
+
                 noStroke();
                 fill(color);
                 text(alltags[k].tag, xtext, ytext);
@@ -168,33 +172,27 @@ function makeLinks() {
                     project2 = alltags[i].projects[0];
                 }
 
-                // format the ids to give a clean class
-                // for example, 'Front des éditions' becomes 'frontdeséditions'
                 project1 = project1.id;
-                project1 = project1.replace(/\s/g, '');
-                project1 = project1.toLowerCase();
                 project2 = project2.id;
-                project2 = project2.replace(/\s/g, '');
-                project2 = project2.toLowerCase();
 
                 // console.log(newproject1);
 
                 var relationship;
                 console.log("." + project1 + "-" + project2);
                 console.log(document.querySelector('.newpretender-asb-bag'));
-                if (document.querySelector('.' + project1 + '-' + project2) === null
-                 && document.querySelector('.' + project2 + '-' + project1) === null ) { // if the relationship doesn't already exist (thanks to another cat for example)
+                if (document.querySelector('.' + project1 + '_' + project2) === null
+                 && document.querySelector('.' + project2 + '_' + project1) === null ) { // if the relationship doesn't already exist (thanks to another cat for example)
                     console.log('if');
                     relationship = document.createElement('ul');
-                    relationship.classList.add(project1 + '-' + project2);
+                    relationship.classList.add(project1 + '_' + project2);
                     relationship.classList.add('relationship');
                     relationshipsBlock.appendChild(relationship);
                 } else {
                     console.log('else');
-                    console.log('.' + project1 + '-' + project2);
-                    relationship = document.querySelector('.' + project1 + '-' + project2); // if the class already exist, we select it
+                    console.log('.' + project1 + '_' + project2);
+                    relationship = document.querySelector('.' + project1 + '_' + project2); // if the class already exist, we select it
                     if (relationship === null) { // as the relationship could be either 'project1-project2' or 'project2-project1' we try both
-                        relationship = document.querySelector('.' + project2 + '-' + project1);
+                        relationship = document.querySelector('.' + project2 + '_' + project1);
                     }
                     console.log(relationship);
                 }
