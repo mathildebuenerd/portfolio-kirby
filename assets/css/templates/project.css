@@ -8,20 +8,21 @@ body {
     width: 100vw;
     height: 100vh;
     /*overflow: hidden;*/
+    background-color: white;
 }
 
 #return {
     position: absolute;
     top: 45px;
     left: 0;
-    background-color: black;
+    background-color: white;
     padding: 0 20px 5px;
     font-size: 2em;
 }
 
 #return a, #return a:visited {
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 /*****
@@ -34,6 +35,7 @@ body {
     opacity: 1;
     transition: 1s ease;
     overflow: hidden;
+    cursor: crosshair;
 }
 
 .allimages {
@@ -61,6 +63,29 @@ body {
     object-fit: cover;
 }
 
+#left-arrow, #right-arrow {
+    position: absolute;
+    top: 0;
+    width: 4vw;
+    height: 100vh;
+    background-color: white;
+    z-index: 9999;
+    padding:50vh 0 0 0;
+    color: black;
+    text-align: center;
+    cursor: pointer;
+}
+
+#left-arrow {
+    left:0;
+    /*background-color: blue;*/
+}
+
+#right-arrow {
+    right: 0;
+    /*background-color: red;*/
+}
+
 
 /*****
 
@@ -69,11 +94,11 @@ body {
  ******/
 
 .text-content {
-    background-color: black;
+    background-color: white;
     position: absolute;
     top: 45px;
     left: 75px;
-    color: white;
+    color: black;
     padding: 15px 25px;
     font-size: 0.8em;
     font-family: "Space Mono", monospace;
