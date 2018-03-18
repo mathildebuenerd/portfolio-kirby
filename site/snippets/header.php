@@ -23,7 +23,10 @@
 <!--    include p5 library -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.16/p5.js"></script>
 
-</head>
+    <script src="https://use.fontawesome.com/e7a889ab23.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,400,600" rel="stylesheet">
+
 <body>
 
   <header class="header wrap wide" role="banner">

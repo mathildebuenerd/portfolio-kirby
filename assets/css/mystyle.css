@@ -18,7 +18,7 @@
   list-style-type: none;
   margin: 0;
   padding: 0 0 0 2vw;
-  background-color: black;
+  background-color: white;
 }
 
 .menu li {
@@ -27,7 +27,7 @@
 
 .menu a {
   text-decoration: none;
-  color: white;
+  color: #222;
 }
 
 
@@ -39,9 +39,11 @@
 /* PROJECT page */
 
 body {
-  background-color: black;
-  color: white;
-  font-family: "Fira Mono", monospace;
+  background-color: white;
+  color: #222;
+  /*font-family: "Fira Mono", monospace;*/
+  font-family: 'GT America', 'IBM Plex Sans', sans-serif;
+
 }
 
 
@@ -117,6 +119,9 @@ body {
   overflow: hidden;
   height: 100%;
   display: inline-block;
+  background: linear-gradient(100deg, rgba(0,0,0,0), rgba(0,0,0,0.8) 70.71%),
+  linear-gradient(250deg, rgba(0,0,0,1), rgba(0,0,0,0.5) 60.71%),
+  linear-gradient(1deg, rgba(0,0,0,.8), rgba(0,0,0,0.3) 70.71%);
 }
 
 #preview-projects .single-project img {
@@ -137,7 +142,7 @@ body {
   position: absolute;
   transform: translateY(40vh);
   left: -35vw;
-  background-color: black;
+  /*background-color: white;*/
   margin-left: 15px;
   transition: 0.7s ease;
 }
@@ -151,6 +156,7 @@ body {
 .single-project:hover h3 {
   left: 0;
   transition: 0.7s ease;
+  font-weight: 200;
 }
 
 .single-project:hover .alltags {
@@ -159,14 +165,18 @@ body {
 }
 
 .single-project:hover img {
-  opacity: 0.2;
+  opacity: 0.4;
   transition: 1s;
   transform: scale(1.1);
   /*filter: hue-rotate(90deg);*/
 }
 
+.tags, .thematics, .categories {
+  margin-bottom: 10px;
+}
+
 .tags span, .thematics span, .categories span {
-  font-size: 0.8em;
+  font-size: 1em;
   padding: 5px;
   color: white;
 }
@@ -222,9 +232,10 @@ body {
  ******/
 
 .footer-madewithkirby {
+  font-size: 10px;
   position: absolute;
   bottom: 10px;
-  left: 10px;
+  left: 2vw;
 }
 
 .footer-madewithkirby a {
@@ -234,4 +245,21 @@ body {
 
 .footer-madewithkirby .heart {
   color: #560bed;
+}
+
+
+/* Social media */
+
+#social-media {
+  position: absolute;
+  bottom: 10px;
+  right: 2vw;
+  display: flex;
+  align-items: flex-end;
+  font-size: 16px;
+}
+
+#social-media i {
+  margin-left: 8px;
+  font-weight: 100;
 }
