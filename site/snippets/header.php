@@ -16,7 +16,7 @@
     <script>
         // all the elements with the "draggable" class are now draggable
         $(function() {
-            $(".draggable").draggable();
+            $(".draggable").draggable({ containment: "body", scroll: false });
         });
     </script>
 

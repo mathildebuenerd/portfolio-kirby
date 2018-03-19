@@ -16,7 +16,11 @@
     
     <section class="text wrap">
 
-        <div id="return"><a href="<?php echo $site->homePage()->url() ?>">⇜</a></div>
+        <a href="<?php echo $site->homePage()->url() ?>">
+            <div id="return">
+                <span>❮</span>
+            </div>
+        </a>
 
     <div class="text-content draggable">
 

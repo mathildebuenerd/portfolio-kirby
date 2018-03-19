@@ -29,6 +29,9 @@ document.body.addEventListener('click', function(e) {
 
 
 
+
+
+
 //
 // Pour controler avec des flèches
 //      |  |

@@ -129,7 +129,7 @@ body {
   transition: 1s;
   /*transform: scale(1);*/
   position: absolute;
-  left: -100%;
+  left: -70%;
 }
 
 .single-project a {
@@ -147,7 +147,7 @@ body {
   transition: 0.7s ease;
 }
 
-.alltags {
+.single-project .alltags {
   position: absolute;
   transition: 0.7s ease;
   transform: translateY(110vh);

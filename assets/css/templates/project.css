@@ -18,9 +18,14 @@ body {
     background-color: white;
     padding: 0 20px 5px;
     font-size: 2em;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
 }
 
-#return a, #return a:visited {
+#return a, #return a:visited, #return a span, #return a:visited span {
     text-decoration: none;
     color: black;
 }
@@ -61,6 +66,8 @@ body {
 
 .allimages figure img {
     object-fit: cover;
+    width: 100vw;
+    height: 100vh;
 }
 
 #left-arrow, #right-arrow {
@@ -106,17 +113,18 @@ body {
     line-height: 1.5;
 }
 
-.alltags {
+.text .alltags {
     position: absolute;
     right: 20px;
     text-align: right;
     bottom: 20px;
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
-.alltags span {
+.text .alltags span {
     /*margin: 0 2px;*/
 }
+
 
 
 
