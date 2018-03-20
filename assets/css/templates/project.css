@@ -25,7 +25,7 @@ body {
     width: 30px;
 }
 
-#return a, #return a:visited, #return a span, #return a:visited span {
+#return span {
     text-decoration: none;
     color: black;
 }

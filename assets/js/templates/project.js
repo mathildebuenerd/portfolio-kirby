@@ -2,24 +2,19 @@
  * Created by mathi on 18/03/2018.
  */
 
-// console.log("salut");
-
-// quand on scroll ça passe à l'image suivante de la galerie
-
 var allimages = document.querySelector('.allimages');
 var current = 0; // l'index de l'image
 var speed = 750; // Durée de l'animation (en ms)
 
 
 
-
-
+// Quand on clic sur le body, ça passe à l'image suivante
 document.body.addEventListener('click', function(e) {
     var cible = document.querySelectorAll('figure')[current+1]; // Page cible
-    if (cible !== undefined) {
+    if (cible !== undefined) { // si cible n'est pas undefined, ça veut dire qu'il y a encore des images après
         $('html, body, .allimages').animate( { scrollLeft: $(cible).offset().left }, speed ); // Go
         current++;
-    } else {
+    } else { // sinon ça veut dire qu'il n'y en a plus donc on revient au début
         cible = document.querySelectorAll('figure')[0]; // Page cible
         $('html, body, .allimages').animate( { scrollLeft: $(cible).offset().left }, speed ); // Go
         current = 0;

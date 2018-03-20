@@ -1,6 +1,6 @@
 <?php snippet('header') ?>
 
-<main class="main" role="main">
+<main class="main fadeIn" role="main">
 
     <div class="wrap wide">
         <?php snippet('showcase') ?>
@@ -137,6 +137,5 @@
 
 <?php //echo js('assets/js/homelayout.js') ?>
 
-<?php echo js('assets/js/big-images-layout.js') ?>
 
 <?php snippet('footer') ?>

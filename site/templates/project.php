@@ -48,6 +48,10 @@
           <?= $page->press() ?>
         </div>
 
+          <div class="video">
+              <?= $page->video() ?>
+          </div>
+
       <div class="misc">  
           <?= $page->misc() ?>
         </div>
@@ -56,7 +60,7 @@
     </div>
     
 
-    <div class="allimages">
+    <div class="allimages fadeIn">
       <?php
       // Images for the "project" template are sortable. You
       // can change the display by clicking the 'edit' button

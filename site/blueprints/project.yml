@@ -75,12 +75,17 @@ fields:
   website:
       label: Website
       type: url
-      width: 1/2
+      width: 1
 
   press:
       label: Press
       type: url
       width: 1/2
+
+  video:
+        label: Video
+        type: url
+        width: 1/2
 
   misc:
       label: Other...
