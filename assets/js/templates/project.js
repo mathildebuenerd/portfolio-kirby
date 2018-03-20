@@ -5,11 +5,17 @@
 var allimages = document.querySelector('.allimages');
 var current = 0; // l'index de l'image
 var speed = 750; // Durée de l'animation (en ms)
+var blocimage = document.querySelector('#container-for-hiding-scrollbar-project');
 
 
+document.addEventListener('click', function(e) {
+    console.log(e.target);
+});
+
+calculateHiddenContainerWidth();
 
 // Quand on clic sur le body, ça passe à l'image suivante
-document.body.addEventListener('click', function(e) {
+blocimage.addEventListener('click', function(e) {
     var cible = document.querySelectorAll('figure')[current+1]; // Page cible
     if (cible !== undefined) { // si cible n'est pas undefined, ça veut dire qu'il y a encore des images après
         $('html, body, .allimages').animate( { scrollLeft: $(cible).offset().left }, speed ); // Go
@@ -21,6 +27,19 @@ document.body.addEventListener('click', function(e) {
     }
 });
 
+window.addEventListener('resize', calculateHiddenContainerWidth);
+
+function calculateHiddenContainerWidth() {
+
+    var hiddenContainer = document.querySelector('#container-for-hiding-scrollbar-project');
+    var leftBar = document.querySelector('.leftbar');
+    var rightBar = document.querySelector('.rightbar');
+
+
+    hiddenContainer.style.left = leftBar.offsetWidth;
+    hiddenContainer.style.width = window.innerWidth - leftBar.offsetWidth - rightBar.offsetWidth + 'px';
+
+}
 
 
 

@@ -4,25 +4,22 @@
 
  ******/
 
+
 body {
     width: 100vw;
-    height: 100vh;
-    /*overflow: hidden;*/
     background-color: white;
+    opacity: 1;
+    transition: 1s ease;
+    overflow-x: hidden;
 }
 
+
 #return {
-    position: absolute;
-    top: 45px;
-    left: 0;
-    background-color: white;
-    padding: 0 20px 5px;
+
     font-size: 2em;
-    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 30px;
 }
 
 #return span {
@@ -36,12 +33,6 @@ body {
 
  ******/
 
-body {
-    opacity: 1;
-    transition: 1s ease;
-    overflow: hidden;
-    cursor: crosshair;
-}
 
 .allimages {
     overflow-x: scroll;
@@ -68,6 +59,16 @@ body {
     object-fit: cover;
     width: 100vw;
     height: 100vh;
+}
+
+#container-for-hiding-scrollbar-project {
+    /*width: 96vw;*/
+    height: 88vh;
+    position: absolute;
+    top: 5vh;
+    left: 70px;
+    overflow: hidden;
+    z-index: 99;
 }
 
 #left-arrow, #right-arrow {
@@ -102,27 +103,54 @@ body {
 
 .text-content {
     background-color: white;
-    position: absolute;
-    top: 45px;
-    left: 75px;
     color: black;
-    padding: 15px 25px;
+    padding: 15px 0 200px;
     font-size: 0.8em;
     /*font-family: "Space Mono", monospace;*/
-    width: 500px;
+    width: 600px;
     line-height: 1.5;
+    position: absolute;
+    top: 100vh;
+    left: 70px;
+}
+
+.text-content h1 {
+    text-align: center;
+    position: relative;
+    left: 50%;
+    font-size: 60px;
+    font-weight: 100;
+    margin-bottom: 0;
+}
+
+.text-content .small-description {
+    text-align: center;
+    position: relative;
+    left: 50%;
+    font-size: 20px;
 }
 
 .text .alltags {
-    position: absolute;
+    position: fixed;
     right: 20px;
     text-align: right;
     bottom: 20px;
     font-size: 1em;
+    z-index: 999;
 }
 
 .text .alltags span {
     /*margin: 0 2px;*/
+}
+
+.text .video a {
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-size: 1.2em;
 }
 
 

@@ -17,12 +17,12 @@
     <section class="text wrap">
 
         <a href="<?php echo $site->homePage()->url() ?>">
-            <div id="return">
+            <div id="return" class="leftbar">
                 <span>❮</span>
             </div>
         </a>
 
-    <div class="text-content draggable">
+    <div class="text-content">
 
       <h1><?= $page->title()->html() ?></h1>
       
@@ -41,7 +41,7 @@
 
       <div class="external-links">
         <div class="website">  
-          <?= $page->website() ?>
+          <a href="<?= $page->website() ?>">website</a>
         </div>
 
         <div class="press">  
@@ -49,7 +49,7 @@
         </div>
 
           <div class="video">
-              <?= $page->video() ?>
+              <a href="<?= $page->video() ?>">video</a>
           </div>
 
       <div class="misc">  
@@ -60,6 +60,7 @@
     </div>
     
 
+   <div id="container-for-hiding-scrollbar-project">
     <div class="allimages fadeIn">
       <?php
       // Images for the "project" template are sortable. You
@@ -71,7 +72,7 @@
         </figure>
       <?php endforeach ?>
     </div> <!-- allimages -->
-
+   </div>
 
         <div class="alltags">
             <div class="tags">
@@ -103,6 +104,9 @@
         </div>
 
     </section>
+
+
+      <aside class="rightbar"></aside>
     
     <?php snippet('prevnext') ?>
 

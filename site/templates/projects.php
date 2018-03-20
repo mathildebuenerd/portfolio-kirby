@@ -123,6 +123,9 @@
 
 </main>
 
+<aside class="rightbar"></aside>
+<aside class="leftbar"></aside>
+
 <section id="social-media">
     <a href="https://www.instagram.com/mathildebuenerd" target="_blank">
         <i class="fa fa-instagram"></i>
