@@ -24,11 +24,15 @@
 
     <div class="text-content">
 
-      <h1><?= $page->title()->html() ?></h1>
-      
-      <div class="intro text">
-        <?= $page->year() ?>
-      </div>
+        <div id="title-plus-year">
+            <h1><?= $page->title()->html() ?></h1>
+
+            <div class="date">
+                <?= $page->year() ?>
+            </div>
+        </div>
+
+
 
       <div class="small-description">
         <?= $page->smalldescription() ?>
@@ -41,21 +45,32 @@
 
       <div class="external-links">
         <div class="website">  
-          <a href="<?= $page->website() ?>">website</a>
-        </div>
-
-        <div class="press">  
-          <?= $page->press() ?>
+          <a href="<?= $page->website() ?>" target="_blank">website</a>
         </div>
 
           <div class="video">
-              <a href="<?= $page->video() ?>">video</a>
+              <a href="<?= $page->video() ?>" target="_blank">video</a>
           </div>
 
-      <div class="misc">  
-          <?= $page->misc() ?>
+
+      </div> <!-- external links -->
+
+        <div class="press">
+            <?php foreach($page->press()->yaml() as $press): ?>
+            <div class="single-press">
+                <p class="newspaper"><?= $press['newspaper'] ?></p>
+<!--                <p class="article">--><?//= $press['article'] ?><!--</p>-->
+                <p class="url"><?= $press['url'] ?></p>
+                <p class="language"><?= $press['language'] ?></p>
+            </div>
+        <?php endforeach ?>
+
+    </div>
+
+        <div class="misc">
+            <?= $page->misc() ?>
         </div>
-      </div>
+
 
     </div>
     

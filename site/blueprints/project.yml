@@ -79,8 +79,21 @@ fields:
 
   press:
       label: Press
-      type: url
+      type: structure
       width: 1/2
+      fields:
+        newspaper:
+          label: Name of newspaper, event
+          type: text
+        article:
+          label: Article name
+          type: text
+        url:
+          label: lien
+          type: url
+        language:
+          label: language
+          type: text
 
   video:
         label: Video
