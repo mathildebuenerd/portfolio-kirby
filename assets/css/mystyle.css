@@ -19,6 +19,7 @@
   margin: 0;
   padding: 0 0 0 2vw;
   background-color: white;
+  z-index: 9999;
 }
 
 .menu li {
@@ -41,13 +42,13 @@
 
 .leftbar {
   position: fixed;
-  top: 45px;
+  top: 30px;
   left: 0;
   background-color: white;
   padding: 0 20px 5px;
   height: 100vh;
   width: 30px;
-
+  z-index: 9999;
 }
 
 
@@ -281,4 +282,11 @@ body {
 #social-media i {
   margin-left: 8px;
   font-weight: 100;
+}
+
+@media (max-width: 768px) {
+  .leftbar, .rightbar {
+    width: 30px !important;
+    padding: 0 10px 5px !important;
+  }
 }

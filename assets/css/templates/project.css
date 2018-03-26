@@ -101,24 +101,54 @@ body {
 
  ******/
 
+@media (max-width: 768px) {
+
+    .text-content #title-plus-year, .text-content .small-description, .text-content .main-description, .text-content .external-links, .text-content .single-press {
+        left: auto !important;
+        transform: translateX(0) !important;
+    }
+
+    #container-for-hiding-scrollbar-project {
+        left: 30px !important;
+        width: 95vw !important;
+    }
+    .text-content {
+        left: 50px !important;
+        width: 70vw !important;
+    }
+
+    .text-content h1 {
+        font-size: 30px !important;
+    }
+
+    .text-content .main-description {
+        margin-top: 20px !important;
+    }
+
+    .text .alltags {
+        font-size: 0.8em !important;
+        position: absolute !important;
+    }
+}
+
 .text-content {
     background-color: white;
     color: black;
     padding: 15px 0 200px;
     font-size: 0.8em;
     /*font-family: "Space Mono", monospace;*/
-    width: 650px;
+    width: 620px;
     line-height: 1.5;
     position: absolute;
     top: 100vh;
-    left: 70px;
 }
 
 .text-content #title-plus-year {
     display: flex;
     align-items: baseline;
     position: relative;
-    left:50%;
+    left:50vw;
+    transform: translateX(-50%);
     margin-bottom: 15px;
 }
 
@@ -137,13 +167,15 @@ body {
 .text-content .small-description {
     /*text-align: center;*/
     position: relative;
-    left: 50%;
+    left: 50vw;
+    transform: translateX(-50%);
     font-size: 1.3em;
 }
 
 .text-content .main-description {
     position: relative;
-    left: 50%;
+    left: 50vw;
+    transform: translateX(-50%);
     margin: 40px 0 70px;
 }
 
@@ -153,17 +185,22 @@ body {
     text-align: right;
     bottom: 20px;
     font-size: 1em;
-    z-index: 999;
+    z-index: 99999;
 }
 
 .text .alltags span {
     /*margin: 0 2px;*/
 }
 
-.text-content .external-links {
+.text-content .external-links, .text-content .single-press {
     position: relative;
-    left: 50%;
+    left: 50vw;
+    transform: translateX(-50%);
     display: flex;
+}
+
+.text-content .press {
+    margin-top: 20px;
 }
 
 .text .video a, .text .website a, .text .press a {
