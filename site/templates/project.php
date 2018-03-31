@@ -59,7 +59,7 @@
             <?php foreach($page->press()->yaml() as $press): ?>
             <div class="single-press">
                 <p class="newspaper"><?= $press['newspaper'] ?></p>
-<!--                <p class="article">--><?//= $press['article'] ?><!--</p>-->
+                <a href="" class="artcl"><?= $press['artcl'] ?></a>
                 <p class="url"><?= $press['url'] ?></p>
                 <p class="language"><?= $press['language'] ?></p>
             </div>

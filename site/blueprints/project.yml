@@ -82,18 +82,18 @@ fields:
       type: structure
       width: 1/2
       fields:
-        newspaper:
-          label: Name of newspaper, event
-          type: text
-        article:
-          label: Article name
-          type: text
-        url:
-          label: lien
-          type: url
-        language:
-          label: language
-          type: text
+          newspaper:
+            label: Name of newspaper, event
+            type: text
+          url:
+            label: lien
+            type: url
+          language:
+            label: language
+            type: text
+          artcl:
+            label: Name of article
+            value: text
 
   video:
         label: Video
