@@ -6,7 +6,7 @@ Year: 2016
 
 ----
 
-Smalldescription: Un coach personnel qui sussure à l'oreille de son interprète le discours à tenir pour séduire une femme.
+Smalldescription: An intelligent portative love coach that whispers you sentences to repeat (compliments, lies, promises) in order to charm a lady
 
 ----
 
@@ -22,7 +22,7 @@ Thematics: rhetorics, autocomplete, socialHacking
 
 ----
 
-Maindescription: New Pretender est un coach personnel qui sussure à l'oreille de son interprète le discours à tenir pour séduire une femme. L'homme, devenu un véritable orateur, peut expérimenter en temps réel les techniques de manipulation (complimenter, faire des gestes évocateurs, mentir, promettre...), en jouant au sens littéral (avec un joystick) avec la personne en face de lui.
+Maindescription: This project is something between speculative design and a game. The design of the controller is intended to be ironic, it gathers all things men are supposed to like : joysticks, leather and boobs. The purpose of this game is to enable people to experiment manipulation techniques (compliment, lie, promise) while playing in the literal sense with people around them.
 
 ----
 

@@ -22,19 +22,22 @@ c::set('license', 'K2-PERSONAL-a37923f407b33b19f834cc54f695d95f');
 
 c::set('debug',true);
 
+c::set('language.detect', true);
+
 c::set('languages', array(
   array(
     'code'    => 'en',
     'name'    => 'English',
-    'default' => true,
+    'default' => false,
     'locale'  => 'en_US',
-    'url'     => '/',
+    'url'     => '/en',
   ),
   array(
-    'code'    => 'de',
-    'name'    => 'Deutsch',
-    'locale'  => 'de_DE',
-    'url'     => '/de',
+    'code'    => 'fr',
+    'name'    => 'Français',
+    'default' => true,
+    'locale'  => 'fr_FR',
+    'url'     => '/',
   ),
 ));
 
