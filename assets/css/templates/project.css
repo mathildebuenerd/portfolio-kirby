@@ -109,8 +109,10 @@ body {
     }
 
     #container-for-hiding-scrollbar-project {
-        left: 30px !important;
-        width: 95vw !important;
+        /*left: 30px !important;*/
+        /*width: 95vw !important;*/
+        left: 0;
+        width: 100vw;
     }
     .text-content {
         left: 50px !important;
@@ -119,6 +121,7 @@ body {
 
     .text-content h1 {
         font-size: 30px !important;
+        text-align: left !important;
     }
 
     .text-content .main-description {
@@ -128,6 +131,31 @@ body {
     .text .alltags {
         font-size: 0.8em !important;
         position: absolute !important;
+    }
+
+    .text-content .single-press {
+        flex-direction: column;
+        margin-top: 30px;
+        /*padding-bottom: 10px;*/
+        /*border-bottom: 1px solid #ddd;*/
+    }
+
+    .text-content .single-press p, .text-content .single-press a {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .leftbar {
+        top: 0;
+        height: 40px;
+        width: 60px;
+        box-sizing: border-box;
+        font-size: 1.2em !important;
+    }
+
+    .menu {
+        left: 60px;
+        height: 40px;
     }
 }
 
@@ -145,7 +173,7 @@ body {
 
 .text-content #title-plus-year {
     display: flex;
-    align-items: baseline;
+    align-items: last baseline;
     position: relative;
     left:50vw;
     transform: translateX(-50%);

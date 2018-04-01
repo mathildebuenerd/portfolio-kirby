@@ -42,12 +42,15 @@ window.addEventListener('resize', calculateHiddenContainerWidth);
 // Functions
 function calculateHiddenContainerWidth() {
 
-    var hiddenContainer = document.querySelector('#container-for-hiding-scrollbar-project');
-    var leftBar = document.querySelector('.leftbar');
-    var rightBar = document.querySelector('.rightbar');
+    if (window.innerWidth > 767) {
+        var hiddenContainer = document.querySelector('#container-for-hiding-scrollbar-project');
+        var leftBar = document.querySelector('.leftbar');
+        var rightBar = document.querySelector('.rightbar');
 
-    hiddenContainer.style.left = leftBar.offsetWidth;
-    hiddenContainer.style.width = window.innerWidth - leftBar.offsetWidth - rightBar.offsetWidth + 'px';
+        hiddenContainer.style.left = leftBar.offsetWidth;
+        hiddenContainer.style.width = window.innerWidth - leftBar.offsetWidth - rightBar.offsetWidth + 'px';
+    }
+
 
 }
 function formatPress() {

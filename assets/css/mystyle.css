@@ -256,6 +256,7 @@ body {
   position: fixed;
   bottom: 10px;
   left: 2vw;
+  z-index: 9999;
 }
 
 .footer-madewithkirby a {
@@ -285,8 +286,47 @@ body {
 }
 
 @media (max-width: 768px) {
+
+  #container-for-hiding-scrollbar {
+    width: 100vw;
+    position: absolute;
+    top: 40px;
+    left: 0 !important;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+
+  #preview-projects {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #preview-projects .single-project {
+    width: 100vw;
+    height: 300px;
+    margin: 0;
+  }
+
+  #preview-projects .single-project img {
+    left: 0;
+  }
+
+  #preview-projects .single-project h3 {
+    left: -100%;
+    margin-top: -70px;
+  }
+
+  .single-project:hover h3 {
+    left: 0 !important;
+  }
+
+  .single-project .alltags {
+    margin-top: -50px;
+  }
+
   .leftbar, .rightbar {
-    width: 30px !important;
-    padding: 0 10px 5px !important;
+    display: none;
   }
 }
