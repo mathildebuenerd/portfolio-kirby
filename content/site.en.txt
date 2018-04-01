@@ -1,0 +1,13 @@
+Title: My Portfolio
+
+----
+
+Author: Mathilde Buenerd
+
+----
+
+Description: My Portfolio
+
+----
+
+Copyright: © 2009–(date: Year) (text: Mathilde Buenerd)
