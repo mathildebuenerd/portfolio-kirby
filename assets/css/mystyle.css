@@ -17,7 +17,7 @@
   width: 100vw;
   list-style-type: none;
   margin: 0;
-  padding: 0 0 0 2vw;
+  /*padding: 0 0 0 70px;*/
   background-color: white;
   z-index: 9999;
 }
@@ -251,11 +251,20 @@ body {
 
  ******/
 
+@media (min-width:768px) {
+  .footer-madewithkirby {
+    left: 70px;
+  }
+
+  .menu {
+    padding: 0 0 0 70px;
+  }
+}
+
 .footer-madewithkirby {
   font-size: 10px;
   position: fixed;
   bottom: 10px;
-  left: 2vw;
   z-index: 9999;
 }
 
@@ -277,12 +286,21 @@ body {
   right: 2vw;
   display: flex;
   align-items: flex-end;
-  font-size: 16px;
+  font-size: 1.2em;
 }
 
-#social-media i {
+
+#social-media i, #social-media i:visited {
   margin-left: 8px;
   font-weight: 100;
+  filter: grayscale(1);
+  color: #bbb;
+  transition: 0.5s ease;
+}
+
+#social-media i:hover {
+  filter: none;
+  transition: 0.5s ease;
 }
 
 @media (max-width: 768px) {

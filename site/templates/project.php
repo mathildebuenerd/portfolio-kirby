@@ -120,6 +120,18 @@
 
     </section>
 
+    <section id="social-media">
+        <a href="https://www.instagram.com/mathildebuenerd" target="_blank">
+            <i class="fa fa-instagram"></i>
+        </a>
+        <a href="https://twitter.com/mathildebuenerd" target="_blank">
+            <i class="fa fa-twitter"></i>
+        </a>
+        <a href="https://github.com/mathildebuenerd" target="_blank">
+            <i class="fa fa-github"></i>
+        </a>
+    </section>
+
 
       <aside class="rightbar"></aside>
     

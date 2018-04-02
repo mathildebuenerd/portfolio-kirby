@@ -211,7 +211,7 @@ body {
     position: fixed;
     right: 20px;
     text-align: right;
-    bottom: 20px;
+    bottom: 40px;
     font-size: 1em;
     z-index: 99999;
 }

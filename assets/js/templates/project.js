@@ -20,19 +20,21 @@ function setup() {
 
 
 document.addEventListener('click', function(e) {
-    console.log(e.target);
+    // console.log(e.target);
 });
 
 // Quand on clic sur le body, ça passe à l'image suivante
 blocimage.addEventListener('click', function(e) {
-    console.log("j'ai cliqué");
+
     var cible = document.querySelectorAll('figure')[current+1]; // Page cible
+
     if (cible !== undefined) { // si cible n'est pas undefined, ça veut dire qu'il y a encore des images après
-        $('html, body, .allimages').animate( { scrollLeft: $(cible).offset().left }, speed ); // Go
+        $('html, body, .allimages').animate( { scrollLeft: cible.offsetLeft }, speed ); // Go
         current++;
     } else { // sinon ça veut dire qu'il n'y en a plus donc on revient au début
         cible = document.querySelectorAll('figure')[0]; // Page cible
-        $('html, body, .allimages').animate( { scrollLeft: $(cible).offset().left }, speed ); // Go
+
+        $('html, body, .allimages').animate( { scrollLeft: cible.offsetLeft }, speed ); // Go
         current = 0;
     }
 });
