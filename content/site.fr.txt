@@ -10,4 +10,4 @@ Description: (media) designer / creative coder based in Geneva.
 
 ----
 
-Copyright: © 2009–(date: Year) (text: Mathilde Buenerd)
+Copyright: © 2009–(date: Year) (Mathilde Buenerd)

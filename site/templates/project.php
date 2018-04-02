@@ -50,7 +50,7 @@
                     </div>
                 <?php endif ?>
 
-                <?php if ($page->website()->isNotEmpty()): ?>
+                <?php if ($page->video()->isNotEmpty()): ?>
                     <div class="video">
                         <a href="<?= $page->video() ?>" target="_blank">video</a>
                     </div>

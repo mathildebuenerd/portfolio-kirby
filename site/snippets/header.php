@@ -8,6 +8,22 @@
   <title><?= $site->title()->html() ?> | <?= $page->title()->html() ?></title>
   <meta name="description" content="<?= $site->description()->html() ?>">
 
+<!--    Balises réseaux sociaux   -->
+
+    <meta property="og:title" content="Chili Design - Mathilde Buenerd's Portfolio"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="http://www.chilidesign.fr/"/>
+    <meta property="og:image" content="http://chilidesign.fr/content/projects/findingweaselwords/findingweaselwords-screenshot.png"/>
+    <meta property="og:description" content="(media) designer / creative coder based in Geneva."/>
+
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@mathildebuenerd">
+    <meta name="twitter:title" content="Chili Design - Mathilde Buenerd's Portfolio">
+    <meta name="twitter:description" content="(media) designer / creative coder based in Geneva.">
+    <meta name="twitter:creator" content="@mathildebuenerd">
+    <meta name="twitter:image" content="http://chilidesign.fr/content/projects/findingweaselwords/findingweaselwords-screenshot.png">
+
   <?= css('assets/css/mystyle.css') ?>
 
 <!--    include jquery and jquery ui -->
