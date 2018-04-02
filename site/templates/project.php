@@ -50,11 +50,6 @@
                     </div>
                 <?php endif ?>
 
-                <?php if ($page->video()->isNotEmpty()): ?>
-                    <div class="video">
-                        <a href="<?= $page->video() ?>" target="_blank">video</a>
-                    </div>
-                <?php endif ?>
 
 
 
@@ -144,6 +139,7 @@
 
 </main>
 
+<?php echo js('assets/js/templates/project.js') ?>
 <?php snippet('footer') ?>
 
-<?php echo js('assets/js/templates/project.js') ?>
+

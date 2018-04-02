@@ -1,4 +1,4 @@
-<nav class="navigation column" role="navigation">
+<nav class="navigation column">
   <ul class="menu">
       <!-- the projects link should be absolute -->
       <li class="menu-item"><a href="<?php echo $site->homePage()->url() ?>">Work</a></li>
@@ -10,7 +10,7 @@
   </ul>
 </nav>
 
-<nav class="languages" role="navigation">
+<nav class="languages">
   <ul>
     <?php foreach($site->languages() as $language): ?>
     <li<?php e($site->language() == $language, ' class="active"') ?>>

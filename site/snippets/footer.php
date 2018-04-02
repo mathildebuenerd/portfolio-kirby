@@ -1,4 +1,4 @@
-  <footer class="footer cf" role="contentinfo">
+  <footer class="footer cf">
     <div class="wrap wide">
 
       <p class="footer-copyright"><?php
@@ -29,8 +29,11 @@
     </div>
   </footer>
 
+
   <?php echo js('assets/js/heartcolor.js') ?>
   <?php echo js('assets/js/fadeIn.js') ?>
+  <?php echo js('assets/js/homelayout.js') ?>
+
 
 </body>
 </html>

@@ -65,5 +65,5 @@
 
 <?php snippet('footer') ?>
 
-<?php echo js('assets/js/homelayout.js') ?>
+
 

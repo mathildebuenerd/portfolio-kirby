@@ -27,8 +27,8 @@
   <?= css('assets/css/mystyle.css') ?>
 
 <!--    include jquery and jquery ui -->
-    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script type="text/javascript" src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
     <script>
         // all the elements with the "draggable" class are now draggable
         $(function() {
@@ -45,7 +45,7 @@
 
 <body>
 
-  <header class="header wrap wide" role="banner">
+  <header class="header wrap wide">
     <div class="grid">
 
 
