@@ -1,0 +1,28 @@
+Title: About
+
+----
+
+Text:
+
+# What is chili design ?
+
+"Chili design" is about using technology as a tool for _innovativeness_ by creating _disturbing experiences_, through a _visible interface_.
+
+The three principles of chili technology are the followings :
+Un objectif : pousser à l’inventivité
+
+L’intérêt d’une technologie ne se résume pas à solutionner des problèmes. Elle permet de créer un espace pour la pensée associative et la curiosité.
+On peut par exemple imaginer une application permettant d’écrire dans le style de quelqu’un d’autre (voir page ?). Cela pourrait à la fois créer des conversations drôles et surprenantes, mais aussi faire découvrir du vocabulaire désuet.
+Une expérience perturbante
+
+93Un système automatisé n’agit pas en arrière-plan. Il pousse l’usager à se dépasser, apprend de lui et lui fait front. On peut par exemple imaginer de laisser à l’usager la possibilité de gérer sa personnalité en fonction de son humeur, plutôt que de dépendre d’une personnalisation automatique (voir page ?).
+Une interface visible
+
+94L’interface n’est ni une couche d’embellissement, ni une couche accessoire. Elle doit donner les clés de compréhension du fonctionnement du système. On peut par exemple imaginer une interface qui permet de consulter les mots qu’on utilise le plus, ou bien de supprimer les mots qu’on ne souhaite plus se voir proposer (voir page ?).
+
+
+
+
+
+# Who am I ?
+I am a designer | artist | coder, exploring the connections between language, algorithms and social relationships. What will the algorithmic futures look like ? What happens when we bring together computational imagination and the unexpectedness of life ? How to add a little spice to the electronic products we use on a daily basis ? I strongly think that designers have something to say into the way we are envisioning our future.

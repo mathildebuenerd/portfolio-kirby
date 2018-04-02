@@ -10,6 +10,21 @@
       <p class="footer-madewithkirby">
         <a href="http://getkirby.com/made-with-kirby-and-love">Made with Kirby and <b class="heart">♥</b></a>
       </p>
+
+        <section id="social-media">
+            <a href="https://www.instagram.com/mathildebuenerd" target="_blank">
+                <i class="fa fa-instagram"></i>
+            </a>
+            <a href="https://twitter.com/mathildebuenerd" target="_blank">
+                <i class="fa fa-twitter"></i>
+            </a>
+            <a href="https://github.com/mathildebuenerd" target="_blank">
+                <i class="fa fa-github"></i>
+            </a>
+            <a href="http://alternative.mathildebuenerd.fr/" target="_blank">
+                <i class="fa fa-bug"></i>
+            </a>
+        </section>
     
     </div>
   </footer>

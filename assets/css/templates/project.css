@@ -153,10 +153,6 @@ body {
         font-size: 1.2em !important;
     }
 
-    .menu {
-        left: 60px;
-        height: 40px;
-    }
 }
 
 .text-content {
@@ -174,6 +170,7 @@ body {
 .text-content #title-plus-year {
     display: flex;
     align-items: last baseline;
+    -webkit-align-items: baseline;
     position: relative;
     left:50vw;
     transform: translateX(-50%);

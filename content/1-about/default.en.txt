@@ -2,11 +2,25 @@ Title: About
 
 ----
 
-Text: 
-
-# What is chili design ?
-
-Chili design is about using technology as a tool for _innovativeness_ by creating _disturbing experiences_ through a _visible interface_.
+Text:
 
 # Who am I ?
 I am a designer | artist | coder, exploring the connections between language, algorithms and social relationships. What will the algorithmic futures look like ? What happens when we bring together computational imagination and the unexpectedness of life ? How to add a little spice to the electronic products we use on a daily basis ? I strongly think that designers have something to say into the way we are envisioning our future.
+
+# What is chili design ?
+
+"Chili design" gathers three design principles for designing algorithm-based technologies in the era of ubiquitous computing (like recommender systems or mobile apps). Those principles are the conclusion of research work centered on how to design autocompletion systems (in french). It can be sum up in three points : using technology as a tool for _innovativeness_ by creating _disturbing experiences_, through a _visible interface_.
+
+The three principles of chili technology are the followings :
+
+## One goal : innovativeness
+Technology should not be used to solve problems, but to allow different ways of looking at the things.
+
+## A disturbing user-experience
+An automated system should not act in the background. It should push the user a little bit and confront him.
+
+## A visible interface
+The GUI is not a decoration layer and its value should never be minimized. It has to help the user understand how the system operates.
+
+
+

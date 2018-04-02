@@ -2,18 +2,18 @@
 
 <?php echo css('@auto') ?>
 
-  <main class="main" role="main">
-    
+<main class="main" role="main">
+
     <header class="wrap">
-      
-      <!-- <hr /> -->
+
+        <!-- <hr /> -->
     </header>
 
-<!--      <section class="arrows">-->
-<!--          <a id="left-arrow">❮</a>-->
-<!--          <a id="right-arrow">❯</a>-->
-<!--      </section>-->
-    
+    <!--      <section class="arrows">-->
+    <!--          <a id="left-arrow">❮</a>-->
+    <!--          <a id="right-arrow">❯</a>-->
+    <!--      </section>-->
+
     <section class="text wrap">
 
         <a href="<?php echo $site->homePage()->url() ?>">
@@ -22,72 +22,77 @@
             </div>
         </a>
 
-    <div class="text-content">
+        <div class="text-content">
 
-        <div id="title-plus-year">
-            <h1><?= $page->title()->html() ?></h1>
+            <div id="title-plus-year">
+                <h1><?= $page->title()->html() ?></h1>
 
-            <div class="date">
-                <?= $page->year() ?>
+                <div class="date">
+                    <?= $page->year() ?>
+                </div>
             </div>
-        </div>
 
 
 
-      <div class="small-description">
-        <?= $page->smalldescription() ?>
-      </div>
-
-
-      <div class="main-description">  
-        <?= $page->maindescription() ?>
-      </div>
-
-      <div class="external-links">
-        <div class="website">  
-          <a href="<?= $page->website() ?>" target="_blank">website</a>
-        </div>
-
-          <div class="video">
-              <a href="<?= $page->video() ?>" target="_blank">video</a>
-          </div>
-
-
-      </div> <!-- external links -->
-
-        <div class="press">
-            <?php foreach($page->press()->yaml() as $press): ?>
-            <div class="single-press">
-                <p class="newspaper"><?= $press['newspaper'] ?></p>
-                <a href="" class="artcl"><?= $press['artcl'] ?></a>
-                <p class="url"><?= $press['url'] ?></p>
-                <p class="language"><?= $press['language'] ?></p>
+            <div class="small-description">
+                <?= $page->smalldescription() ?>
             </div>
-        <?php endforeach ?>
 
-    </div>
 
-        <div class="misc">
-            <?= $page->misc() ?>
+            <div class="main-description">
+                <?= $page->maindescription() ?>
+            </div>
+
+            <div class="external-links">
+                <?php if ($page->website()->isNotEmpty()): ?>
+                    <div class="website">
+                        <a href="<?= $page->website() ?>" target="_blank">website</a>
+                    </div>
+                <?php endif ?>
+
+                <?php if ($page->website()->isNotEmpty()): ?>
+                    <div class="video">
+                        <a href="<?= $page->video() ?>" target="_blank">video</a>
+                    </div>
+                <?php endif ?>
+
+
+
+            </div> <!-- external links -->
+
+            <div class="press">
+                <?php foreach($page->press()->yaml() as $press): ?>
+                    <div class="single-press">
+                        <p class="newspaper"><?= $press['newspaper'] ?></p>
+                        <a href="" class="artcl"><?= $press['artcl'] ?></a>
+                        <p class="url"><?= $press['url'] ?></p>
+                        <p class="language"><?= $press['language'] ?></p>
+                    </div>
+                <?php endforeach ?>
+
+            </div>
+
+            <div class="misc">
+                <?= $page->misc() ?>
+            </div>
+
+
         </div>
 
 
-    </div>
-    
-
-   <div id="container-for-hiding-scrollbar-project">
-    <div class="allimages fadeIn">
-      <?php
-      // Images for the "project" template are sortable. You
-      // can change the display by clicking the 'edit' button
-      // above the files list in the sidebar.
-      foreach($page->images()->sortBy('sort', 'asc') as $image): ?>
-        <figure>
-          <img src="<?= $image->url() ?>" alt="<?= $page->title()->html() ?>" />
-        </figure>
-      <?php endforeach ?>
-    </div> <!-- allimages -->
-   </div>
+        <div id="container-for-hiding-scrollbar-project">
+            <div class="allimages fadeIn">
+                <?php
+                // Images for the "project" template are sortable. You
+                // can change the display by clicking the 'edit' button
+                // above the files list in the sidebar.
+                foreach($page->images()->sortBy('sort', 'asc') as $image): ?>
+                    <figure>
+                        <img src="<?= $image->url() ?>" alt="<?= $page->title()->html() ?>" />
+                    </figure>
+                <?php endforeach ?>
+            </div> <!-- allimages -->
+        </div>
 
         <div class="alltags">
             <div class="tags">
@@ -120,24 +125,24 @@
 
     </section>
 
-    <section id="social-media">
-        <a href="https://www.instagram.com/mathildebuenerd" target="_blank">
-            <i class="fa fa-instagram"></i>
-        </a>
-        <a href="https://twitter.com/mathildebuenerd" target="_blank">
-            <i class="fa fa-twitter"></i>
-        </a>
-        <a href="https://github.com/mathildebuenerd" target="_blank">
-            <i class="fa fa-github"></i>
-        </a>
-    </section>
+    <!--    <section id="social-media">-->
+    <!--        <a href="https://www.instagram.com/mathildebuenerd" target="_blank">-->
+    <!--            <i class="fa fa-instagram"></i>-->
+    <!--        </a>-->
+    <!--        <a href="https://twitter.com/mathildebuenerd" target="_blank">-->
+    <!--            <i class="fa fa-twitter"></i>-->
+    <!--        </a>-->
+    <!--        <a href="https://github.com/mathildebuenerd" target="_blank">-->
+    <!--            <i class="fa fa-github"></i>-->
+    <!--        </a>-->
+    <!--    </section>-->
 
 
-      <aside class="rightbar"></aside>
-    
+    <aside class="rightbar"></aside>
+
     <?php snippet('prevnext') ?>
 
-  </main>
+</main>
 
 <?php snippet('footer') ?>
 

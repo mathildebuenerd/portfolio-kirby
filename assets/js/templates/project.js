@@ -53,7 +53,6 @@ function calculateHiddenContainerWidth() {
         hiddenContainer.style.width = window.innerWidth - leftBar.offsetWidth - rightBar.offsetWidth + 'px';
     }
 
-
 }
 function formatPress() {
 
