@@ -69,7 +69,7 @@ fields:
 
   maindescription:
     label: Main Description
-    type:  textarea
+    type:  info
     required: true
 
   website:

@@ -39,6 +39,11 @@ Press:
     http://www.tilllate.com/de/story/new-pretender
   language: german
   artcl: 'Flirt Coach : Ledernippel machen dich zum Verführer'
+-
+  newspaper: Ludicious
+  url: http://www.ludicious.ch/company/2268/
+  language: english
+  artcl: Zürich Game Festival
 
 ----
 
@@ -46,4 +51,4 @@ Misc:
 
 ----
 
-Video: 
+Video: https://www.youtube.com/watch?v=KeIWxqlzba8

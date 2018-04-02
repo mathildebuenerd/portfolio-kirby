@@ -4,25 +4,23 @@ Title: About
 
 Text:
 
+# Who am I ?
+I am a designer | artist | programmer, exploring the connections between language, algorithms and social relationships. What will the algorithmic futures look like ? What happens when we bring together computational imagination and the unexpectedness of life ? How to add a little spice to the electronic products we use on a daily basis ? I strongly think that designers have something to say into the way we are envisioning our future.
+
 # What is chili design ?
 
-"Chili design" is about using technology as a tool for _innovativeness_ by creating _disturbing experiences_, through a _visible interface_.
+"Chili design" gathers three design principles for designing algorithm-based technologies in the era of ubiquitous computing (like recommender systems or mobile apps). Those principles are the conclusion of research work centered on how to design autocompletion systems (in french). It can be sum up in three points : using technology as a tool for _innovativeness_ by creating _disturbing experiences_, through a _visible interface_.
 
 The three principles of chili technology are the followings :
-Un objectif : pousser à l’inventivité
 
-L’intérêt d’une technologie ne se résume pas à solutionner des problèmes. Elle permet de créer un espace pour la pensée associative et la curiosité.
-On peut par exemple imaginer une application permettant d’écrire dans le style de quelqu’un d’autre (voir page ?). Cela pourrait à la fois créer des conversations drôles et surprenantes, mais aussi faire découvrir du vocabulaire désuet.
-Une expérience perturbante
+## One goal : innovativeness
+Technology should not be used to solve problems, but to allow different ways of looking at the things.
 
-93Un système automatisé n’agit pas en arrière-plan. Il pousse l’usager à se dépasser, apprend de lui et lui fait front. On peut par exemple imaginer de laisser à l’usager la possibilité de gérer sa personnalité en fonction de son humeur, plutôt que de dépendre d’une personnalisation automatique (voir page ?).
-Une interface visible
+## A disturbing user-experience
+An automated system should not act in the background. It should push the user a little bit and confront him.
 
-94L’interface n’est ni une couche d’embellissement, ni une couche accessoire. Elle doit donner les clés de compréhension du fonctionnement du système. On peut par exemple imaginer une interface qui permet de consulter les mots qu’on utilise le plus, ou bien de supprimer les mots qu’on ne souhaite plus se voir proposer (voir page ?).
-
+## A visible interface
+The GUI is not a decoration layer and its value should never be minimized. It has to help the user understand how the system operates.
 
 
 
-
-# Who am I ?
-I am a designer | artist | coder, exploring the connections between language, algorithms and social relationships. What will the algorithmic futures look like ? What happens when we bring together computational imagination and the unexpectedness of life ? How to add a little spice to the electronic products we use on a daily basis ? I strongly think that designers have something to say into the way we are envisioning our future.

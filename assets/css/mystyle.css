@@ -165,12 +165,15 @@ body {
   linear-gradient(1deg, rgba(0,0,0,.8), rgba(0,0,0,0.3) 70.71%);
 }
 
+
 #preview-projects .single-project img {
   height: 95vh;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
   transition: 1s;
   /*transform: scale(1);*/
   position: absolute;
-  left: -70%;
 }
 
 .single-project a {
@@ -350,7 +353,11 @@ body {
   }
 
   #preview-projects .single-project img {
+    width: 100vw;
+    height: 300px;
     left: 0;
+    object-fit: cover;
+    object-position: center;
   }
 
   #preview-projects .single-project h3 {

@@ -70,6 +70,7 @@ function formatPress() {
         // console.log(document.querySelector('.single-press'));
 
         articleName.href = url.textContent;
+        articleName.setAttribute('target', '_blank');
         newspaper.textContent = newspaper.textContent + ', ';
         language.textContent = ' (' + language.textContent + ')';
         allPressArticles[i].removeChild(url);

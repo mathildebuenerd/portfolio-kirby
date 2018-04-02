@@ -5,7 +5,7 @@ Title: About
 Text:
 
 # Who am I ?
-I am a designer | artist | coder, exploring the connections between language, algorithms and social relationships. What will the algorithmic futures look like ? What happens when we bring together computational imagination and the unexpectedness of life ? How to add a little spice to the electronic products we use on a daily basis ? I strongly think that designers have something to say into the way we are envisioning our future.
+I am a designer | artist | programmer, exploring the connections between language, algorithms and social relationships. What will the algorithmic futures look like ? What happens when we bring together computational imagination and the unexpectedness of life ? How to add a little spice to the electronic products we use on a daily basis ? I strongly think that designers have something to say into the way we are envisioning our future.
 
 # What is chili design ?
 
