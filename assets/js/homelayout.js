@@ -15,7 +15,10 @@ setup();
 
 function setup() {
 
-    calculateContainerWidth();
+    if (document.querySelector('#container-for-hiding-scrollbar')) {
+        calculateContainerWidth();
+
+    }
 
     // console.log(alltags);
  }

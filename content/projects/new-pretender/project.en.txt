@@ -44,7 +44,8 @@ Press:
   artcl: 'Flirt Coach : Ledernippel machen dich zum Verführer'
 -
   newspaper: Ludicious
-  url: http://www.ludicious.ch/company/2268/
+  url: >
+    http://www.ludicious.ch/company/2268/
   language: english
   artcl: Zürich Game Festival
 

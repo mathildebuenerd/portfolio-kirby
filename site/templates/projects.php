@@ -62,6 +62,7 @@
 <aside class="rightbar"></aside>
 <aside class="leftbar"></aside>
 
+<?php echo js('assets/js/homelayout.js') ?>
 
 <?php snippet('footer') ?>
 

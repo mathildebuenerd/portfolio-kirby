@@ -57,12 +57,12 @@ function calculateHiddenContainerWidth() {
 function formatPress() {
 
     var allPressArticles = document.querySelectorAll('.single-press');
-    console.log(allPressArticles);
-    console.log(allPressArticles.length);
+    // console.log(allPressArticles);
+    // console.log(allPressArticles.length);
     // on formate un par un chaque article
     for (var i=0; i<allPressArticles.length; i++) {
         var newspaper = document.querySelectorAll('.newspaper')[i];
-        var url = document.querySelectorAll('.url')[i];
+        var url = document.querySelectorAll('.url')[0]; // l'url est toujours la numéro zéro car on enlève la balise du DOM après avoir injecté son contenu dans le href du titre de l'article
         var language = document.querySelectorAll('.language')[i];
         var articleName = document.querySelectorAll('.artcl')[i];
 
@@ -74,7 +74,7 @@ function formatPress() {
         newspaper.textContent = newspaper.textContent + ', ';
         language.textContent = ' (' + language.textContent + ')';
         allPressArticles[i].removeChild(url);
-        console.log('j"ai tout fait');
+        // console.log('j"ai tout fait');
     }
 
 }
