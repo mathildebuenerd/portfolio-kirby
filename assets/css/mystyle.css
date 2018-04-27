@@ -420,7 +420,8 @@ body {
 }
 
 .single-page .text p {
-  margin: 0 0 10px 0;
+  /* margin: 0 0 10px 0; */
+  /* margin-bottom: 10px; */
 }
 
 .single-page .text p + h1::before  {
@@ -429,4 +430,8 @@ body {
   flex-direction: column;
   font-size: 2em;
   margin-bottom: 10px;
+}
+
+.team {
+  display: none;
 }

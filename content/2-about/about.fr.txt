@@ -1,0 +1,29 @@
+Title: About
+
+----
+
+Intro: 
+
+----
+
+Text: 
+
+# Who am I ?
+
+I am a designer | artist | programmer, exploring the connections between language, algorithms and social relationships. What will the algorithmic futures look like ? What happens when we bring together computational imagination and the unexpectedness of life ? How to add a little spice to the electronic products we use on a daily basis ? I strongly think that designers have something to say into the way we are envisioning our future.
+
+\-----
+
+## Publications
+[_Converser à l'ère de l'autocomplétion_](memoire/Converser%20%C3%A0%20l'%C3%A8re%20de%20l'autocompl%C3%A9tion.pdf), master thesis, soutenue le 15 mars 2018. Master Media design, HEAD - Genève.
+
+_Optimized talk : what future for digital personal assistants in the communication field ?_, GSGS 2018 Proceeding book. Coming soon.
+
+## Mentions
+« Transmissions de données », Sandra Chamaret & Loïc Horellou, [Back Office n°2 : Design graphique et pratiques numériques](https://editions-b42.com/produit/back-office-n2/), avril 2018. (ultimateFaust)
+
+
+## Talks
+_How autocompletion is going to change the awy we interact with each other ?_, [Junior Design Research Conference](https://blog.zhdk.ch/erkenntnisvisualisierung/files/2017/11/JRC_2017_Programme-2.jpg), november 10th 2017, ZHDK (Zürich). [Slides](https://www.slideshare.net/MathildeBuenerd/conversing-in-the-era-of-autocomplete).
+
+_Optimized talk : what future for digital personal assistants in the communication field ?_, GSGS 2018. Coming soon.
