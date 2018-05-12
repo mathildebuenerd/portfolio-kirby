@@ -21,8 +21,11 @@
             <a href="https://github.com/mathildebuenerd" target="_blank">
                 <i class="fa fa-github"></i>
             </a>
-            <a href="http://alternative.mathildebuenerd.fr/" target="_blank">
-                <i class="fa fa-bug"></i>
+            <a href="http://archive.mathildebuenerd.fr/" target="_blank">
+                <i class="fa fa-step-backward"></i>
+            </a>
+            <a href="http://archive.mathildebuenerd.fr/archive" target="_blank">
+                <i class="fa fa-fast-backward"></i>
             </a>
         </section>
     

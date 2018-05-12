@@ -8,9 +8,7 @@ Intro:
 
 Text: 
 
-# Who am I ?
-
-I am a designer | artist | programmer, exploring the connections between language, algorithms and social relationships. What will the algorithmic futures look like ? What happens when we bring together computational imagination and the unexpectedness of life ? How to add a little spice to the electronic products we use on a daily basis ? I strongly think that designers have something to say into the way we are envisioning our future.
+Mathilde Buenerd is a designer | artist | programmer, exploring the connections between language, algorithms and social relationships. What will the algorithmic futures look like ? What happens when we bring together computational imagination and the unexpectedness of life ? How to add a little spice to the electronic products we use on a daily basis ? I strongly think that designers have something to say into the way we are envisioning our future.
 
 \-----
 
@@ -19,8 +17,11 @@ I am a designer | artist | programmer, exploring the connections between languag
 
 _Optimized talk : what future for digital personal assistants in the communication field ?_, GSGS 2018 Proceeding book. Coming soon.
 
+
 ## Mentions
 « Transmissions de données », Sandra Chamaret & Loïc Horellou, [Back Office n°2 : Design graphique et pratiques numériques](https://editions-b42.com/produit/back-office-n2/), avril 2018. (ultimateFaust)
+
+[_Flirt Coach : Ledernippel machen dich zum Verführer_](http://www.tilllate.com/de/story/new-pretender), Tillate (20 Minuten), (New Pretender)
 
 
 ## Talks

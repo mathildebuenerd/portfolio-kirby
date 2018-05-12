@@ -416,7 +416,10 @@ body {
 .single-page .text h2 {
   font-size: 1em;
   font-weight: 500;
-  margin: 15px 0 0 0;
+  margin: 25px 0 0 0;
+  padding-bottom: 6px;
+  border-bottom: 3px solid black;
+  display: inline-block;
 }
 
 .single-page .text p {
@@ -434,4 +437,11 @@ body {
 
 .team {
   display: none;
+}
+
+
+.main a, .main a:visited {
+  color: blue;
+  text-decoration: none;
+  border-bottom: 2px solid blue;
 }
