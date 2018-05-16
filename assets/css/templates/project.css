@@ -72,6 +72,10 @@ body {
     z-index: 99;
 }
 
+#container-for-hiding-scrollbar-project:hover, .allimages {
+  cursor: url(../../images/next-cursor.png) 20 15, e-resize;
+}
+
 #left-arrow, #right-arrow {
     position: absolute;
     top: 0;

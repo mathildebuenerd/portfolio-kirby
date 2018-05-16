@@ -2,9 +2,9 @@
 
 <main class="main fadeIn" role="main">
 
-    <div class="wrap wide">
+    <!-- <div class="wrap wide">
         <?php snippet('showcase') ?>
-    </div>
+    </div> -->
 
     <div id="container-for-hiding-scrollbar">
         <section id="preview-projects">

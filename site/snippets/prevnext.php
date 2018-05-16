@@ -18,7 +18,7 @@ $directionPrev = @$flip ? 'right' : 'left';
 $directionNext = @$flip ? 'left'  : 'right';
 
 if($page->hasNextVisible() || $page->hasPrevVisible()): ?>
-  <nav class="pagination <?= !@$flip ?: ' flip' ?> wrap cf">
+<!--   <nav class="pagination <?= !@$flip ?: ' flip' ?> wrap cf">
 
     <?php if($page->hasPrevVisible()): ?>
       <a class="pagination-item <?= $directionPrev ?>" href="<?= $page->prevVisible()->url() ?>" rel="prev" title="<?= $page->prevVisible()->title()->html() ?>">
@@ -40,5 +40,5 @@ if($page->hasNextVisible() || $page->hasPrevVisible()): ?>
       </span>
     <?php endif ?>
 
-  </nav>
+  </nav> -->
 <?php endif ?>
