@@ -6,7 +6,7 @@ Year: 2018
 
 ----
 
-Smalldescription: A smart messaging app
+Smalldescription: Une application de messagerie instantanée intelligente
 
 ----
 
@@ -22,9 +22,9 @@ Thematics: writing, autocomplete
 
 ----
 
-Maindescription: 
+Maindescription:
 
-In the digital age, there’s a growing need to communicate more efficiently. Based on machine learning algorithms, auto-chat offers a solution to this challenge, through a creative, agile and high-quality messenging app that automates the choice of the most appropriate word for every situation. 
+In the digital age, there’s a growing need to communicate more efficiently. Based on machine learning algorithms, auto-chat offers a solution to this challenge, through a creative, agile and high-quality messenging app that automates the choice of the most appropriate word for every situation.
 
 Not everyone has the chance to be interesting, especially when talking with text messages. With auto-chat, you can find exactly the word you need, among the millions of words in your language. lts features include writing in the style of someone else, among a list of the best writers in the world. lt also contains a persona! assistant who gives you smart advices to help you to improve your communication skills.
 
@@ -34,15 +34,15 @@ Not everyone has the chance to be interesting, especially when talking with text
 
 ----
 
-Website: http://www.auto-ch.at/
+Website: 
 
 ----
 
-Press: 
+Press:
 
 ----
 
-Misc: 
+Misc:
 
 ----
 

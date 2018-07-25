@@ -4,10 +4,11 @@ Title: Contact
 
 Text: 
 
-N'hésitez pas à me contacter :)
-
+:)
 mathilde[dot]buenerd[at]gmail[dot]com
-(twitter: @mathildebuenerd)
+[@mathildebuenerd](https://twitter.com/mathildebuenerd)
+
+This website doesn't use any tracker or web analytics service. But if you want to tell me you were here, don't hesitate to send me a little message via email.
 
 ----
 

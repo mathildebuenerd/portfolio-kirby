@@ -1,15 +1,12 @@
-Title: About
+Title: Chili design
 
 ----
 
-Text:
-
-# Who am I ?
-I am a designer | artist | programmer, exploring the connections between language, algorithms and social relationships. What will the algorithmic futures look like ? What happens when we bring together computational imagination and the unexpectedness of life ? How to add a little spice to the electronic products we use on a daily basis ? I strongly think that designers have something to say into the way we are envisioning our future.
+Text: 
 
 # What is chili design ?
 
-"Chili design" gathers three design principles for designing algorithm-based technologies in the era of ubiquitous computing (like recommender systems or mobile apps). Those principles are the conclusion of a research work conducted at HEAD - Geneva, and centered on the design of autocompletion systems (Conversing in the era of autocompletion, in french). It can be sum up in three points : using technology as a tool for _innovativeness_ by creating a _disturbing experience_, and through a _visible interface_.
+"Chili design" gathers three design principles for designing algorithm-based technologies in the era of ubiquitous computing (like recommender systems or mobile apps). Those principles are the conclusion of a research work conducted at HEAD - Geneva, and centered on the design of autocompletion systems ([Conversing in the era of autocompletion](http://www.chilidesign.fr/memoire/Converser%20à%20l'ère%20de%20l'autocomplétion.pdf), in french). It can be sum up in three points : using technology as a tool for _innovativeness_ by creating a _disturbing experience_, and through a _visible interface_.
 
 The three principles of the "chili" technology are the followings :
 
@@ -21,6 +18,3 @@ An automated system should not act in the background. It should push the user a 
 
 ## A visible interface
 The GUI is not a decoration layer and its value should never be minimized. It has to help the user to understand how the system operates.
-
-
-
