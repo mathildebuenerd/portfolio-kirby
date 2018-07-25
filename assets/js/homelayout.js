@@ -10,8 +10,53 @@ var projectsObj = [];
 var projectWidth = projects[0].offsetWidth;
 var projectHeight = projects[0].offsetHeight;
 var alltags;
+var rightarrow = document.querySelector(`#rightarrow`);
+var leftarrow = document.querySelector(`#leftarrow`);
+
+
+var totalProjects = (document.querySelectorAll(".single-project")).length;
+var currentProject = 0; // le projet le plus à gauche, pour savoir à quel projet doivent aller les flèchess
+var speed = 750; // Durée de l'animation (en ms)
+
+
 
 setup();
+
+window.addEventListener('resize', calculateContainerWidth);
+
+// go to next project
+rightarrow.addEventListener("click", function() {
+
+  var cible = document.querySelectorAll('.single-project')[currentProject+1]; // Projet cible
+
+  if (cible !== undefined && currentProject !== totalProjects-3) { // si cible n'est pas undefined, ça veut dire qu'il y a encore des images après
+      $('html, body, #preview-projects').animate( { scrollLeft: cible.offsetLeft }, speed ); // Go
+      currentProject+=1;
+  } else { // sinon ça veut dire qu'il n'y en a plus donc on revient au début
+      currentProject = 0;
+      cible = document.querySelectorAll('.single-project')[currentProject]; // Page cible
+      $('html, body, #preview-projects').animate( { scrollLeft: cible.offsetLeft }, speed ); // Go
+  }
+
+});
+
+// go to previous project
+leftarrow.addEventListener("click", function() {
+
+  var cible = document.querySelectorAll('.single-project')[currentProject-1]; // Projet cible
+
+  if (cible !== undefined && currentProject !== 0) { // si cible n'est pas undefined, ça veut dire qu'il y a encore des images après
+      $('html, body, #preview-projects').animate( { scrollLeft: cible.offsetLeft }, speed ); // Go
+      currentProject-=1;
+  } else { // sinon ça veut dire qu'il n'y en a plus donc on revient au début
+      currentProject = totalProjects-3;
+      cible = document.querySelectorAll('.single-project')[currentProject]; // Page cible
+      $('html, body, #preview-projects').animate( { scrollLeft: cible.offsetLeft }, speed ); // Go
+
+  }
+
+});
+
 
 function setup() {
 
@@ -22,9 +67,6 @@ function setup() {
 
     // console.log(alltags);
  }
-
-window.addEventListener('resize', calculateContainerWidth);
-
 
 function calculateContainerWidth() {
 
@@ -51,9 +93,6 @@ function calculateContainerWidth() {
     }
 
 }
-
-
-
 
 // Other functions
 function getRandomInt(min, max) {

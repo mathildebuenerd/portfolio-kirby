@@ -59,12 +59,17 @@
 
 </main>
 
-<aside class="rightbar"></aside>
-<aside class="leftbar"></aside>
+<aside class="rightbar arrows">
+  <a href="#"  id="rightarrow">
+    <span>❯</span>
+  </a>
+</aside>
+<aside class="leftbar arrows">
+  <a href="#" id="leftarrow">
+    <span>❮</span>
+  </a>
+</aside>
 
 <?php echo js('assets/js/homelayout.js') ?>
 
 <?php snippet('footer') ?>
-
-
-
