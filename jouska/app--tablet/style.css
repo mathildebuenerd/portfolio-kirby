@@ -1,0 +1,42 @@
+body, section, figure {
+    margin: 0;
+}
+
+#interface {
+    display: flex;
+    justify-content: center;
+}
+
+#interface img {
+    height: 90vh;
+    transition: 0.5s ease;
+    opacity: 0.5;
+}
+
+#interface figcaption {
+    background-color: black;
+    padding: 10px;
+    font-family: "Roboto", Arial, sans-serif;
+    color: white;
+    position: absolute;
+    max-width: 400px;
+    top: 80vh;
+    right: 10vw;
+    font-size: 1.2em;
+    opacity: 0;
+    transition: 0.5s ease;
+}
+
+#touch {
+    opacity: 1;
+    font-size: 3em;
+    text-align: center;
+    position: absolute;
+    left: 50vw;
+    top: 50vh;
+    transform: translate(-50%, -50%);
+    font-family: "Roboto", Arial, sans-serif;
+    font-weight: normal;
+    z-index: 2;
+    transition: 0.5s ease;
+}

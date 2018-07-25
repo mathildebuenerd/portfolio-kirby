@@ -1,0 +1,163 @@
+# Translation of Themes - Stacker Lite in English (UK)
+# This file is distributed under the same license as the Themes - Stacker Lite package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-10-12 07:02:37+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: en_GB\n"
+"Project-Id-Version: Themes - Stacker Lite\n"
+
+#. Description of the plugin/theme
+msgid "Stacker is a Grid-Based theme for showing off your photos and images. Includes a social media links menu to display icons linking to your favourite social media sites. \t\t\tCustomize the colors and amount of columns via the Cutomizer. Download 22 more Free themes and templates at ThemeFurnace : http://themefurnace.com"
+msgstr "Stacker is a Grid-Based theme for showing off your photos and images. Includes a social media links menu to display icons linking to your favourite social media sites. \t\t\tCustomise the colours and amount of columns via the Customiser. Download 22 more Free themes and templates at ThemeFurnace : http://themefurnace.com"
+
+#. Theme Name of the plugin/theme
+msgid "Stacker Lite"
+msgstr "Stacker Lite"
+
+#: searchform.php:17
+msgctxt "submit button"
+msgid "Search"
+msgstr "Search"
+
+#: no-results.php:21
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+
+#: no-results.php:16
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+
+#: no-results.php:14
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+
+#: no-results.php:9
+msgid "Nothing Found"
+msgstr "Nothing Found"
+
+#: search.php:13
+msgid "Search Results for: %s"
+msgstr "Search Results for: %s"
+
+#: inc/template-tags.php:154
+msgctxt "post date"
+msgid "%s"
+msgstr "%s"
+
+#: inc/template-tags.php:129
+msgctxt "Next post link"
+msgid "%title&nbsp;<span class=\"meta-nav\">&rarr;</span>"
+msgstr "%title&nbsp;<span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/template-tags.php:128
+msgctxt "Previous post link"
+msgid "<span class=\"meta-nav\">&larr;</span>&nbsp;%title"
+msgstr "<span class=\"meta-nav\">&larr;</span>&nbsp;%title"
+
+#: inc/template-tags.php:124
+msgid "Post navigation"
+msgstr "Post navigation"
+
+#: inc/template-tags.php:99
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/template-tags.php:94
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Older posts"
+
+#: inc/template-tags.php:88
+msgid "Posts navigation"
+msgstr "Posts navigation"
+
+#: inc/template-tags.php:49
+msgid "Your comment is awaiting moderation."
+msgstr "Your comment is awaiting moderation."
+
+#: inc/template-tags.php:41
+msgctxt "1: date, 2: time"
+msgid "%1$s at %2$s"
+msgstr "%1$s at %2$s"
+
+#: inc/template-tags.php:34
+msgid "%s <span class=\"says\">says:</span>"
+msgstr "%s <span class=\"says\">says:</span>"
+
+#: inc/template-tags.php:24
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#: functions.php:100
+msgctxt "Varela font: on or off"
+msgid "on"
+msgstr "on"
+
+#: functions.php:18
+msgid "Social"
+msgstr "Social"
+
+#: functions.php:16
+msgid "Primary Menu"
+msgstr "Primary Menu"
+
+#: footer.php:26
+msgid "Theme: %1$s by %2$s."
+msgstr "Theme: %1$s by %2$s."
+
+#: content-single.php:26
+msgid "Tags: "
+msgstr "Tags:"
+
+#: content-page.php:25 content-single.php:23 inc/template-tags.php:24
+#: inc/template-tags.php:44
+msgid "Edit"
+msgstr "Edit"
+
+#: content-none.php:15
+msgid "It looks like nothing was found at this location. Please try searching for the content"
+msgstr "It looks like nothing was found at this location. Please try searching for the content"
+
+#: content-none.php:10
+msgid "That page can&rsquo;t be found."
+msgstr "That page can&rsquo;t be found."
+
+#: comments.php:89
+msgid "Comments are closed."
+msgstr "Comments are closed."
+
+#: comments.php:57 comments.php:80
+msgid "Newer Comments &rarr;"
+msgstr "Newer Comments &rarr;"
+
+#: comments.php:54 comments.php:79
+msgid "&larr; Older Comments"
+msgstr "&larr; Older Comments"
+
+#: comments.php:50 comments.php:76
+msgid "Comment navigation"
+msgstr "Comment navigation"
+
+#. translators: 1: number of comments, 2: post title
+#: comments.php:34
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s thought on &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s thoughts on &ldquo;%2$s&rdquo;"
+
+#. Author URI of the plugin/theme
+msgid "http://www.themefurnace.com"
+msgstr "http://www.themefurnace.com"
+
+#. Author of the plugin/theme
+msgid "Oliver Dale"
+msgstr "Oliver Dale"
+
+#. Theme URI of the plugin/theme
+msgid "http://themefurnace.com/stacker-theme"
+msgstr "http://themefurnace.com/stacker-theme"

@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Finding weasel words</title>
+
+	 <!-- Icons -->
+    <script src="https://use.fontawesome.com/64e75f8716.js"></script>
+
+	<style type="text/css">
+
+
+
+	html {
+		/*background-color: black;*/
+		/*background-image: url(computer-1185637.jpg);
+		background-size: cover;*/
+	}
+
+	html, body, * {
+		/*width: 80%;*/
+		margin: 0;
+		padding: 0;
+		font-family: "Roboto", arial, sans-serif;
+	}
+
+	.slide {
+		width: 100%;
+		height: auto;
+		position: relative;
+		overflow: hidden;
+	}	
+
+
+	/************
+
+	   SLIDE 0
+
+	************/
+
+
+	#slide-0 {
+		/*background-image: url(computer-1185637.jpg);*/
+		/*background-size: cover;*/
+
+	}
+
+	#logo {
+		z-index: 9999;
+		width: 200px;
+		position: relative;
+		left: 50%;
+		transform: translateX(-50%);
+		top: 100px;
+		margin-bottom: 40px;
+	}
+
+
+	h1 {
+		padding: 60px;
+		background-color: rgba(0,0,100,1);
+		border: 1px solid #e3d24f;
+		box-shadow: 5px 5px #e3d24f;
+		color: white;
+		font-weight: 400;
+		letter-spacing: 10px;
+		font-size: 50px;
+		margin: 0 auto 80px;
+		/*width: 630px;*/
+		width: 70%;
+		text-align: center;
+		z-index: 2;
+		position: relative;
+
+	}
+
+	@media (min-width: 1200px) {
+		h1 {
+			width: 55%;
+		}
+
+		#slide-0 {
+			height: 100vh;
+		}
+	}
+
+	@media (max-width: 920px) {
+		h1 {
+			width: 53%;
+		}
+	}
+
+
+	h2 {
+		color: white;
+		margin: 0 auto 100px;
+		text-align: center;
+		max-width: 500px;
+		font-weight: 400;
+		font-size: 20px;
+		z-index: 2;
+		position: relative;
+		font-family: "Roboto", arial, sans-serif;
+	}
+
+
+	#slide-0 video {
+		position: absolute;
+		width: auto;
+		height: 100%;
+		transform: translateX(-50%);
+		left: 50%;
+		/*z-index: 9;*/
+
+	}
+
+
+	#bloc-noir {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(0,0,10,0.9);
+		z-index: 1;
+	}
+
+
+
+	/************
+
+	   SLIDE 1
+
+	************/
+
+
+	#slide-1 {
+		background-color: #e3d24f;
+		color: rgba(0,0,100,1);
+		padding: 180px 0;
+		height: 400px;
+	}
+
+	#slide-1 section {
+		/*background-color: rgba(0,0,100,1);*/
+		max-width: 500px;
+		width: 40%;
+		padding:0 30px;
+		/*background-color: red;*/
+		margin: 30px 0 0 10%;
+		line-height: 25px;
+		font-weight: 600;
+		border-left: 5px solid rgba(0,0,100,1);
+	}
+
+	#download {
+		text-transform: uppercase;
+		font-family: Roboto, sans-serif;
+		font-weight: 500;
+		font-size: 25px;
+		letter-spacing: 4px;
+		text-decoration: none;
+		padding:20px;
+		/*border: 5px solid #f00;*/
+		background-color: rgba(0,0,100,1);
+		color: #e3d24f;
+		position: relative;
+		right: -10%;
+		top: 80px;
+		transition: 0.5s ease;
+
+	}
+
+	#download:hover {
+		background-color: rgba(255,0,0,1);
+	}
+
+	a.bouge .char {
+		margin-left: 4px;
+	}
+
+	#slide-1 video {
+		float: right;
+		max-width: 700px;
+		margin-right: 80px;
+	}
+
+	@media (max-width: 1550px) {
+
+		#slide-1 {
+			padding: 30px 0;
+			height: auto;
+		}
+		#slide-1 video {
+			float: none;
+			width: 80%;
+			max-width: 700px;
+			margin: 50px 0;
+			position: absolute;
+			left: 50%;
+			transform: translateX(-50%);
+		}
+
+		#slide-1 section {
+		/*background-color: rgba(0,0,100,1);*/
+		max-width: 500px;
+		width: 50%;
+		padding:0 30px;
+		/*background-color: red;*/
+		margin: 450px auto 80px;
+
+		line-height: 25px;
+		font-weight: 600;
+		border-left: 5px solid rgba(0,0,100,1);
+	}
+
+	#download {
+		display: inline-block;
+		top: 0;
+		/*margin: 0 auto;*/
+		right: 0;
+		left: 50%;
+		transform: translateX(-50%);
+		margin-bottom: 50px;
+	}
+	}
+
+	@media (max-width: 767px) {
+		#slide-1 video {
+		width: 90%;
+		margin: 50px 0 0;
+		}
+
+		#slide-1 section {
+			margin: 400px auto 60px;
+			width: 60%;
+		}
+
+		#slide-1 #download {
+			letter-spacing: 2px;
+		}
+
+		#slide-0 video {
+			display: none;
+		}
+
+	}
+
+	@media (max-width: 650px) {
+		#slide-1 video {
+		width: 100%;
+		margin: 50px 0 0;
+		}
+
+		#slide-1 section {
+			margin: 370px auto 60px;
+			width: 70%;
+		}
+
+		#slide-1 #download {
+			font-size: 15px;
+		}
+
+		#slide-2 {
+			height: 180px !important;
+		}
+	}
+
+
+
+	/************
+
+	   SLIDE 2
+
+	************/
+
+
+	#slide-2 {
+		padding: 50px;
+		height: 100px;
+		width: auto;
+		background-color: rgba(0,0,100,1);
+		color: white;
+	}
+
+	#slide-2 h3, #slide-2 p, #slide-2 a {
+		margin-bottom: 10px;
+		text-align: right;
+		/*max-width: 600px;*/
+		position: relative;
+		
+	}
+
+	#slide-2 h3 {
+		font-weight: 400;
+	}
+
+	.external-links {
+		color: #fff;
+		float: right;
+		margin: 0 0 0 15px;
+	}
+
+
+
+
+	</style>
+	
+
+
+	
+</head>
+
+
+<body>
+
+
+
+<!-- SLIDE 0 -->
+
+<div class="slide" id="slide-0">
+
+
+
+<div id="bloc-noir"></div>
+<video autoplay loop>
+	<source src="video-slide0.mp4" type="video/mp4">
+</video>
+
+<img id="logo" src="logo-0-04.png">
+
+<h1>finding<span class="bouge">weaselwords</span></h1>
+
+<h2>A web extension that allows you to find the weasel words hidden in every political speech or press article</h2>
+
+</div>
+
+
+
+
+
+
+<!-- SLIDE 1 -->
+
+<div class="slide" id="slide-1">
+
+<video autoplay loop >
+	<source src="tetes-politicians-color_1.mp4" type="video/mp4">
+</video>
+
+<section>Numerically vague expressions, adverbs that weaken, use of passive voice... Politicians and journalists can use a lot of these writing techniques to make their intention more attractive, less disturbing. The purpose of findingweaselwords is to permit people to see and become more aware of those weasel words, that is, equivocal words. The extension also give statistic feedback, which can be useful for comparing two speeches for example.</section>
+
+<!-- <a id="download" class="bouge" href="#">Download    Extention</a> -->
+<a id="download" class="bouge" href="#">Available    soon</a>
+
+</div>
+
+
+
+
+<!-- SLIDE 2 -->
+
+<div class="slide" id="slide-2">
+
+<p>findingweaselwords is a project by Mathilde Buenerd made @HEAD-Geneva<br>
+for the creative coding class directed by Gordan Savičić.</p>
+<p>more infos : mathilde[dot]buenerd[at]gmail[dot]com</p>
+<a class="external-links" href="https://twitter.com/mathildebuenerd" target="_blank">
+  <i class="fa fa-twitter fa-2x"></i>
+</a>
+
+<a class="external-links" href="https://github.com/mathildebuenerd/weaselwords" target="_blank">
+  <i class="fa fa-github fa-2x"></i>
+</a>
+<a class="external-links" href="http://alternative.mathildebuenerd.fr" target="_blank">
+  <i class="fa fa-rocket fa-2x"></i>
+</a>
+
+</div>
+
+
+
+<script type="text/javascript">
+
+decouper();
+
+
+
+
+/****** Animation des lettres ******/
+
+setInterval( function() {
+
+		var motsHasardeux = document.getElementsByClassName('char');
+		var listeAngles = ["-30", "-20", "-10", "0", "10", "20", "30"];
+		
+		for(var i=0; i<motsHasardeux.length; i++) {
+			var hasard= Math.ceil(Math.random()*listeAngles.length);
+			
+			motsHasardeux[i].style.display = "inline-block";
+			motsHasardeux[i].style.position = "relative";
+			motsHasardeux[i].style.transition = "2s ease";
+			motsHasardeux[i].style.transform = "rotate(" + listeAngles[hasard-1] + "deg)";
+
+		}
+}, 2000);
+
+
+
+/****** Découpage ******/
+
+
+function decouper() {
+
+    array = document.getElementsByClassName('bouge');
+
+    for (var i=0; i<array.length; i++) {
+    	expression = array[i].innerHTML; 
+    	chaine = '';
+
+    	for (var j=0; j<expression.length; j++) {
+    		chaine += "<span class='char'>" + expression.substr(j, 1) + "</span>" ; 
+    	}
+
+    	array[i].innerHTML = chaine; 
+    }   
+   
+ 
+      
+}
+
+
+// Anime le bouton "Download Extension" au survol
+
+
+
+
+
+</script>
+
+
+</body>
+
+
+</html>

@@ -1,0 +1,506 @@
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond');
+
+
+/*******
+
+    RESET CSS
+
+   http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+
+*******/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, menu, nav, section {
+  display: block;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+
+html {
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  padding-top:80px; /* the body has to start just after de navigation top bar */
+  width: 33%;
+  max-width: 750px;
+  min-width: 550px;
+  margin: 0 33%;
+  font-family: "Fira Sans", sans-serif;
+  line-height: 1.6;
+}
+
+img {
+  width: 100%;
+}
+
+a, a:visited {
+  color: blue;
+  text-decoration: none;
+  border-bottom: 1px dashed blue;
+}
+
+table, td, col {
+  border: 1px solid #eee;
+}
+
+h1 {
+  text-align: left;
+}
+
+h2 {
+  margin-top: 200px !important;
+  margin-bottom: 70px !important;
+  text-align: center;
+  font-size: 200%;
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 25px 0 15px;
+  line-height: normal;
+}
+
+p {
+  margin-bottom: 12px;
+}
+
+
+figure {
+  margin-left: -150px;
+  margin-top:25px;
+  margin-bottom: 25px;
+  width: 33vw;
+  height: auto;
+}
+
+figcaption {
+  text-align: center;
+  color: #bbb;
+  /*font-family: serif;*/
+  font-style: italic;
+  font-size: 0.9em;
+}
+
+blockquote {
+  font-family: "EB Garamond", serif;
+  font-size: 1em;
+  line-height: 1.4;
+  margin: 20px 20px 25px 40px;
+}
+
+blockquote em {
+  /*font-style: normal;*/
+}
+
+.translation {
+  font-weight: 100;
+  color: red;
+}
+
+
+/******
+
+    Sections
+
+ ******/
+
+section.content {
+  padding-top: 150px;
+}
+
+.bottomNav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+
+.bottomNav .next, .bottomNav .prev {
+  width: 25px;
+  height: 25px;
+  background-color: blue;
+}
+
+
+/******
+
+    Intro
+
+ ******/
+
+#intro {
+  /*text-align: left !important;*/
+}
+
+#intro h1 {
+  text-align: center;
+  margin-top: 150px;
+  font-size: 90px;
+  font-weight: 400;
+  position: absolute;
+  left: 50%;
+  width:70vw;
+  transform: translateX(-50%);
+}
+
+#intro h2 {
+  margin: 15px !important;
+  font-size: 120% !important;
+}
+
+#pipe {
+  font-weight: 100;
+  margin-left: -15px;
+  animation: blinker 1s step-start infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+#start {
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 300px;
+  padding: 20px;
+  font-weight: 300;
+  font-size: 120%;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  transition: 1s ease;
+}
+
+#start:hover {
+  color: black;
+  background-color: white;
+  border: 2px solid black;
+}
+
+
+/******
+
+    Header
+
+ ******/
+
+header {
+  box-sizing: border-box;
+  position: fixed;
+  width: 300px;
+  right: 0;
+  padding: 20px;
+  transition: 1s ease;
+}
+
+header h1 {
+  font-size: 25px;
+  word-wrap: break-word;
+}
+
+.sidebar-about {
+  height: 100vh;
+  width: 50px;
+  background-color: white;
+  padding: 330px 10px 0;
+  position: absolute;
+  top: 0;
+  right: 300px;
+  box-sizing: border-box;
+  border: 1px solid #eee;
+  cursor: pointer;
+  font-size: 20px;
+  writing-mode:vertical-rl;
+  /*transform: rotate(180deg);*/
+  white-space:nowrap;
+  display:block;
+}
+
+
+/******
+
+    Table of content
+    Sommaire
+
+ ******/
+
+#TOC {
+  background-color: white;
+  box-sizing: border-box;
+  position: fixed;
+  width: 33%;
+  max-width: 300px;
+  top: 0;
+  padding: 100px 30px;
+  font-size: 80%;
+  text-align: left;
+  height: 100vh;
+  transition: 1s ease;
+  left:-300px; /* that value will need to modified if we increase the width of the TOC*/
+}
+
+#TOC ul li {
+  list-style-type: none;
+}
+
+#TOC ul li ul {
+  padding: 10px;
+}
+
+#TOC > ul {
+  padding: 0;
+}
+
+/* we remove the first link because that's the h1, and it's already displayed at the top left corner */
+#TOC > ul > li > a {
+  /*display: none;*/
+  list-style: none;
+}
+
+#TOC ul li a {
+  color: black;
+  border-bottom: none;
+}
+
+#TOC ul li ul li {
+  margin-bottom: 5px;
+}
+
+#TOC > ul > li > ul > li {
+  margin-bottom: 7px;
+  opacity: 0.5;
+  line-height:1.2;
+}
+
+
+/*#TOC ul li ul li:hover ul {*/
+  /*display: block;*/
+/*}*/
+
+#TOC ul li:hover::before {
+  content: '->';
+  box-sizing: border-box;
+  padding: 0 10px 0 0;
+  /*margin-left: -10px;*/
+}
+
+#TOC ul li ul li:hover {
+  opacity: 1;
+}
+
+.current {
+  opacity:1 !important;
+}
+
+
+.sidebar-toc {
+  height: 100vh;
+  width: 50px;
+  background-color: white;
+  padding: 400px 10px 0;
+  position: absolute;
+  top: 0;
+  box-sizing: border-box;
+  border: 1px solid #eee;
+  cursor: pointer;
+
+  font-size: 20px;
+  writing-mode:tb-rl;
+  transform: rotate(180deg);
+  white-space:nowrap;
+  display:block;
+}
+
+
+
+/******
+
+    Footnotes
+    Notes de bas de page
+
+ ******/
+
+sup {
+  font-size: 60%;
+  position: relative;
+  top: -6px;
+}
+
+.footnotes li {
+  box-sizing: border-box;
+  padding: 0 20px 0 0;
+  font-size: 80%;
+  line-height: 1.3;
+  position: absolute;
+  left:70%;
+  width: 25%;
+  max-width: 300px;
+  text-align: left;
+}
+
+.footnotes hr {
+  display: none; /* we hide the hr generated by pandoc */
+}
+
+
+/******
+
+    Heading
+    En-tête / Tête de chapitre
+
+ ******/
+
+#chapterBar {
+  box-sizing: border-box;
+  position: fixed;
+  top:0;
+  left: 0;
+  width: 100vw;
+  padding: 10px;
+  height: 80px;
+  background-color: white;
+  display: flex;
+  border-bottom: solid 1px #eee;
+  flex-direction: column;
+  align-content: space-between;
+}
+
+#chapterBar h1 {
+  font-size: 0.8em;
+  font-weight: normal;
+  margin-left: 15px;
+}
+
+#currentChapter {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  margin-top: 20px;
+}
+
+#percentageBar {
+  background-color: lightgrey;
+  height: 3px;
+  /*width: 0;*/
+  position: absolute;
+  left: 0;
+  top: 77px;
+}
+
+
+/******
+
+      Warning
+      Avertissement
+
+ ******/
+
+#avertissement {
+  display: none;
+  position: fixed;
+  transform: translateX(-50%) translateY(-50%);
+  width:300px;
+  background-color: blue;
+  color: white;
+  padding: 30px;
+  z-index: 99;
+  cursor: pointer;
+  opacity: 0.8;
+  transition: 1s ease;
+}
+
+#avertissement a, #avertissement a:active, #avertissement a:focus, #avertissement a:visited {
+  margin-top: 25px;
+  color: white !important;
+  border-bottom: 2px solid white;
+  padding: 5px 0 2px 0;
+}
+
+
+/******
+
+      Control panel
+      Panneau de contrôle
+
+ ******/
+
+#control-panel {
+  position: fixed;
+  top:50px;
+  left: 50px;
+  padding: 50px;
+  background-color: yellow;
+  color: black;
+  z-index: 99;
+}
+
+.slider {
+  width: 100px;
+}
+
+.blockSlider {
+  display: flex;
+  justify-content: space-between;
+}
+
+.propertyName {
+  font-size: 12px;
+  margin-right: 15px;
+}
+
+/******
+
+      Lines numbering
+      Numérotation des lignes
+
+ ******/
+
+.paragraph-number {
+  color: #bbb;
+  font-family: monospace;
+  position: relative;
+  /*left: -20px;*/
+  /*margin-right: -12px;*/
+  font-size: 10px;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+#copymessage {
+  padding: 6px;
+  background-color: black;
+  color: white;
+  font-size: 10px;
+  position:absolute;
+}

@@ -1,0 +1,169 @@
+# Translation of Themes - Stacker Lite in German
+# This file is distributed under the same license as the Themes - Stacker Lite package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-02-07 21:10:24+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: de\n"
+"Project-Id-Version: Themes - Stacker Lite\n"
+
+#. Theme Name of the plugin/theme
+msgid "Stacker Lite"
+msgstr "Stacker Lite"
+
+#. Description of the plugin/theme
+msgid "Stacker is a Grid-Based theme for showing off your photos and images. Includes a social media links menu to display icons linking to your favourite social media sites. \t\t\tCustomize the colors and amount of columns via the Cutomizer. Download 22 more Free themes and templates at ThemeFurnace : http://themefurnace.com"
+msgstr "Stacker ist ein Grid-basiertes Theme, mit dem du deine Fotos und Bilder präsentieren kannst. Es enthält ein Menü für Social Media Links, in dem Icons angezeigt werden, die auf deine bevorzugten Social Media Seiten verweisen. \t \t \t \t \t Passe die Farben und die Anzahl der Spalten über den Cutomizer an. Downloade 22 weitere Gratis-Themes und -Vorlagen bei ThemeFurnace : https://themefurnace.com"
+
+#. translators: %s: post title
+#: comments.php:30
+msgctxt "comments title"
+msgid "One thought on &ldquo;%s&rdquo;"
+msgstr "Ein Gedanke zu &#8222;%s&#8220;"
+
+#: searchform.php:17
+msgctxt "submit button"
+msgid "Search"
+msgstr "Suche"
+
+#: no-results.php:21
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Es sieht so aus, als ob wir nicht das finden konnten, wonach du gesucht hast. Möglicherweise hilft die Suchfunktion."
+
+#: no-results.php:16
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Entschuldigung, aber zu deinen Suchbegriffen wurde nichts passendes gefunden. Bitte versuche es mit anderen Begriffen nochmal."
+
+#: no-results.php:14
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Bereit, um deinen ersten Beitrag zu veröffentlichen? <a href=\"%1$s\">Starte hier</a>."
+
+#: no-results.php:9
+msgid "Nothing Found"
+msgstr "Nichts gefunden"
+
+#: search.php:13
+msgid "Search Results for: %s"
+msgstr "Suchergebnisse für: %s"
+
+#: inc/template-tags.php:128
+msgctxt "Previous post link"
+msgid "<span class=\"meta-nav\">&larr;</span>&nbsp;%title"
+msgstr "<span class=\"meta-nav\">&larr;</span>&nbsp;%title"
+
+#: inc/template-tags.php:129
+msgctxt "Next post link"
+msgid "%title&nbsp;<span class=\"meta-nav\">&rarr;</span>"
+msgstr "%title&nbsp;<span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/template-tags.php:154
+msgctxt "post date"
+msgid "%s"
+msgstr "%s"
+
+#: inc/template-tags.php:124
+msgid "Post navigation"
+msgstr "Beitrags-Navigation"
+
+#: inc/template-tags.php:99
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Neuere Beiträge <span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/template-tags.php:94
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Ältere Beiträge"
+
+#: inc/template-tags.php:88
+msgid "Posts navigation"
+msgstr "Beitrags-Navigation"
+
+#: inc/template-tags.php:49
+msgid "Your comment is awaiting moderation."
+msgstr "Dein Kommentar wartet auf Freischaltung."
+
+#: inc/template-tags.php:41
+msgctxt "1: date, 2: time"
+msgid "%1$s at %2$s"
+msgstr "%1$s um %2$s"
+
+#: inc/template-tags.php:34
+msgid "%s <span class=\"says\">says:</span>"
+msgstr "%s <span class=\"says\">sagt:</span>"
+
+#: inc/template-tags.php:24
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#: functions.php:100
+msgctxt "Varela font: on or off"
+msgid "on"
+msgstr "on"
+
+#: functions.php:18
+msgid "Social"
+msgstr "Social Media"
+
+#: functions.php:16
+msgid "Primary Menu"
+msgstr "Primäres Menü"
+
+#: footer.php:26
+msgid "Theme: %1$s by %2$s."
+msgstr "Theme: %1$s von %2$s."
+
+#: content-single.php:26
+msgid "Tags: "
+msgstr "Tags: "
+
+#: content-page.php:25 content-single.php:23 inc/template-tags.php:24
+#: inc/template-tags.php:44
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: content-none.php:15
+msgid "It looks like nothing was found at this location. Please try searching for the content"
+msgstr "Es sieht so aus, als ob hier nichts gefunden wurde. Bitte versuche, nach einem anderen Inhalt zu suchen."
+
+#: content-none.php:10
+msgid "That page can&rsquo;t be found."
+msgstr "Die Seite kann nicht gefunden werden."
+
+#: comments.php:89
+msgid "Comments are closed."
+msgstr "Kommentare sind geschlossen."
+
+#: comments.php:57 comments.php:80
+msgid "Newer Comments &rarr;"
+msgstr "Neuere Kommentare &rarr;"
+
+#: comments.php:54 comments.php:79
+msgid "&larr; Older Comments"
+msgstr "&larr; Ältere Kommentare"
+
+#: comments.php:50 comments.php:76
+msgid "Comment navigation"
+msgstr "Kommentar-Navigation"
+
+#. translators: 1: number of comments, 2: post title
+#: comments.php:34
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s Gedanke zu &#8222;%2$s&#8220;"
+msgstr[1] "%1$s Gedanken zu &#8222;%2$s&#8220;"
+
+#. Author of the plugin/theme
+msgid "Oliver Dale"
+msgstr "Oliver Dale"
+
+#. Author URI of the plugin/theme
+msgid "http://www.themefurnace.com"
+msgstr "http://www.themefurnace.com"
+
+#. Theme URI of the plugin/theme
+msgid "http://themefurnace.com/stacker-theme"
+msgstr "http://themefurnace.com/stacker-theme"

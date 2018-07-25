@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+
+}
+
+#sentence, #analysis {
+    width: 50vw;
+    height: 100vh;
+    position: fixed;
+    margin: 0;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+
+/*
+    SENTENCE
+    Left-side
+ */
+
+#sentence {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f9f9f9;
+}
+
+#number {
+    position: absolute;
+    font-family: "Roboto Mono", monospace;
+    color: lightgrey;
+    top: 50px;
+}
+
+#text {
+    font-size: 2em;
+    font-family: "Roboto", sans-serif;
+}
+
+/*
+    ANALYSIS
+    Right-side
+ */
+
+#analysis {
+    left: 50vw;
+    top: 0;
+    overflow-y: scroll;
+    font-family: "Roboto Mono", monospace;
+    font-size: 1em;
+}
+
+#analysis p:nth-child(even) {
+    background-color: whitesmoke;
+}
+
+#analysis p {
+    padding: 3px;
+}
+
+p {
+    margin: 0;
+}
+
+#analysis p {
+    display: flex;
+    justify-content: space-between;
+}
+
+.property {
+    font-weight: 300;
+    font-size: 0.8em;
+    margin-right: 15px;
+}
+
+.value {
+    font-weight: bold;
+    text-align: right;
+}

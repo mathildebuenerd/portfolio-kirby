@@ -1,0 +1,175 @@
+/*Reset*/
+
+body {
+    margin: 0; /*reset*/
+    overflow-x: hidden; /* avoid unintentional horizontal scrolling */
+}
+
+* {
+    font-family: "Work Sans", "Helvetica", "Arial", sans-serif;
+    box-sizing: border-box;
+}
+
+/* TYPOGRAPHY */
+
+
+p {
+    font-weight: lighter;
+    line-height: 1.5;
+    font-size: 1.2em;
+    font-smooth:always;
+    -webkit-font-smooth:always;
+    -moz-font-smooth:always;
+}
+
+h1 {
+    color: white;
+    font-weight: 200;
+    text-align: center;
+    font-size: 8em;
+}
+
+#slogan {
+    font-size: 0.5em;
+}
+
+h2, h3 {
+    font-weight: normal;
+    font-size: 2em;
+}
+
+
+/* HEADER */
+
+header {
+    width: 100vw;
+    height: 800px;
+    padding: 200px;
+    background-image: url(images/mathyas-kurmann-102977.jpg);
+    /*background-color: azure;*/
+    background-size: cover;
+}
+
+header .logo {
+    height: 25px;
+}
+
+header nav {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    top:0;
+    left: 0;
+    width: 100vw;
+    padding: 30px;
+    background-color: white;
+    color: darkgrey;
+    box-shadow: darkgrey 0 0 3px;
+}
+
+header nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0 30px;
+}
+
+header nav ul li a, header nav ul li a:visited {
+    text-transform: none;
+    text-decoration: none;
+    color: grey;
+    margin: 0 20px;
+    font-weight: 200;
+}
+
+header nav button {
+    position: absolute;
+    right: 0;
+    background-color: #0099FF;
+    text-transform: uppercase;
+    height: 100%;
+    color: white;
+    border: none;
+    padding: 0 20px;
+}
+
+header nav button a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.3em;
+}
+
+
+
+/* GENERAL */
+
+section, footer {
+    padding: 100px 200px;
+    display: flex;
+    align-items: center;
+}
+
+section:nth-child(odd) { /*one in two sections have a bit darker background*/
+    background-color: #fbfbfb;
+}
+
+section:nth-child(odd) img, section:nth-child(odd) video {
+    margin-left: 30px;
+}
+
+section:not(#join) video, section img {
+    /*width: 1000px;*/
+    height: 500px;
+}
+
+section:not(#join) div {
+    width: 500px;
+}
+
+/* JOIN IN SECTION */
+
+#join {
+    display: block;
+    text-align: center;
+    font-weight:lighter;
+}
+
+#join h2 {
+    font-weight: 200;
+    font-size: 7em;
+}
+
+#join h3 {
+    font-weight: 200;
+}
+
+#download-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+#download-buttons img {
+    height: 50px;
+    margin: 40px 20px;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #eeeeee;
+    padding: 40px 100px 60px;
+}
+
+footer img { /*logo bbva*/
+    height: 50px;
+    margin: 0;
+}
+
+footer a {
+    margin-left: 100px;
+    color: grey;
+    text-decoration: none;
+}
+
+footer p {
+    font-size: 0.8em;
+}
