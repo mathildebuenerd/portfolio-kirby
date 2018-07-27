@@ -381,6 +381,10 @@ body {
     left: -100%;
     margin-top: -70px;
   }
+  
+  .single-page {
+    width: 80vw;
+  }
 
   .single-project:hover h3 {
     left: 0 !important;
@@ -397,11 +401,21 @@ body {
   .menu {
     left: 20px;
     height: 40px;
+    padding: 0;
   }
 
   .languages {
-    right: 20px !important;
+    right: 0 !important;
     margin-top: -6px !important;
+  }
+  
+  footer .wrap {
+    background-color: white;
+    height: 30px;
+    width: 100vw;
+    position: fixed;
+    bottom: 0;
+    left: 0;
   }
 
   .footer-madewithkirby, #social-media {
@@ -440,8 +454,7 @@ body {
 }
 
 .single-page .text p {
-  /* margin: 0 0 10px 0; */
-  /* margin-bottom: 10px; */
+    line-height: 1.5;
 }
 
 .single-page .text p + h1::before  {

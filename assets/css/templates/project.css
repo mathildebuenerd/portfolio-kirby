@@ -120,8 +120,8 @@ body {
         width: 100vw;
     }
     .text-content {
-        left: 50px !important;
-        width: 70vw !important;
+        left: 10vw !important;
+        width: 80vw !important;
     }
 
     .text-content h1 {
@@ -156,6 +156,10 @@ body {
         width: 60px;
         box-sizing: border-box;
         font-size: 1.2em !important;
+    }
+
+    .allimages figure img {
+        object-fit: contain;
     }
 
 }
