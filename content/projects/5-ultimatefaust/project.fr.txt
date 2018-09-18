@@ -1,0 +1,55 @@
+Title: ultimateFaust
+
+----
+
+Year: 
+
+----
+
+Smalldescription: Un livre généré à partir d'éditions de Faust extraite de la collection Bodmer
+
+----
+
+Tags: generative book,processing,bodmerlab,hybrid,digitalization
+
+----
+
+Categories: graphicDesign, publishing
+
+----
+
+Thematics: writing
+
+----
+
+Maindescription:
+
+La collection Bodmer abrite plusieurs centaines d’éditions du Faust de Goethe. Puisant dans cette longue liste, ultimateFaust en reprend des éléments qui caractérisent chaque exemplaire : les titres, la pagination, les ornements, etc.
+
+Le mythe de Faust, cher à Martin Bodmer, raconte l’histoire d’un homme qui cherche à atteindre la connaissance universelle, au point de vendre son âme au Diable. De la même manière, notre intention est de réunir les richesses de chaque ouvrage en un seul volume. Ce projet représente la Biblioteca Bodmeriana dans sa variété et dans son ambition.
+
+Ce projet a été réalisé par Nicolas Baldran, David Héritier et moi-même, dans le cadre d'une collaboration entre le BodmerLab et la HEAD - Genève.
+
+----
+
+Website:
+
+----
+
+Press:
+
+-
+  newspaper: Fondation Bodmer
+  url: >
+    https://www.facebook.com/mythn.ch/posts/1869903126668682
+  language: french
+  ceci: dsfds
+  artcl: Cérémonie de remise du livre
+
+----
+
+Misc: 
+
+----
+
+Video: 

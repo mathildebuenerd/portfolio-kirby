@@ -10,7 +10,7 @@ Text:
 
 Mathilde Buenerd is an interaction designer and artist whose work explores the connections between language, algorithms and social relationships. Her work embodies various forms like mobile apps, web extensions, connected devices or generative art. Her main interest lies in how technologies could permit alien ways of looking at things. 
 After studying graphic design and media art, she obtained a master's degree in interaction design from the Geneva School of Art and Design (HEAD). 
-Her work and lectures have been presented in events and institutions such as Fondation Vasarely (Aix-en-Provence), Lift Conference (Geneva), Design Junior Research Conference (Zürich), Ludicious (Zürich), Fondation Martin Bodmer (Geneva), Eniarof, GSGS (Neuchâtel).
+Her work and lectures have been presented in events and institutions such as Fak'ugesi Digital Residency (Johannesburg), Fondation Vasarely (Aix-en-Provence), Lift Conference (Geneva), Design Junior Research Conference (Zürich), Ludicious (Zürich), Maker Faire (Grenoble), Freeson (Avignon), Eniarof, Fondation Martin Bodmer (Geneva), GSGS (Neuchâtel).
 
 
 \-----
@@ -21,13 +21,24 @@ Her work and lectures have been presented in events and institutions such as Fon
 _Optimized talk : what future for digital personal assistants?_, GSGS 2018 Proceeding book.
 
 
-## Mentions
-« Transmissions de données », Sandra Chamaret & Loïc Horellou, [Back Office n°2 : Design graphique et pratiques numériques](https://editions-b42.com/produit/back-office-n2/), avril 2018. (ultimateFaust)
+## Press
+
+[_Meet the Artists of the 2018 Trans-continental Fak’ugesi African Digital Residency_](https://bubblegumclub.co.za/art-and-culture/meet-the-artists-of-the-2018-trans-continental-fakugesi-african-digital-residency/), Bubble Gum Club South Africa, 08.2018.
+
+« Transmissions de données », Sandra Chamaret & Loïc Horellou, [Back Office n°2 : Design graphique et pratiques numériques](https://editions-b42.com/produit/back-office-n2/), 04.2018. (ultimateFaust)
 
 [_Flirt Coach : Ledernippel machen dich zum Verführer_](http://www.tilllate.com/de/story/new-pretender), Tillate (20 Minuten), (New Pretender)
 
 
 ## Talks
-_How autocompletion is going to change the awy we interact with each other ?_, [Junior Design Research Conference](https://blog.zhdk.ch/erkenntnisvisualisierung/files/2017/11/JRC_2017_Programme-2.jpg), november 10th 2017, ZHDK (Zürich). [Slides](https://www.slideshare.net/MathildeBuenerd/conversing-in-the-era-of-autocomplete).
 
-_Optimized talk : what future for digital personal assistants?_, GSGS 2018, NIFFF (Neuchâtel).
+_Introducing Chili Design_, [Fak’ugesi Talks: Premonition and Digital Imaginaries](http://fakugesi.co.za/event/fakugesi-talks-premonition-digital-imaginaries/), 06.09.2018. Johannesburg (South Africa). [Slides](https://fr.slideshare.net/MathildeBuenerd/introducing-chili-design-fakugesi-talks).
+
+_Optimized talk : what future for digital personal assistants?_, GSGS'18, 06.06.2018 NIFFF (Neuchâtel). *(video about to come)*
+
+_How autocompletion is going to change the way we interact with each other ?_, [Junior Design Research Conference](https://blog.zhdk.ch/erkenntnisvisualisierung/files/2017/11/JRC_2017_Programme-2.jpg), 10.11.2017, ZHDK (Zürich). [Slides](https://www.slideshare.net/MathildeBuenerd/conversing-in-the-era-of-autocomplete).
+
+
+
+## CV
+[English CV](http://www.chilidesign.fr/cv2018-09-en.pdf) *last update 18.09.2018*

@@ -10,6 +10,8 @@ mathilde[dot]buenerd[at]gmail[dot]com
 
 Ce site n'utilise pas de tracker ou de service d'analyse d'audience. En revanche, si vous souhaitez m'indiquer que vous êtes passé sur le site, je vous invite à remplir [ce formulaire](https://docs.google.com/forms/d/e/1FAIpQLSeYAobi-gwHL5g85EXXJA_w-Ps1TZ0UEEIeDXuv4IW-5_xvcQ/viewform).
 
+Design et développement du site par Mathilde Buenerd, avec [Kirby](https://getkirby.com/).
+
 ----
 
 Intro: 

@@ -1,0 +1,47 @@
+Title: Jouska
+
+----
+
+Year: 2018
+
+----
+
+Smalldescription: Jouska is a speculative design project exploring the future of sentiment analysis.
+
+----
+
+Tags: sentiment analysis,conversation,quantified-self
+
+----
+
+Categories: fictionDesign, interactionDesign
+
+----
+
+Thematics: writing, talking, socialHacking
+
+----
+
+Maindescription: 
+
+The project focuses on an app, imagined in a near future, that collects and analyzes the user’s text messages, and give him an emotional feedback. The app allows users to have a better understanding of the way they talk, and in the end, of one of the others. This way, they can develop a form of immunity at targeted solicitations from advertisers, politicians, or noxious relations.
+
+<div class="videoWrapper">
+<iframe src="https://player.vimeo.com/video/276232389" allowfullscreen></iframe>
+</div>
+
+----
+
+Website: 
+
+----
+
+Press: 
+
+----
+
+Video: https://vimeo.com/276232389
+
+----
+
+Misc: 

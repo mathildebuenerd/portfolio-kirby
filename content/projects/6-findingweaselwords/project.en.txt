@@ -1,0 +1,41 @@
+Title: findingweaselwords
+
+----
+
+Year: 2016
+
+----
+
+Smalldescription: A web extension allowing you to identify the weasel words hidden in the articles you read online.
+
+----
+
+Tags: web extension,fake news
+
+----
+
+Categories: web, datavis
+
+----
+
+Thematics: rhetorics, democracy
+
+----
+
+Maindescription: Numerically vague expressions, adverbs that weaken, use of passive voice... Politicians and journalists can use a lot of these writing techniques to make their intention more attractive, less disturbing. The purpose of findingweaselwords is to permit people to see and become more aware of those weasel words, that is, equivocal words. The extension also give statistic feedback, which can be useful for comparing two speeches for example.
+
+----
+
+Website: http://alternative.mathildebuenerd.fr/weaselwords/
+
+----
+
+Press: 
+
+----
+
+Misc: 
+
+----
+
+Video: 
