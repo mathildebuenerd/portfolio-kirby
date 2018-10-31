@@ -44,11 +44,32 @@
             </div>
 
             <div class="external-links">
+
+                <!-- Website -->
+
                 <?php if ($page->website()->isNotEmpty()): ?>
                     <div class="website">
                         <a href="<?= $page->website() ?>" target="_blank">website</a>
                     </div>
                 <?php endif ?>
+
+                <!-- Video -->
+
+                <?php if ($page->video()): ?>
+                    <div class="video">
+                        <a href="<?= $page->video() ?>" target="_blank">video</a>
+                    </div>
+                <?php endif ?>
+
+                <!-- Other links -->
+
+                <div class="other-links">
+                    <?php foreach($page->links()->yaml() as $links): ?>
+                        <div class="single-link">
+                            <a href="<?= $links['url']?>" class="single-link-label" target="_blank"><?= $links['type'] ?></a>
+                        </div>
+                    <?php endforeach ?>
+                </div>
 
 
 

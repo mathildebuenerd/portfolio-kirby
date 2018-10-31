@@ -77,6 +77,11 @@ fields:
       type: url
       width: 1
 
+  video:
+    label: Video
+    type: url
+    width: 1/2
+
   press:
       label: Press
       type: structure
@@ -95,10 +100,18 @@ fields:
             label: Name of article
             value: text
 
-  video:
-        label: Video
-        type: url
-        width: 1/2
+  links:
+      label: Additional links
+      type: structure
+      width: 1/2
+      fields:
+        type:
+          label: Type
+          type: text
+        url:
+          label: Lien
+          type: url
+
 
   misc:
       label: Other...
