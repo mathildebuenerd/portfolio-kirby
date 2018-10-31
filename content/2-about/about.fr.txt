@@ -45,4 +45,4 @@ _How autocompletion is going to change the way we interact with each other ?_, J
 
 
 ## CV
-<a href="http://www.chilidesign.fr/cv2018-09-en.pdf" target="_blank">English CV</a> *last update 18.09.2018*
+<a href="http://www.chilidesign.fr/cv2018.10.31-en.pdf" target="_blank">English CV</a> *last update 31.10.2018*
