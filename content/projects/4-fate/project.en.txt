@@ -1,0 +1,57 @@
+Title: Fate
+
+----
+
+Year: 2017
+
+----
+
+Smalldescription: An interactive story popularizing sociological concepts related to social determinism.
+
+----
+
+Tags: narration,interactive story
+
+----
+
+Categories: game, interactionDesign
+
+----
+
+Thematics: socialHacking
+
+----
+
+Maindescription: 
+
+Based on a non-linear scenario, Fate is an interactive story confronting the player with ordinary, curious or wild choices. These apparently mundane decisions will eventually affect him at an economic, social, family or professional level. The game puts the protagonist into a world that is unpredictable, unexpected and often unfair. During his experience, he will discover complex sociological concepts such as homogamy or peer pressure.
+
+The game was realised with Richard Marion, PhD doctorate in Sociology.
+
+<div class="videoWrapper">
+<iframe src="https://player.vimeo.com/video/252514133" allowfullscreen></iframe>
+</div>
+
+----
+
+Website: 
+
+----
+
+Press: 
+
+----
+
+Video: https://vimeo.com/252514133
+
+----
+
+Misc: 
+
+----
+
+Links: 
+
+- 
+  type: Téléchargement
+  url: https://thomasberard.itch.io/fate
