@@ -1,9 +1,0 @@
-Caption: 
-
-----
-
-Alttext: Screenshot of findingweaselwords running in the browser
-
-----
-
-Source: 
