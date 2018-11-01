@@ -40,8 +40,17 @@ Press:
 
 ----
 
-Video: https://vimeo.com/276232389
+Video: https://bit.ly/JouskaVideo
 
 ----
 
 Misc: 
+
+----
+
+Links: 
+
+- 
+  type: Github
+  url: >
+    https://github.com/mathildebuenerd/jouska-v2

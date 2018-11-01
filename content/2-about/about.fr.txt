@@ -33,7 +33,7 @@ _Optimized talk : what future for digital personal assistants?_, GSGS 2018 Proce
 
 ## Talks
 
-_Design d'interaction, Humour & Intelligence artificielle, _Humours numériques, Le numérique n'est-il qu'une grosse blague ?_ Bibliothèques de Genève. 18.10.2018. <a href="https://fr.slideshare.net/MathildeBuenerd/design-dinteraction-humour-intelligence-artificielle-121291106" target="_blank">Slides</a>.
+Design d'interaction, Humour & Intelligence artificielle, _Humours numériques, Le numérique n'est-il qu'une grosse blague ?_ Bibliothèques de Genève. 18.10.2018. <a href="https://fr.slideshare.net/MathildeBuenerd/design-dinteraction-humour-intelligence-artificielle-121291106" target="_blank">Slides</a>.
 
 
 _Introducing Chili Design_, Fak’ugesi Talks: Premonition and Digital Imaginaries, 06.09.2018. Johannesburg (South Africa). <a href="https://fr.slideshare.net/MathildeBuenerd/introducing-chili-design-fakugesi-talks" target="_blank">Slides</a>.
