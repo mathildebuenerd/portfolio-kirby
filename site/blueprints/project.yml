@@ -23,10 +23,8 @@ fields:
   featuredProject:
     label: Featured Project
     required: true
-    type: radio
-    options:
-      yes: Oui
-      no: Non
+    type: toggle
+    text: yes/no
 
   title:
     label: Title

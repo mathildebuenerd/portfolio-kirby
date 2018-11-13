@@ -212,3 +212,36 @@ nav ul {
     font-size: 1.5em;
     font-style: italic;
 }
+
+
+/*******
+
+    Preview Projects
+
+*******/
+
+/*******
+    Featured Projects
+*******/
+
+#featured-projects .single-project a {
+    display: flex;
+}
+
+#featured-projects .single-project:nth-child(odd) a {
+    flex-direction: row-reverse;
+}
+
+#featured-projects .project-main-image, #featured-projects .project-description {
+    width:50%;
+    height: 50vh;
+}
+
+#featured-projects .project-main-image {
+    overflow: hidden;
+}
+
+
+/*******
+    Other Projects
+*******/

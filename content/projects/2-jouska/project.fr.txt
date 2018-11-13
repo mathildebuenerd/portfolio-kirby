@@ -54,3 +54,23 @@ Links:
   type: Github
   url: >
     https://github.com/mathildebuenerd/jouska-v2
+
+----
+
+Featuredproject: true
+
+----
+
+Illustration-0: 
+
+----
+
+Description-1: 
+
+----
+
+Illustration-1: 
+
+----
+
+Description-2: 
