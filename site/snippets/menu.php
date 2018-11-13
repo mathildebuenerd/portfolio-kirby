@@ -1,5 +1,21 @@
-<nav class="navigation column">
-  <ul class="menu">
+
+<nav id="nav-social-media">
+    <ul id="list-social-media">
+        <li class="single-social-link">
+            <a target="_blank" href="https://twitter.com/mathildebuenerd">twitter</a>
+        </li>
+        <li class="single-social-link">
+            <a target="_blank" href="https://twitter.com/mathildebuenerd">github</a>
+        </li>
+        <li class="single-social-link">
+            <a target="_blank" href="https://www.linkedin.com/in/mathilde-buenerd-9b5585a1/">linkedin</a>
+        </li>
+    </ul>
+</nav>
+
+
+<nav class="navigation column" id="nav-main">
+  <ul>
       <!-- the projects link should be absolute -->
       <li class="menu-item"><a href="<?php echo $site->homePage()->url() ?>">Work</a></li>
     <?php foreach($pages->visible() as $item): ?>
@@ -10,8 +26,8 @@
   </ul>
 </nav>
 
-<nav class="languages">
-  <ul>
+<nav id="nav-languages">
+  <ul id="list-languages">
     <?php foreach($site->languages() as $language): ?>
     <li<?php e($site->language() == $language, ' class="active"') ?>>
       <a href="<?= $page->url($language->code()) ?>">

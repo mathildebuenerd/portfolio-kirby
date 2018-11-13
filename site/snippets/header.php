@@ -2,13 +2,13 @@
 <html lang="<?= site()->language() ? site()->language()->code() : 'en' ?>">
 <head>
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
 
-  <title><?= $site->title()->html() ?> | <?= $page->title()->html() ?></title>
-  <meta name="description" content="<?= $site->description()->html() ?>">
+    <title><?= $site->title()->html() ?> | <?= $page->title()->html() ?></title>
+    <meta name="description" content="<?= $site->description()->html() ?>">
 
-<!--    Balises réseaux sociaux   -->
+    <!--    Balises réseaux sociaux   -->
 
     <meta property="og:title" content="Chili Design - Mathilde Buenerd"/>
     <meta property="og:type" content="website"/>
@@ -24,9 +24,9 @@
     <meta name="twitter:creator" content="@mathildebuenerd">
     <meta name="twitter:image" content="http://www.chilidesign.fr/preview-social.jpg">
 
-  <?= css('assets/css/mystyle.css') ?>
+    <?= css('assets/css/mystyle.css') ?>
 
-<!--    include jquery and jquery ui -->
+    <!--    include jquery and jquery ui -->
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
     <script>
@@ -36,7 +36,7 @@
         });
     </script>
 
-<!--    include p5 library -->
+    <!--    include p5 library -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.16/p5.js"></script>
 
     <script src="https://use.fontawesome.com/e7a889ab23.js"></script>
@@ -45,11 +45,10 @@
 
 <body>
 
-  <header class="header wrap wide">
-    <div class="grid">
+<header class="header wrap wide">
+
+    <!-- Navigation menu -->
+    <?php snippet('menu') ?>
 
 
-      <?php snippet('menu') ?>
-
-    </div>
-  </header>
+</header>

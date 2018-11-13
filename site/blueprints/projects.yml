@@ -11,10 +11,34 @@ options:
   url: false  
 
 fields:
-  title:
-    label: Title
-    type:  text
+  textIntro:
+    label: Introduction/Présentation
+    type: textarea
 
-  text:
-    label: Text
-    type:  textarea
+  textChili:
+    label: Présentation Chili design
+    type: textarea
+
+  bandeauContact:
+    label: Bandeau contact
+    type: textarea
+
+  footer:
+    label: Footer
+    type: headline
+
+  clients:
+    label: clients
+    type: textarea
+    width: 1/3
+
+  contactInfos:
+    label: Contact
+    type: textarea
+    width: 1/3
+
+  aboutMe:
+    label: About me
+    type: textarea
+    width: 1/3
+
