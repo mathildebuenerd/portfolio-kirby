@@ -8,22 +8,26 @@ Text: découvrez mes projets
 
 Textintro: 
 
-Hi! I am a creative technologist exploring our future relationships with AI, such as sentiment analysis or natural language processing.
-UX and UI specialist, I also carry a solid technical background in development and rapid prototyping.
-I use design fiction to provoke conversation around the type of future we want to create.
+Hi! I am a creative technologist exploring __our future relationships with AI__, such as sentiment analysis or natural language processing.
+
+UX and UI specialist, I also carry a **solid technical background** in **development and rapid prototyping.
+
+I use **design fiction** to provoke conversation around **the type of future we want to create**.
 
 ----
 
 Textchili: 
 
-These last months, I have worked on developing principles for the design of automated systems.
-That's what I call chili design, and you can discover it here.
+These last months, I have worked on developing **principles** for the design of **automated systems**.
+
+That's what I call ***chili design***, and you can discover it here.
 
 ----
 
 Bandeaucontact: 
 
 Want to collaborate? To see more? 
+
 Feel free to contact me.
 
 ----

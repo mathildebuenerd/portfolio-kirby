@@ -8,7 +8,6 @@ Year: 2016
 
 Smalldescription: Une extension pour trouver les mots trompeurs dans un article ou un discours politique
 
-
 ----
 
 Tags: web extension,fake news
@@ -25,7 +24,6 @@ Thematics: rhetorics, democracy
 
 Maindescription: findingweaselwords est une extension pour navigateur qui permet de mesurer la fiabilité d’un texte en fonction de la quantité de weasel word utilisée, et de donner un feedback visuel à l’internaute. Les weasel words ont d’habitude un rôle de liant, ils servent à « faire glisser » le propos plus facilement en évitant de rentrer dans des détails problématiques. Le principe est donc de créer une extension qui va rendre rugueux ces mots et expressions, faire en sorte que le lecteur bute dessus et ainsi les décèle facilement.
 
-
 ----
 
 Website: http://alternative.mathildebuenerd.fr/weaselwords/
@@ -41,3 +39,16 @@ Misc:
 ----
 
 Video: 
+
+----
+
+Links: 
+
+- 
+  type: Github
+  url: >
+    https://github.com/mathildebuenerd/weaselwords
+
+----
+
+Featuredproject: no

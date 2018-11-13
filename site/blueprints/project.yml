@@ -20,6 +20,14 @@ files:
 pages: false
 
 fields:
+  featuredProject:
+    label: Featured Project
+    required: true
+    type: radio
+    options:
+      yes: Oui
+      no: Non
+
   title:
     label: Title
     type:  text
@@ -71,6 +79,22 @@ fields:
     label: Main Description
     type:  textarea
     required: true
+
+  illustration_0:
+    label: Illustration 1
+    type:  image
+
+  description_1:
+    label: Description Part 2
+    type: textarea
+
+  illustration_1:
+    label: Illustration 2
+    type:  image
+
+  description_2:
+    label: Description Part 3
+    type: textarea
 
   website:
       label: Website

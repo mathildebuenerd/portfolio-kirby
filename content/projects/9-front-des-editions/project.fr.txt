@@ -24,7 +24,6 @@ Thematics: writing, rhetorics, democracy
 
 Maindescription: Cette maison d’édition fictive rassemble plusieurs petits recueils de poèmes. Ces poèmes ont été écrits par moi-même à partir de bribes assemblées extraites de discours de personnalités politiques françaises comme Marine Le Pen, Jean-Luc Mélenchon ou Nicolas Sarkozy.
 
-
 ----
 
 Website: 
@@ -40,3 +39,11 @@ Misc:
 ----
 
 Video: 
+
+----
+
+Featuredproject: no
+
+----
+
+Links: 

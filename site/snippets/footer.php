@@ -19,7 +19,7 @@
   </footer>
 
 
-  <?php echo js('assets/js/heartcolor.js') ?>
+<!--  --><?php //echo js('assets/js/heartcolor.js') ?>
 <!--  --><?php //echo js('assets/js/fadeIn.js') ?>
 
 

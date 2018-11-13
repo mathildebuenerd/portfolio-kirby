@@ -28,18 +28,20 @@ c::set('languages', array(
   array(
     'code'    => 'en',
     'name'    => 'English',
-    'default' => false,
+    'default' => true,
     'locale'  => 'en_US',
     'url'     => '/en',
   ),
   array(
     'code'    => 'fr',
     'name'    => 'Français',
-    'default' => true,
+    'default' => false,
     'locale'  => 'fr_FR',
     'url'     => '/',
   ),
 ));
+
+c::set('markdown.extra', true);
 
 /*
 

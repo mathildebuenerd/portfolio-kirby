@@ -2,18 +2,15 @@
 
 <main class="main fadeIn" role="main">
 
-    <!-- <div class="wrap wide">
-        <?php snippet('showcase') ?>
-    </div> -->
-
     <!-- Presentation text -->
     <section id="introduction">
-        <?= $page->textIntro() ?>
+            <?= $page->textIntro()->kirbytext() ?>
     </section>
 
     <!-- Presentation of chili design -->
     <section id="chilidesign">
-        <?= $page->textChili() ?>
+        <p><?= $page->textChili()->kirbytext() ?></p>
+
     </section>
 
 

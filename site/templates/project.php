@@ -40,7 +40,7 @@
 
 
             <div class="main-description">
-                <?= $page->maindescription() ?>
+                <?= $page->maindescription()->kirbytext() ?>
             </div>
 
             <div class="external-links">
@@ -89,7 +89,7 @@
             </div>
 
             <div class="misc">
-                <?= $page->misc() ?>
+                <?= $page->misc()->kirbytext() ?>
             </div>
 
 

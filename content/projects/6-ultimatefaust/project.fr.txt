@@ -22,7 +22,7 @@ Thematics: writing
 
 ----
 
-Maindescription:
+Maindescription: 
 
 La collection Bodmer abrite plusieurs centaines d’éditions du Faust de Goethe. Puisant dans cette longue liste, ultimateFaust en reprend des éléments qui caractérisent chaque exemplaire : les titres, la pagination, les ornements, etc.
 
@@ -32,13 +32,13 @@ Ce projet a été réalisé par Nicolas Baldran, David Héritier et moi-même, d
 
 ----
 
-Website:
+Website: 
 
 ----
 
-Press:
+Press: 
 
--
+- 
   newspaper: Fondation Bodmer
   url: >
     https://www.facebook.com/mythn.ch/posts/1869903126668682
@@ -53,3 +53,11 @@ Misc:
 ----
 
 Video: 
+
+----
+
+Featuredproject: no
+
+----
+
+Links: 
