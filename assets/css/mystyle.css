@@ -3,27 +3,27 @@
 *******/
 
 @font-face {
-  font-family: 'Sporting Grotesque_Regular';
-  src:    url('../fonts/Sporting/Regular/Sporting_Grotesque-Regular_web.eot');
-  src:    url('../fonts/Sporting/Regular/Sporting_Grotesque-Regular_web.eot?#iefix') format('embedded-opentype'),
-          url('../fonts/Sporting/Regular/Sporting_Grotesque-Regular_web.woff') format('woff'),
-          url('../fonts/Sporting/Regular/Sporting_Grotesque-Regular_web.woff2') format('woff2'),
-          url('../fonts/Sporting/Regular/Sporting_Grotesque-Regular_web.ttf') format('truetype'),
-          url('../fonts/Sporting/Regular/Sporting_Grotesque-Regular_web.svg#svgFontName') format('svg');
-  font-weight: normal;
-  font-style: normal;
+    font-family: 'Sporting Grotesque_Regular';
+    src:    url('../fonts/Sporting/Regular/Sporting_Grotesque-Regular_web.eot');
+    src:    url('../fonts/Sporting/Regular/Sporting_Grotesque-Regular_web.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Sporting/Regular/Sporting_Grotesque-Regular_web.woff') format('woff'),
+    url('../fonts/Sporting/Regular/Sporting_Grotesque-Regular_web.woff2') format('woff2'),
+    url('../fonts/Sporting/Regular/Sporting_Grotesque-Regular_web.ttf') format('truetype'),
+    url('../fonts/Sporting/Regular/Sporting_Grotesque-Regular_web.svg#svgFontName') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
-  font-family: 'Sporting Grotesque_Bold';
-  src:    url('../fonts/Sporting/Bold/Sporting_Grotesque-Bold_web.eot');
-  src:    url('../fonts/Sporting/Bold/Sporting_Grotesque-Bold_web.eot?#iefix') format('embedded-opentype'),
-          url('../fonts/Sporting/Bold/Sporting_Grotesque-Bold_web.woff') format('woff'),
-          url('../fonts/Sporting/Bold/Sporting_Grotesque-Bold_web.woff2') format('woff2'),
-          url('../fonts/Sporting/Bold/Sporting_Grotesque-Bold_web.ttf') format('truetype'),
-          url('../fonts/Sporting/Bold/Sporting_Grotesque-Bold_web.svg#svgFontName') format('svg');
-  font-weight: normal;
-  font-style: normal;
+    font-family: 'Sporting Grotesque_Bold';
+    src:    url('../fonts/Sporting/Bold/Sporting_Grotesque-Bold_web.eot');
+    src:    url('../fonts/Sporting/Bold/Sporting_Grotesque-Bold_web.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Sporting/Bold/Sporting_Grotesque-Bold_web.woff') format('woff'),
+    url('../fonts/Sporting/Bold/Sporting_Grotesque-Bold_web.woff2') format('woff2'),
+    url('../fonts/Sporting/Bold/Sporting_Grotesque-Bold_web.ttf') format('truetype'),
+    url('../fonts/Sporting/Bold/Sporting_Grotesque-Bold_web.svg#svgFontName') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 
 
@@ -33,17 +33,17 @@
 *******/
 
 body {
-  margin: 0;
-  overflow-x: hidden;
-  font-family: "Roboto", "Helvetica", sans-serif;
+    margin: 0;
+    overflow-x: hidden;
+    font-family: "Roboto", "Helvetica", sans-serif;
 }
 
 ul li {
-  list-style-type: none;
+    list-style-type: none;
 }
 
 ul {
-  padding: 0;
+    padding: 0;
 }
 
 
@@ -51,6 +51,15 @@ ul {
     GENERAL
 *******/
 
+/*dégradé*/
+
+#introduction, #chilidesign p, #contact-me {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#05abe0+0,0000ff+79 */
+    background: rgb(5,171,224); /* Old browsers */
+    background: -moz-linear-gradient(-45deg, rgb(5,171,224) 0%, rgb(0,0,255) 79%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, rgb(5,171,224) 0%,rgb(0,0,255) 79%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, rgb(5,171,224) 0%,rgb(0,0,255) 79%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
 
 
 /*******
@@ -66,85 +75,90 @@ ul {
 *******/
 
 nav {
-  background-color: white;
-  padding: 25px;
-  position: fixed;
-  z-index: 99;
-  box-sizing: border-box;
+    background-color: white;
+    padding: 25px;
+    position: fixed;
+    z-index: 99;
+    box-sizing: border-box;
 }
 
 nav a, nav a:visited {
-  text-decoration: none;
-  color: black;
-  padding: 5px 0;
+    text-decoration: none;
+    color: black;
+    padding: 5px 0;
 }
 
 nav a:hover {
-  border-bottom: 2px solid black;
+    border-bottom: 2px solid black;
 }
 
 nav ul {
-  display: flex;
-  margin: 0;
+    display: flex;
+    margin: 0;
 }
 
 #list-languages, #list-social-media {
-  width: 15px;
+    width: 15px;
 }
 
 /*Menu principal*/
 #nav-main {
-  width: 100%;
-  display: flex;
-  justify-content: right;
+    width: 100%;
+    display: flex;
+    justify-content: right;
 }
 
 
 #nav-main .menu-item:not(:first-child) {
-  padding: 0 0 0 15px;
+    padding: 0 0 0 15px;
 }
 
 #nav-main .menu-item:last-child {
-  padding-right: 40px; /* pour compenser la barre de menu à droite */
+    padding-right: 40px; /* pour compenser la barre de menu à droite */
 }
 
 /*Menu lang*/
 #nav-languages {
-  height: 100vh;
-  box-sizing: border-box;
-  right: 0;
-  display: flex;
-  align-items: flex-end;
+    height: 100vh;
+    box-sizing: border-box;
+    right: 0;
+    display: flex;
+    align-items: flex-end;
 }
 
 #list-languages {
-  /*On pourrait écrire le texte en vertical mais la compatibilité n'est pas top*/
-  /*writing-mode: vertical-rl;*/
-  /*text-orientation: mixed;*/
-  width: 15px;
-  transform: rotate(90deg) translate(-200%);
-  text-transform: uppercase;
+    /*On pourrait écrire le texte en vertical mais la compatibilité n'est pas top*/
+    /*writing-mode: vertical-rl;*/
+    /*text-orientation: mixed;*/
+    width: 15px;
+    transform: rotate(90deg) translate(-200%);
+    text-transform: uppercase;
 }
 
 #list-languages li:not(:last-child) {
-  margin-right: 10px;
+    margin-right: 10px;
 }
 
 /*Menu social media*/
 #nav-social-media {
-  height: 100vh;
-  box-sizing: border-box;
-  left: 0;
-  display: flex;
-  align-items: flex-end;
+    height: 100vh;
+    box-sizing: border-box;
+    left: 0;
+    display: flex;
+    align-items: flex-end;
 }
 
 #list-social-media {
-  transform: rotate(-90deg);
+    transform: rotate(-90deg);
 }
 
 #list-social-media li:not(:last-child) {
-  margin-right: 25px;
+    margin-right: 25px;
+}
+
+.single-social-link {
+    position: relative;
+    z-index: 101;
 }
 
 
@@ -167,14 +181,9 @@ nav ul {
 *******/
 
 #introduction {
-  height: 100vh;
-  color: white;
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#05abe0+0,0000ff+79 */
-  background: rgb(5,171,224); /* Old browsers */
-  background: -moz-linear-gradient(-45deg, rgb(5,171,224) 0%, rgb(0,0,255) 79%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(-45deg, rgb(5,171,224) 0%,rgb(0,0,255) 79%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(135deg, rgb(5,171,224) 0%,rgb(0,0,255) 79%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#05abe0', endColorstr='#0000ff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    height: 100vh;
+    color: white;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#05abe0', endColorstr='#0000ff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
 #introduction p::selection {
@@ -194,10 +203,6 @@ nav ul {
 
 /* On a un dégradé inscrusté dans le texte*/
 #chilidesign p {
-    background: rgb(5,171,224); /* Old browsers */
-    background: -moz-linear-gradient(-45deg, rgb(5,171,224) 0%, rgb(0,0,255) 79%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(-45deg, rgb(5,171,224) 0%,rgb(0,0,255) 79%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(135deg, rgb(5,171,224) 0%,rgb(0,0,255) 79%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -220,28 +225,170 @@ nav ul {
 
 *******/
 
+.project-main-image {
+    overflow: hidden;
+}
+
+.project-main-image img {
+    object-fit: cover;
+    object-position: center;
+}
+
+/* Typography of the captions*/
+
+.project-title a, .project-title a:visited {
+    color: blue;
+    text-decoration: none;
+    font-family: "Sporting Grotesque_Regular", "Helvetica", sans-serif;
+}
+
+.project-description .categories {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: lightgrey;
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+
+.project-description .categories span:not(:last-child) {
+    margin-right: 10px;
+}
+
+.project-short-description {
+    color: #333;
+    line-height: 1.4;
+    font-size: 1.1em;
+    margin-top: 0;
+}
+
+.project-read-more a {
+    text-decoration: none;
+    color: lightgrey;
+    text-transform: uppercase;
+}
+
 /*******
     Featured Projects
 *******/
 
-#featured-projects .single-project a {
+#featured-projects .single-project {
     display: flex;
+    height: 50vh;
+    padding: 0 65px 0 70px; /* pour compenser les bordures sur les côtés*/
 }
 
-#featured-projects .single-project:nth-child(odd) a {
+#featured-projects .single-project:nth-child(odd) {
     flex-direction: row-reverse;
+    justify-content: space-between;
 }
 
 #featured-projects .project-main-image, #featured-projects .project-description {
     width:50%;
     height: 50vh;
+    box-sizing: border-box;
 }
 
-#featured-projects .project-main-image {
-    overflow: hidden;
+
+
+#featured-projects .project-main-image img {
+    transition: 0.5s;
+}
+
+#featured-projects .single-project a:hover img {
+    opacity: 0.7;
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+#featured-projects .project-main-image img {
+    height: 50vh;
+    max-width: 50vw; /* pour que la propriété object-position fonctionne à peu près*/
+}
+
+#featured-projects .project-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 60px;
+    max-width: 500px;
+}
+
+#featured-projects .project-title a {
+    font-size: 2em;
 }
 
 
 /*******
     Other Projects
 *******/
+
+#other-projects {
+    padding: 100px 65px 0 70px; /* pour compenser les bordures sur les côtés*/
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1300px;
+}
+
+#other-projects .single-other-project {
+    margin-right: 20px;
+    width: 500px;
+}
+
+#other-projects .project-main-image {
+    margin-bottom: 15px;
+}
+
+#other-projects .project-main-image img {
+    height: 300px;
+    width: 500px;
+}
+
+#other-projects .project-title {
+    font-size: 1.2em;
+    font-weight: normal;
+}
+
+/*******
+    Footer
+*******/
+
+#contact-me {
+    position: relative /* pour que le z-index fonctionne*/;
+    z-index: 100;
+    padding: 50px 100px;
+    margin-top: 100px;
+    color: white;
+    font-family: "Sporting Grotesque_Regular", "Helvetica", sans-serif;
+    font-size: 1.7em;
+}
+
+#contact-me p {
+    margin: 0 10px;
+}
+
+#details-contact {
+    padding: 0 65px 0 70px; /* pour compenser les bordures sur les côtés*/
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#details-contact .single-footer {
+    width: 33%;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+#details-contact .single-footer p {
+    color: #999;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+}
+
+#details-contact h4 {
+    text-transform: uppercase;
+    font-size: 0.9em;
+    font-weight: 600;
+    letter-spacing: 2px;
+}

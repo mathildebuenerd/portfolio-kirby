@@ -1,18 +1,21 @@
   <footer class="footer cf">
 
       <section id="contact-me">
-          <?= $page->bandeauContact() ?>
+          <?= $page->bandeauContact()->kirbytext() ?>
       </section>
 
       <section id="details-contact">
           <div class="single-footer" id="clients">
-              <?= $page->clients() ?>
+              <h4>I have worked with</h4>
+              <?= $page->clients()->kirbytext() ?>
           </div>
           <div class="single-footer" id="contact-infos">
-              <?= $page->contactInfos() ?>
+              <h4>Contact me</h4>
+              <?= $page->contactInfos()->kirbytext() ?>
           </div>
           <div class="single-footer" id="about-me">
-              <?= $page->aboutMe() ?>
+              <h4>About</h4>
+              <?= $page->aboutMe()->kirbytext() ?>
           </div>
       </section>
 

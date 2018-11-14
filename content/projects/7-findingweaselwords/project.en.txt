@@ -14,7 +14,7 @@ Tags: web extension,fake news
 
 ----
 
-Categories: web, datavis
+Categories: datavis, web
 
 ----
 

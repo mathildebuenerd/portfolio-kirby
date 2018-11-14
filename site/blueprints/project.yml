@@ -53,14 +53,17 @@ fields:
     label: Categories
     type: checkboxes
     options:
-      web: web
-      game: game
-      iot: iot
-      datavis: datavisualisation
-      fictionDesign: fiction design
-      interactionDesign: interaction design
-      graphicDesign: graphic design
-      publishing: publishing
+      game: Game
+      iot: IoT
+      installation: Intallation
+      datavis: Datavisualisation
+      fictionDesign: Design fiction
+      interactionDesign: Interaction design
+      graphicDesign: Graphic design
+      ux: User Experience
+      ui: User Interface
+      web: Webdesign
+      dev: Development
 
   thematics:
     label: Thematics
