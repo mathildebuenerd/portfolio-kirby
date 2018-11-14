@@ -46,8 +46,8 @@ function calculateHiddenContainerWidth() {
 
     if (window.innerWidth > 767) {
         var hiddenContainer = document.querySelector('#container-for-hiding-scrollbar-project');
-        var leftBar = document.querySelector('.leftbar');
-        var rightBar = document.querySelector('.rightbar');
+        var leftBar = document.querySelector('#nav-languages');
+        var rightBar = document.querySelector('#nav-social-media');
 
         hiddenContainer.style.left = leftBar.offsetWidth;
         hiddenContainer.style.width = window.innerWidth - leftBar.offsetWidth - rightBar.offsetWidth + 'px';

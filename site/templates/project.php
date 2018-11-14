@@ -4,15 +4,6 @@
 
 <main class="main" role="main">
 
-    <header class="wrap">
-
-        <!-- <hr /> -->
-    </header>
-
-    <!--      <section class="arrows">-->
-    <!--          <a id="left-arrow">❮</a>-->
-    <!--          <a id="right-arrow">❯</a>-->
-    <!--      </section>-->
 
     <section class="text wrap">
 
@@ -110,57 +101,40 @@
             </div> <!-- allimages -->
         </div>
 
-        <div class="alltags">
-            <div class="tags">
-                <!-- La fonction split permet de séparer chaque tag -->
-                <?php foreach($page->content()->tags()->split(',') as $tag): ?>
-                    <span>
-          <?php echo html($tag) ?>
-        </span>
-                <?php endforeach ?>
-
-            </div>
-
-            <div class="thematics">
-                <?php foreach($page->content()->thematics()->split(',') as $thematic): ?>
-                    <span>
-          <?php echo html($thematic) ?>
-        </span>
-                <?php endforeach ?>
-            </div>
-
-            <div class="categories">
-                <?php foreach($page->content()->categories()->split(',') as $category): ?>
-                    <span>
-          <?php echo html($category) ?>
-        </span>
-                <?php endforeach ?>
-
-            </div>
-        </div>
+<!--        <div class="alltags">-->
+<!--            <div class="tags">-->
+<!--                <!-- La fonction split permet de séparer chaque tag -->-->
+<!--                --><?php //foreach($page->content()->tags()->split(',') as $tag): ?>
+<!--                    <span>-->
+<!--          --><?php //echo html($tag) ?>
+<!--        </span>-->
+<!--                --><?php //endforeach ?>
+<!---->
+<!--            </div>-->
+<!---->
+<!--            <div class="thematics">-->
+<!--                --><?php //foreach($page->content()->thematics()->split(',') as $thematic): ?>
+<!--                    <span>-->
+<!--          --><?php //echo html($thematic) ?>
+<!--        </span>-->
+<!--                --><?php //endforeach ?>
+<!--            </div>-->
+<!---->
+<!--            <div class="categories">-->
+<!--                --><?php //foreach($page->content()->categories()->split(',') as $category): ?>
+<!--                    <span>-->
+<!--          --><?php //echo html($category) ?>
+<!--        </span>-->
+<!--                --><?php //endforeach ?>
+<!---->
+<!--            </div>-->
+<!--        </div>-->
 
     </section>
-
-    <!--    <section id="social-media">-->
-    <!--        <a href="https://www.instagram.com/mathildebuenerd" target="_blank">-->
-    <!--            <i class="fa fa-instagram"></i>-->
-    <!--        </a>-->
-    <!--        <a href="https://twitter.com/mathildebuenerd" target="_blank">-->
-    <!--            <i class="fa fa-twitter"></i>-->
-    <!--        </a>-->
-    <!--        <a href="https://github.com/mathildebuenerd" target="_blank">-->
-    <!--            <i class="fa fa-github"></i>-->
-    <!--        </a>-->
-    <!--    </section>-->
-
-
-    <aside class="rightbar"></aside>
-
-    <?php snippet('prevnext') ?>
 
 </main>
 
 <?php echo js('assets/js/templates/project.js') ?>
-<?php snippet('footer') ?>
+<?php //snippet('footer') ?>
 
 
