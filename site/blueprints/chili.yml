@@ -1,0 +1,19 @@
+title: Project
+
+
+fields:
+  chiliDefinitionTitle:
+    label: What is chili design - title
+    type: text
+
+  chiliDefinition:
+    label: What is chili design - text
+    type: textarea
+
+  chiliPrinciplesTitle:
+    label: Principles - title
+    type: text
+
+  chiliPrinciples:
+    label: Principles - text
+    type: textarea

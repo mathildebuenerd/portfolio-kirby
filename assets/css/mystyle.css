@@ -398,6 +398,58 @@ nav ul {
 }
 
 
+
+/******
+
+    SINGLE PAGES
+    About & Chili design
+
+*******/
+
+.single-page {
+    padding: 100px;
+}
+
+.single-page h1 {
+    font-family: "Sporting Grotesque_Regular", "Helvetica", sans-serif;
+}
+
+.single-page header h1 {
+    font-size: 4em;
+}
+
+.single-page header hr {
+    width: 50px;
+    border: none;
+    border-bottom: 4px solid black;
+    margin: 0;
+}
+
+.single-page .text h1 {
+    margin-top: 60px;
+}
+
+.single-page p {
+    width: 90%;
+    max-width: 650px;
+    font-size: 1.2em;
+    line-height: 1.3;
+}
+
+#chili-principles h1 {
+    margin-top: 0;
+}
+#chili-principles {
+    padding: 1px 0 20px 50px;
+    border-left: 10px solid blue;
+    margin-left: 15px;
+    margin-top: 70px;
+}
+
+
+
+
+
 @media (max-width: 1200px) {
     #introduction, #chilidesign {
         font-size: 2em;
