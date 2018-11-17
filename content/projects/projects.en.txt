@@ -20,7 +20,7 @@ Textchili:
 
 These last months, I have worked on developing **principles** for the design of **automated systems**.
 
-That's what I call [***chili design***](chili), and you can [discover it here](chili).
+That's what I call ***chili&nbsp;design***, and you can [discover it here](chili).
 
 ----
 
@@ -28,11 +28,19 @@ Bandeaucontact:
 
 Want to collaborate? To see more? 
 
-Feel free to contact me.
+Feel free to  [contact me](http://www.chilidesign.fr/en/contact).
 
 ----
 
 Clients: 
+
+Pro Helvetia Johannesburg
+BBVA Data & Analytics
+MUCeM
+Fondation Vasarely
+Fondation Martin Bodmer
+FRAC PACA
+Museomix
 
 ----
 
@@ -43,4 +51,24 @@ mathilde dot buenerd at gmail dot com
 
 ----
 
-Aboutme: I am currently based in Johannesburg, open to any freelance or full-time opportunity. Not afraid to lay down my hat in any place in the world if your exciting project requires it :)
+Aboutme: I am currently available for a freelance mission or a full-time opportunity. Not afraid to lay down my hat in any place in the world if your exciting project requires it :)
+
+----
+
+Clientstitle: I have worked with
+
+----
+
+Contactinfostitle: Contact
+
+----
+
+Abouttitle: About
+
+----
+
+Titlefeaturedprojects: Projects
+
+----
+
+Titleotherprojects: Other projects

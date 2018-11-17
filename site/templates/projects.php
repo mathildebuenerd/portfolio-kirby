@@ -19,6 +19,8 @@
 
         <section id="featured-projects">
 
+            <h2 id="main-projects" class="title-projects"><?= $page->titleFeaturedProjects()->kirbytextRaw() ?></h2>
+
             <?php foreach ($page->children() as $subpage): ?>
                 <?php if ($subpage->content()->featuredProject()->isTrue()): ?>
                     <article class="single-project" id="<?php echo html($subpage->slug()) ?>">
@@ -83,6 +85,8 @@
 
         <section id="other-projects">
 
+            <h2 id="other-projects-title" class="title-projects"><?= $page->titleOtherProjects()->kirbytextRaw() ?></h2>
+
             <?php foreach ($page->children() as $subpage): ?>
                 <?php if ($subpage->content()->featuredProject()->isFalse()): ?>
                     <article class="single-other-project" id="<?php echo html($subpage->slug()) ?>">
@@ -142,7 +146,6 @@
                     </article>
                 <?php endif ?>
             <?php endforeach ?>
-
         </section>
 
     </section>

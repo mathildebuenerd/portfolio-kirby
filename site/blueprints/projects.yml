@@ -23,12 +23,38 @@ fields:
     label: Bandeau contact
     type: textarea
 
+  titleFeaturedProjects:
+    label: Titre projets mis en avant
+    type: text
+    width: 1/2
+
+  titleOtherProjects:
+    label: Titre autres projets
+    type: text
+    width: 1/2
+
+
   footer:
     label: Footer
     type: headline
 
+  clientsTitle:
+    label: Clients - titre
+    type: text
+    width: 1/3
+
+  contactInfosTitle:
+    label: Contact - titre
+    type: text
+    width: 1/3
+
+  aboutTitle:
+    label: A propos - titre
+    type: text
+    width: 1/3
+
   clients:
-    label: clients
+    label: Clients
     type: textarea
     width: 1/3
 
@@ -38,7 +64,7 @@ fields:
     width: 1/3
 
   aboutMe:
-    label: About me
+    label: A propos
     type: textarea
     width: 1/3
 

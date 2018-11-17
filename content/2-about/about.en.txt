@@ -71,7 +71,7 @@ Talktitle: Talks
 
 Publications: 
 
-<a href="memoire/Converser%20%C3%A0%20l'%C3%A8re%20de%20l'autocompl%C3%A9tion.pdf" target="_blank">Converser à l'ère de l'autocomplétion</a>, master thesis, soutenue le 15 mars 2018. Master Media design, HEAD - Genève.
+<a href="memoire/converser-a-l-ere-de-l-autocompletion-mathilde-buenerd.pdf" target="_blank">Converser à l'ère de l'autocomplétion</a>, master thesis, soutenue le 15 mars 2018. Master Media design, HEAD - Genève.
 
 _Optimized talk : what future for digital personal assistants?_, GSGS 2018 Proceeding book.
 

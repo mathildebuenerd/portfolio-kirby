@@ -12,7 +12,7 @@ Bonjour ! Je suis une creative technologist explorant **nos futures relations av
 
 **Spécialiste UX / UI**, je possède aussi de solides compétences techniques en **développement et prototypage**.
 
-A la fois critique et idéaliste, j'utilise le design fiction pour donner forme à des **futurs alternatifs**.
+À la fois critique et idéaliste, j'utilise le design fiction pour donner forme à des **futurs alternatifs**.
 
 ----
 
@@ -20,15 +20,15 @@ Textchili:
 
 Ces derniers mois, j'ai développé des principes de design d'interaction pour le design de systèmes automatisés.
 
-C'est ce que j'appelle [***design pimenté***](chili) ou [***chili design***](chili). [Découvrez-le ici](chili).
+C'est ce que j'appelle ***design&nbsp;pimenté*** ou ***chili&nbsp;design***. [Découvrez-le ici](chili).
 
 ----
 
 Bandeaucontact: 
 
-Want to collaborate? To see more? 
+Envie de collaborer ? De voir plus de projets ?
 
-Feel free to contact me.
+N'hésitez pas à [me contacter](http://www.chilidesign.fr/contact).
 
 ----
 
@@ -51,4 +51,24 @@ mathilde dot buenerd at gmail dot com
 
 ----
 
-Aboutme: I am currently based in Johannesburg, open to any freelance or full-time opportunity. Not afraid to lay down my hat in any place in the world if your exciting project requires it :)
+Aboutme: Je suis actuellement disponible pour des missions freelance ou un poste à plein temps. Je n'hésiterai pas à poser mes valises dans des contrées éloignées si votre incroyable projet le requiert :)
+
+----
+
+Clientstitle: J'ai travaillé avec eux
+
+----
+
+Contactinfostitle: Contact
+
+----
+
+Abouttitle: À propos
+
+----
+
+Titlefeaturedprojects: Projets
+
+----
+
+Titleotherprojects: Autres projets
