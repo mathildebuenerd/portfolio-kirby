@@ -9,12 +9,12 @@
 
         <div class="text wrap">
             <section id="definition">
-                <h1><?= $page->chiliDefinitionTitle()->kirbytext() ?></h1>
+                <h2><?= $page->chiliDefinitionTitle()->kirbytextRaw() ?></h2>
                 <?= $page->chiliDefinition()->kirbytext() ?>
             </section>
 
             <section id="chili-principles">
-                <h1><?= $page->chiliPrinciplesTitle()->kirbytext() ?></h1>
+                <h2><?= $page->chiliPrinciplesTitle()->kirbytext() ?></h2>
                 <?= $page->chiliPrinciples()->kirbytext() ?>
             </section>
         </div>

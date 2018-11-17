@@ -41,11 +41,11 @@ Chiliprinciplestitle: Principes du chili design
 
 Chiliprinciples: 
 
-## Un objectif : pousser à l’inventivité
+### Un objectif : pousser à l’inventivité
 L'usage des nouvelles technologies ne doit pas se résumer à solutionner des problèmes. Elle peuvent être utilisées pour créer un espace pour la pensée associative et la curiosité
 
-## Une expérience perturbante
+### Une expérience perturbante
 Un système automatisé n’agit pas en arrière-plan. Il pousse l’usager à se dépasser, apprend de lui et lui fait front.
 
-## Une interface visible
+### Une interface visible
 L’interface n’est ni une couche d’embellissement, ni une couche accessoire. Elle doit donner les clés de compréhension du fonctionnement du système.

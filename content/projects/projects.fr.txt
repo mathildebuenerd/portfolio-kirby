@@ -8,19 +8,19 @@ Text: découvrez mes projets
 
 Textintro: 
 
-Hi! I am a creative technologist exploring __our future relationships with AI__, such as sentiment analysis or natural language processing.
+Bonjour ! Je suis une creative technologist explorant **nos futures relations avec l'IA**, telles que l'analyse de sentiment ou les assistants personnels.
 
-UX and UI specialist, I also carry a **solid technical background** in **development and rapid prototyping.
+**Spécialiste UX / UI**, je possède aussi de solides compétences techniques en **développement et prototypage**.
 
-I use **design fiction** to provoke conversation around **the type of future we want to create**.
+A la fois critique et idéaliste, j'utilise le design fiction pour donner forme à des **futurs alternatifs**.
 
 ----
 
 Textchili: 
 
-These last months, I have worked on developing **principles** for the design of **automated systems**.
+Ces derniers mois, j'ai développé des principes de design d'interaction pour le design de systèmes automatisés.
 
-That's what I call ***chili design***, and you can discover it here.
+C'est ce que j'appelle [***design pimenté***](chili) ou [***chili design***](chili). [Découvrez-le ici](chili).
 
 ----
 

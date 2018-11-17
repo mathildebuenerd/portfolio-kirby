@@ -44,11 +44,11 @@ Chiliprinciplestitle: Chili design principles
 
 Chiliprinciples: 
 
-## One goal : innovativeness
+### One goal : innovativeness
 Technology should not be used as a problem-solver, but to allow different ways of looking at the things.
 
-## A disturbing user-experience
+### A disturbing user-experience
 An automated system should not act in the background. It should push the user a little bit and confront him.
 
-## A visible interface
+### A visible interface
 The GUI is not a decoration layer and its value should never be minimized. It has to help the user to understand how the system operates.
