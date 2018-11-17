@@ -1,7 +1,7 @@
   <footer class="footer cf">
 
       <section id="contact-me">
-          <?= $page->bandeauContact()->kirbytext() ?>
+          <?= $site->find('projects')->bandeauContact()->kirbytext() ?>
       </section>
 
       <section id="details-contact">

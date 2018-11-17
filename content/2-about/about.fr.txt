@@ -1,4 +1,4 @@
-Title: About
+Title: À propos
 
 ----
 
@@ -46,3 +46,57 @@ _How autocompletion is going to change the way we interact with each other ?_, J
 
 ## CV
 <a href="http://www.chilidesign.fr/cv2018.10.31-en.pdf" target="_blank">English CV</a> *last update 31.10.2018*
+
+----
+
+Biography: 
+
+Mathilde est une designer d’interaction et artiste basée à Genève. Son travail explore les connections entre le langage, les algorithmes et les relations sociales. Ses projets sont hybrides et prennent des formes variées, de l’application mobile à l’extension web, de l’objet connecté à l’art génératif. Un sujet récurrent dans sa pratique est la question de comment les technologies numériques peuvent permettre des modes de pensée inédits.
+Après avoir étudié le design graphique et l’art numérique en France, elle obtient un master en Media Design à la HEAD - Genève.
+Son travail a été présenté dans des évènements et musées internationaux comme le Festival Fak’ugesi (Johannesbourg), la Fondation Vasarely (Aix-en-Provence), Lift Conference (Genève), la Design Junior Research Conference (Zürich), Ludicious (Zürich), la Fondation Martin Bodmer (Geneva), la Maker Faire (Grenoble), Eniarof, la GSGS (Neuchâtel).
+
+----
+
+Publicationstitle: Publications
+
+----
+
+Presstitle: Presse
+
+----
+
+Talktitle: Conférences
+
+----
+
+Publications: 
+
+<a href="memoire/Converser%20%C3%A0%20l'%C3%A8re%20de%20l'autocompl%C3%A9tion.pdf" target="_blank">Converser à l'ère de l'autocomplétion</a>, master thesis, soutenue le 15 mars 2018. Master Media design, HEAD - Genève.
+
+_Optimized talk : what future for digital personal assistants?_, GSGS 2018 Proceeding book.
+
+----
+
+Press: 
+
+<a href="https://bubblegumclub.co.za/art-and-culture/meet-the-artists-of-the-2018-trans-continental-fakugesi-african-digital-residency/" target="_blank">Meet the Artists of the 2018 Trans-continental Fak’ugesi African Digital Residency</a>, Bubble Gum Club South Africa, 08.2018.
+
+« Transmissions de données », Sandra Chamaret & Loïc Horellou, Back Office n°2 : Design graphique et pratiques numériques, 04.2018. (ultimateFaust)
+
+<a href="http://www.tilllate.com/de/story/new-pretender" target="_blank">Flirt Coach : Ledernippel machen dich zum Verführer</a>, Tillate (20 Minuten), (New Pretender)
+
+----
+
+Talks: 
+
+Design d'interaction, Humour & Intelligence artificielle, _Humours numériques, Le numérique n'est-il qu'une grosse blague ?_ Bibliothèques de Genève. 18.10.2018. <a href="https://fr.slideshare.net/MathildeBuenerd/design-dinteraction-humour-intelligence-artificielle-121291106" target="_blank">Slides</a>.
+
+_Introducing Chili Design_, Fak’ugesi Talks: Premonition and Digital Imaginaries, 06.09.2018. Johannesburg (South Africa). <a href="https://fr.slideshare.net/MathildeBuenerd/introducing-chili-design-fakugesi-talks" target="_blank">Slides</a>.
+
+_Optimized talk : what future for digital personal assistants?_, GSGS'18, 06.06.2018 NIFFF (Neuchâtel). *(video about to come)*
+
+_How autocompletion is going to change the way we interact with each other ?_, Junior Design Research Conference, 10.11.2017, ZHDK (Zürich). <a href="https://www.slideshare.net/MathildeBuenerd/conversing-in-the-era-of-autocomplete" target="_blank">Slides</a>.
+
+----
+
+Cv: <a href="http://www.chilidesign.fr/cv2018.10.31-en.pdf" target="_blank">English CV</a> *dernière mise à jour le 31.10.2018*

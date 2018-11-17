@@ -14,11 +14,41 @@ fields:
   title:
     label: Title
     type: title
-    
-  intro:
-    label: Intro
+
+  biography:
+    label: Biographie
     type: textarea
-    
-  text:
-    label: Text
+
+  publicationsTitle:
+    label: Publications Titre
+    type: text
+    width: 1/3
+
+  pressTitle:
+    label: Presse Titre
+    type: text
+    width: 1/3
+
+  talkTitle:
+    label: Talk Titre
+    type: text
+    width: 1/3
+
+  publications:
+    label: Publications
+    type: textarea
+    width: 1/3
+
+  press:
+    label: Presse
+    type: textarea
+    width: 1/3
+
+  talks:
+    label: Talks
+    type: textarea
+    width: 1/3
+
+  cv:
+    label: CV
     type: textarea
