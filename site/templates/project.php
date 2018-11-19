@@ -30,9 +30,21 @@
             </div>
 
 
-            <div class="main-description">
-                <?= $page->maindescription()->kirbytext() ?>
-            </div>
+            <section class="main-description">
+                <?php foreach($page->descriptionparagraphs()->yaml() as $singleEntryP): ?>
+                    <div class="single-description-paragraph">
+                        <?= $singleEntryP['singleparagraph'] ?>
+                        <figure>
+                            <?php if($image = $page->image($singleEntryP['associatedimage'])) echo $image->html() ?>
+                            <figcaption>
+                                <?= $singleEntryP['figcaptionimage'] ?>
+                            </figcaption>
+                        </figure>
+                    </div>
+                <?php endforeach ?>
+            </section>
+
+
 
             <div class="external-links">
 

@@ -1,0 +1,87 @@
+Featuredproject: true
+
+----
+
+Title: Déjà vu
+
+----
+
+Year: 2015
+
+----
+
+Smalldescription: An interactive installation using augmented reality to transport a museum visitor into the past.
+
+----
+
+Tags: augmented reality,museum,museography
+
+----
+
+Categories: game, installation, interactionDesign, ux
+
+----
+
+Thematics: 
+
+----
+
+Maindescription: The Museum’s room with the old TV’s inspired us for our project. We want to give the life back to these TV’s, that are unfortunately lifeless. Our idea, is to transport the visitor in time, to give him/her a historical context, and give them the possibility to see themselves inside an old TV.
+
+----
+
+Illustration-0: 
+
+----
+
+Description-1: 
+
+> We came up with the idea of “Time travel”, transporting the visitor in the past. We wanted to give the possibility to the visitor, to become a TV anchor of the 50’s, 60’s or 70’s, and relive a famous event of the past. 
+
+For achieving that, we set-up a display: we created a frame (in the back of the visitor) in order to recreate a setting, and the visitor was free to film himself or herself with the scenery in the back. Then he/she would take the iPad from its base, take it to the next room, and discover him or herself on an old screen, through the iPad.
+
+----
+
+Illustration-1: 
+
+----
+
+Description-2: 
+
+----
+
+Website: 
+
+----
+
+Video: 
+
+----
+
+Press: 
+
+----
+
+Links: 
+
+----
+
+Misc: 
+
+----
+
+Descriptionparagraphs:
+
+- 
+  singleparagraph: >
+    The Museum’s room with the old TV’s
+    inspired us for our project. We want to
+    give the life back to these TV’s, that
+    are unfortunately lifeless. Our idea, is
+    to transport the visitor in time, to
+    give him/her a historical context, and
+    give them the possibility to see
+    themselves inside an old TV.
+  associatedimage: deja-vu-tv-room.jpg
+  alternativetext: Turned off TV on the walls.
+  figcaptionimage: The sad Museum TV room.

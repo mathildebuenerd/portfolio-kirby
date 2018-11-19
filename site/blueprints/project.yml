@@ -49,6 +49,23 @@ fields:
     width: 1/2
     required: true
 
+  descriptionparagraphs:
+    label: Description du projet
+    type: structure
+    fields:
+      singleparagraph:
+        label: Paragraphe simple
+        type: textarea
+      associatedimage:
+        label: Illustration
+        type: image
+      alternativetext:
+        label: Texte alternative
+        type: text
+      figcaptionimage:
+        label: Légende (figcaption)
+        type: textarea
+
   categories:
     label: Categories
     type: checkboxes
