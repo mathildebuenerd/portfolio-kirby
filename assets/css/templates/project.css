@@ -209,6 +209,26 @@ body {
     left: 50vw;
     transform: translateX(-50%);
     margin: 40px 0 70px;
+    font-size: 1.2em;
+    color: #444;
+}
+
+.single-description-paragraph figcaption {
+    text-align: center;
+    color: #aaa;
+    font-style: italic;
+    font-size: 1em;
+    padding: 15px;
+}
+
+.single-description-paragraph figure {
+    overflow: hidden;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.single-description-paragraph figure img {
+    width: 100%;
 }
 
 .text .alltags {
