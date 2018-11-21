@@ -80,10 +80,7 @@ Descriptionparagraphs:
   singleparagraph: |
     ## Une application fictive mettant en scène l'autocomplétion
 
-    >
-    > In the digital age, there’s a growing need to communicate more efficiently. Based on machine learning algorithms, auto-chat offers a solution to this challenge, through a creative, agile and high-quality messenging app that automates the choice of the most appropriate word for every situation.
-
-    Not everyone has the chance to be interesting, especially when talking with text messages. With auto-chat, you can find exactly the word you need, among the millions of words in your language. lts features include writing in the style of someone else, among a list of the best writers in the world. lt also contains a persona! assistant who gives you smart advices to help you to improve your communication skills.
+    auto-chat se présente sous la forme d'une application de messagerie fictionnelle contenant des fonctionnalités telles qu'écrire dans le style de quelqu'un d'autre, ainsi qu'un assistant personnel à l'écriture.
 
     <div class="videoWrapper">
     <iframe src="https://www.youtube.com/embed/79ZRAFUuGR4" allowfullscreen></iframe>

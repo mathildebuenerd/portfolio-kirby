@@ -52,6 +52,26 @@ p a, p a:visited {
     border-bottom: 2px solid blue;
 }
 
+#logo-chili-design {
+    position: fixed;
+    z-index: 999;
+    top: 20px;
+    left: 10px;
+}
+
+#logo-chili-design img {
+    width: 40px;
+    transition: 0.5s ease;
+}
+
+#logo-chili-design a {
+    padding: 10px;
+}
+
+#logo-chili-design a:hover img {
+    transform: rotate(-360deg);
+}
+
 
 /*******
     GENERAL

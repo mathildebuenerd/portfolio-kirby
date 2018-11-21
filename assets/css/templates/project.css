@@ -73,7 +73,7 @@ body {
 }
 
 #container-for-hiding-scrollbar-project:hover, .allimages {
-  cursor: url(../../images/next-cursor.png) 20 15, e-resize;
+  /*cursor: url(../../images/next-cursor.png) 20 15, e-resize;*/
 }
 
 #left-arrow, #right-arrow {
