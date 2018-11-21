@@ -215,20 +215,55 @@ body {
 
 .single-description-paragraph figcaption {
     text-align: center;
-    color: #aaa;
+    color: #666;
     font-style: italic;
     font-size: 1em;
     padding: 15px;
+    font-weight: 300;
+    background-color: #f6f6f6;
+    margin-top: -6px;
+    z-index: 1;
+    position: relative;
 }
+
+/*.single-description-paragraph figcaption::after {*/
+    /*content: "_";*/
+    /*display: block;*/
+/*}*/
 
 .single-description-paragraph figure {
     overflow: hidden;
     padding: 0;
-    margin: 20px 0;
+    margin: 30px 0 50px;
 }
 
 .single-description-paragraph figure img {
     width: 100%;
+    transition: 0.5s ease;
+}
+
+.single-description-paragraph figure img:hover {
+    transform: scale(1.2);
+    transition: 0.5s ease;
+}
+
+.single-description-paragraph h2 {
+    margin-top: 50px;
+}
+
+.single-description-paragraph blockquote {
+    font-weight: 300;
+    font-size: 1.2em;
+}
+
+.single-description-paragraph blockquote::before {
+    content: "“";
+    font-size: 8em;
+    position: absolute;
+    color: lightgray;
+    z-index: -1;
+    left: -30px;
+    margin-top: -70px;
 }
 
 .text .alltags {

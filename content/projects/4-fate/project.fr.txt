@@ -22,15 +22,7 @@ Thematics: socialHacking
 
 ----
 
-Maindescription: 
-
-Fiction interactive basée sur une narration non-linéaire, Fate confronte le joueur à des choix ordinaires, curieux, loufoques, qui vont impacter sa vie sur le plan économique, social, familial ou professionnel. Le jeu invite le protagoniste à se faire une place dans un monde imprévisible, inattendu, inéquitable et parfois injuste. Au cours de son expérience, le joueur va découvrir des concepts liés à la sociologie comme l'homogamie ou la pression de conformité.
-
-Réalisé avec Richard Marion, doctorant en sociologie.
-
-<div class="videoWrapper">
-<iframe src="https://player.vimeo.com/video/252514133" allowfullscreen></iframe>
-</div>
+Maindescription: j
 
 ----
 
@@ -75,3 +67,46 @@ Illustration-1:
 ----
 
 Description-2: 
+
+----
+
+Descriptionparagraphs: 
+
+- 
+  singleparagraph: |
+    Fiction interactive basée sur une narration non-linéaire, Fate confronte le joueur à des choix ordinaires, curieux, loufoques, qui vont impacter sa vie sur le plan économique, social, familial ou professionnel. Le jeu invite le protagoniste à se faire une place dans un monde imprévisible, inattendu, inéquitable et parfois injuste. Au cours de son expérience, le joueur va découvrir des concepts liés à la sociologie comme l'homogamie ou la pression de conformité.
+    
+    ## Parcours utilisateur
+    
+    <div class="videoWrapper">
+    <iframe src="https://player.vimeo.com/video/252514133" allowfullscreen></iframe>
+    </div>
+    
+    La vidéo ci-dessus présente un exemple de parcours utilisateur. Les choix du joueur, mais également des évènements imprévus pouvant influencer le parcours, celui-ci sera différent à chaque partie.
+  associatedimage: ""
+  alternativetext: ""
+  figcaptionimage: ""
+- 
+  singleparagraph: |
+    ## Un graphisme synthétique et didactique
+    
+    Fate peut s'apparenter à un _serious game_, dans le sens où son objectif premier est de vulgariser des concepts scientifiques complexes. L'un des enjeux était ainsi de produire des visuels à la fois attractifs et explicatifs.
+  associatedimage: concepts-expliques.jpg
+  alternativetext: ""
+  figcaptionimage: 'Exemple de concepts sociologiques expliqués grâce à des pictogrammes. Graphisme : Zoé Paille & Max Maury Martineau.'
+- 
+  singleparagraph: |
+    ## Développement
+    
+    Le jeu s'appuyant sur scénario à choix complexe, il a été choisi de le réaliser avec Unity et Fungus.
+  associatedimage: fate-fungus-1500.jpg
+  alternativetext: ""
+  figcaptionimage: "Interface de Unity. En haut l'aperçu du jeu, en bas le complexe système d'embranchements sur lequel repose le game design."
+- 
+  singleparagraph: |
+    ## Crédits
+    
+    Fate a été réalisé lors de la Scientific Game Jam organisée par la Casemate (Grenoble).
+  associatedimage: fate-team.jpg
+  alternativetext: ""
+  figcaptionimage: "Le projet a été réalisé au sein d'une équipe pluridisciplinaire:  Titouan Lafarge (sound design), Rémi Levillain et Thomas Berard (développement), Zoé Paille et Max Maury Martineau (graphisme & game design), Richard Marion (doctorant en sociologie), et moi-même (game design et développement)."

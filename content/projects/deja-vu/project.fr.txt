@@ -70,7 +70,7 @@ Misc:
 
 ----
 
-Descriptionparagraphs:
+Descriptionparagraphs: 
 
 - 
   singleparagraph: >
@@ -85,3 +85,11 @@ Descriptionparagraphs:
   associatedimage: deja-vu-tv-room.jpg
   alternativetext: Turned off TV on the walls.
   figcaptionimage: The sad Museum TV room.
+- 
+  singleparagraph: |
+    > We came up with the idea of “Time travel”, transporting the visitor in the past. We wanted to give the possibility to the visitor, to become a TV anchor of the 50’s, 60’s or 70’s, and relive a famous event of the past.
+    
+    For achieving that, we set-up a display: we created a frame (in the back of the visitor) in order to recreate a setting, and the visitor was free to film himself or herself with the scenery in the back. Then he/she would take the iPad from its base, take it to the next room, and discover him or herself on an old screen, through the iPad.
+  associatedimage: deja-vu-installation.jpg
+  alternativetext: ""
+  figcaptionimage: 'TV setting. The visitor could choose and arrange the wooden magnets depending on the news he wanted to tell - for example: First step on the moon or Discovery of Lucy. Then, he sat on the stool and read the script to present the choosen event.'

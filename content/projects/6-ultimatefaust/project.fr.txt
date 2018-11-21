@@ -24,11 +24,10 @@ Thematics: writing
 
 Maindescription: 
 
-La collection Bodmer abrite plusieurs centaines d’éditions du Faust de Goethe. Puisant dans cette longue liste, ultimateFaust en reprend des éléments qui caractérisent chaque exemplaire : les titres, la pagination, les ornements, etc.
+    La collection Bodmer abrite plusieurs centaines d’éditions du Faust de Goethe. Pour rendre cette collection accessible au plus grand nombre, un travail de numérisation des ouvrages est réalisé.
 
-Le mythe de Faust, cher à Martin Bodmer, raconte l’histoire d’un homme qui cherche à atteindre la connaissance universelle, au point de vendre son âme au Diable. De la même manière, notre intention est de réunir les richesses de chaque ouvrage en un seul volume. Ce projet représente la Biblioteca Bodmeriana dans sa variété et dans son ambition.
 
-Ce projet a été réalisé par Nicolas Baldran, David Héritier et moi-même, dans le cadre d'une collaboration entre le BodmerLab et la HEAD - Genève.
+
 
 ----
 
@@ -76,4 +75,60 @@ Illustration-1:
 
 ----
 
-Description-2: 
+Description-2:
+
+----
+
+Descriptionparagraphs:
+
+-
+  singleparagraph: |
+    ## Mettre en avant une vaste collection
+
+    La collection Bodmer abrite plusieurs centaines d’éditions du Faust de Goethe. Pour rendre cette collection accessible au plus grand nombre, un travail de numérisation des ouvrages est réalisé.
+  associatedimage: apercu-collection-bodmer-web.jpg
+  alternativetext: ""
+  figcaptionimage: >
+    Trois pages extraites de trois différentes éditions faisant partie de la collection.
+-
+  singleparagraph: |
+    ## Re-matérialiser une collection intangible
+
+    Nous avons cherché à redonner une matérialité à cette collection digitalisée. Le mythe de Faust, cher à Martin Bodmer, raconte l’histoire d’un homme qui cherche à atteindre la connaissance universelle, au point de vendre son âme au Diable. De la même manière, notre intention est de réunir les richesses de chaque ouvrage en un seul volume. Ce projet représente la Biblioteca Bodmeriana dans sa variété et dans son ambition.
+  associatedimage: ultimatefaust-interieur-5-web.jpg
+  alternativetext: ""
+  figcaptionimage: ""
+-
+  singleparagraph: ""
+  associatedimage: ultimatefaust-interieur-2-web.jpg
+  alternativetext: ""
+  figcaptionimage: ""
+-
+  singleparagraph: |
+    ## Douze livres en un
+
+    Concrètement, nous avons choisi et rassemblé douze différentes éditions en une seule. Pour chaque édition, nous avons choisi un élément caractéristique, par exemple les illustrations, les numéros de page ou les fioritures. Ces éléments se retrouvent dans ultimateFaust à l’emplacement et à l’échelle de l’original, sans redimensionnement. Sur chaque page, l’élément sélectionné est repris tel quel. Un cadre de la page 243 d’une édition anglo-américaine de 1887 figure à la page 243 d’ultimateFaust.
+  associatedimage: schema-ultimate-faust.png
+  alternativetext: ""
+  figcaptionimage: ""
+-
+  singleparagraph: |
+    ## Un livre généré par ordinateur
+    Le livre a été généré numériquement par un programme (Processing). Nous avons également utilisé des scripts Photoshop pour extraire les éléments de chaque page de chacun des douze livres choisis.
+
+    <div class="videoWrapper">
+    <iframe src="https://player.vimeo.com/video/302019541" allowfullscreen></iframe>
+    </div>
+  associatedimage: ""
+  alternativetext: ""
+  figcaptionimage: ""
+-
+  singleparagraph: |
+    ## Une collaboration entre designer et scientifiques
+
+    Ce projet a été réalisé par Nicolas Baldran, David Héritier et moi-même, dans le cadre d'une collaboration entre le BodmerLab (laboratoire de recherche de l'Université de Genève) et la HEAD - Genève.
+
+    ultimateFaust est maintenant intégré de manière permanente dans la Collection Martin Bodmer.
+  associatedimage: ""
+  alternativetext: ""
+  figcaptionimage: ""

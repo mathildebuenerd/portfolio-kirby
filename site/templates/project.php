@@ -33,14 +33,21 @@
             <section class="main-description">
                 <?php foreach($page->descriptionparagraphs()->yaml() as $singleEntryP): ?>
                     <div class="single-description-paragraph">
-                        <?= $singleEntryP['singleparagraph'] ?>
-                        <figure>
-                            <?php if($image = $page->image($singleEntryP['associatedimage'])) echo $image->html() ?>
-                            <figcaption>
-                                <?= $singleEntryP['figcaptionimage'] ?>
-                            </figcaption>
-                        </figure>
-                    </div>
+                        <?= kirbytext($singleEntryP['singleparagraph']) ?>
+
+                        <!-- on checke s'il y a bien une image associée -->
+                        <?php if ($singleEntryP['associatedimage'] != ""): ?>
+                            <figure>
+                                <?php if($image = $page->image($singleEntryP['associatedimage'])) echo $image->html() ?>
+
+                                <?php if ($singleEntryP['figcaptionimage'] != ""): ?>
+                                <figcaption>
+                                    <?= $singleEntryP['figcaptionimage'] ?>
+                                </figcaption>
+                                <?php endif ?> <!-- check up figcaption -->
+                            </figure>
+                        <?php endif ?> <!-- check up image -->
+                    </div> <!-- single description paragraph -->
                 <?php endforeach ?>
             </section>
 
@@ -105,11 +112,11 @@
                 // Images for the "project" template are sortable. You
                 // can change the display by clicking the 'edit' button
                 // above the files list in the sidebar.
-                foreach($page->images()->sortBy('sort', 'asc') as $image): ?>
+//                foreach($page->images()->sortBy('sort', 'asc') as $image): ?>
                     <figure>
-                        <img src="<?= $image->url() ?>" alt="<?= $page->title()->html() ?>" />
+                        <img src="<?= $page->images()->first()->url() ?>" alt="<?= $page->title()->html() ?>" />
                     </figure>
-                <?php endforeach ?>
+<!--                --><?php //endforeach ?>
             </div> <!-- allimages -->
         </div>
 

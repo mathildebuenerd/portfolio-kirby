@@ -14,7 +14,7 @@ Tags: generative book,processing,bodmerlab,hybrid,digitalization
 
 ----
 
-Categories: graphicDesign
+Categories: graphicDesign, dev
 
 ----
 
@@ -27,8 +27,6 @@ Maindescription:
 The Collection Bodmer is a huge book collection, containing among other things a lots of editions of Goethe's Faust. The aim of the BodmerLab is to digitize the collected works and make it easier to reach by people and researchers.
 
  What we wanted was to give the materiality back to this collection, by creating a unique work made with parts of many books. The myth of Faust tells a story of a man who want to attain an utopian universal knowledge. In the same way, we gathered all the wealth of the different Faust in one work.
-
- This project was made by Nicolas Baldran, David Héritier and myself, and is a collaboration between the BodmerLab and the HEAD - Geneva.
 
 ----
 
@@ -77,3 +75,60 @@ Description-2:
 ----
 
 Links: 
+
+----
+
+Descriptionparagraphs: 
+
+- 
+  singleparagraph: |
+    ## Highlight a huge collection
+    
+    The Collection Bodmer is a colossal book collection, containing among other things many editions of Goethe's Faust. The aim of the BodmerLab is to digitize the collected works and make it easier to reach by people and researchers.
+  associatedimage: apercu-collection-bodmer-web.jpg
+  alternativetext: ""
+  figcaptionimage: >
+    Three different pages from three
+    different editions.
+- 
+  singleparagraph: |
+    ## Re-materialize an intangible ressource
+    
+    What we wanted was to give the materiality back to this digitized collection, by creating a unique work made with parts of many books. The myth of Faust tells the story of a man who wants to attain a utopian universal knowledge. In the same way, we gathered all the richnesses of each different Faust edition in one work.
+  associatedimage: ultimatefaust-interieur-5-web.jpg
+  alternativetext: ""
+  figcaptionimage: ""
+- 
+  singleparagraph: ""
+  associatedimage: ultimatefaust-interieur-2-web.jpg
+  alternativetext: ""
+  figcaptionimage: ""
+- 
+  singleparagraph: |
+    ## Twelve books in one
+    
+    Concretely, we choose and aggregate twelve different books into one. We choose a distinctive feature from each of these twelve books, for example, the pagination, the illustrations or the embellishment. On each page of the final book, the selected element is displayed _as it is_. An illustration on page 243 of an Anglo-American edition of 1887 will figure at the exact same place at page 243 of ultimateFaust.
+  associatedimage: schema-ultimate-faust.png
+  alternativetext: ""
+  figcaptionimage: ""
+- 
+  singleparagraph: |
+    ## A computer-generated book
+    The book was digitally generated with a program (Processing). We also used Photoshop scripts in order to extract the features from each page of each chosen book.
+    
+    <div class="videoWrapper">
+    <iframe src="https://player.vimeo.com/video/302019541" allowfullscreen></iframe>
+    </div>
+  associatedimage: ""
+  alternativetext: ""
+  figcaptionimage: ""
+- 
+  singleparagraph: |
+    ## A collaboration between designers and scientists
+    
+    This project was made by Nicolas Baldran, David Héritier and myself, and is a collaboration between the BodmerLab - a research lab from the University of Geneva - and the HEAD - Geneva.
+    
+    The book is now permanently integrated into the Martin Bodmer Collection.
+  associatedimage: ""
+  alternativetext: ""
+  figcaptionimage: ""
