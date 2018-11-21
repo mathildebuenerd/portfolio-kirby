@@ -1,0 +1,110 @@
+Featuredproject: true
+
+----
+
+Title: Future of autocompletion
+
+----
+
+Year: 2018
+
+----
+
+Smalldescription: A collection of autocompletion mechanics for text messaging.
+
+----
+
+Tags: mobile app
+
+----
+
+Descriptionparagraphs: 
+
+- 
+  singleparagraph: |
+    ## A not-so-insignificant feature
+    
+    Autocomplete is the “predictive text” feature integrated into all the text messaging apps. It is a strong example of a feature that seems insignificant, but that could actually have an impact on the way we write. It is also a good example of a technology we use in very personal aspects of our lives - such as talking with our closest friends and relatives.
+    
+    ## How autocomplete is evolving
+    This feature is becoming more and more personalized. It now suggests whole words based on the user's writing habits, and even proposes automatic answers. In a sense, we can see autocomplete now as a _recommender system for writing_.
+  associatedimage: example-autocompletion.jpg
+  alternativetext: ""
+  figcaptionimage: 'Left: suggestions based on writing habits in Google Allo. Right: automatic answers in Gmail.'
+- 
+  singleparagraph: |
+    ## An uncertain future
+    
+    These evolutions rise questions about how this feature will evolve in the future. Especially, how will autocomplete evolve thanks to machine learning algorithms? Will it allow us to become more honest or more manipulative? How much agency do we want to keep?
+  associatedimage: preview-write-in-the-style-of-2000.png
+  alternativetext: ""
+  figcaptionimage: ""
+- 
+  singleparagraph: ""
+  associatedimage: >
+    preview-current-mood-suggestions-2000.png
+  alternativetext: ""
+  figcaptionimage: ""
+- 
+  singleparagraph: ""
+  associatedimage: preview-vocabulary-manager-2000.png
+  alternativetext: ""
+  figcaptionimage: ""
+- 
+  singleparagraph: ""
+  associatedimage: preview-conversation-templates-2000.png
+  alternativetext: ""
+  figcaptionimage: ""
+- 
+  singleparagraph: ""
+  associatedimage: preview-feel-the-honesty-2000.png
+  alternativetext: ""
+  figcaptionimage: ""
+
+----
+
+Categories: fictionDesign, ux, ui
+
+----
+
+Thematics: writing, talking, autocomplete
+
+----
+
+Maindescription: f
+
+----
+
+Illustration-0: 
+
+----
+
+Description-1: 
+
+----
+
+Illustration-1: 
+
+----
+
+Description-2: 
+
+----
+
+Website: 
+
+----
+
+Video: 
+
+----
+
+Press: 
+
+----
+
+Links: 
+
+----
+
+Misc: 

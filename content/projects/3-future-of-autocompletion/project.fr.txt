@@ -1,0 +1,113 @@
+Featuredproject: true
+
+----
+
+Title: Future of autocompletion
+
+----
+
+Year: 2018
+
+----
+
+Smalldescription: Une collection de mécaniques d'autocomplétion pour applications de messagerie.
+
+----
+
+Tags: mobile app
+
+----
+
+Descriptionparagraphs: 
+
+- 
+  singleparagraph: |
+    ## Une fonctionnalité sous-estimée...
+    
+    L'autocomplétion, est le principe de "texte prédictif" venant compléter les mots ou les phrases que l'on est en train d'écrire dans les applications de messagerie. Derrière son allure insignifiante, c'est une fonctionnalité que l’on utilise quotidiennement et qui touche un aspect intime de notre vie : les correspondances que l’on a avec nos proches via nos appareils électroniques.
+    
+    ## ...et en évolution constante
+    
+    Ce petit outil est en pleine évolution, il devient notamment de plus en plus _personnalisé_. Les applications de messagerie ne font pas que corriger nos fautes de frappe, elles nous suggèrent désormais des mots en fonction de nos propres habitudes d'écriture; et aussi des réponses automatiques. Dans ce sens, on peut considérer que l'autocomplétion devient un _système de recommandation pour l'écriture_.
+  associatedimage: example-autocompletion.jpg
+  alternativetext: ""
+  figcaptionimage: "A gauche : des suggestions basées sur les habitudes d'écriture dans Google Allo. A droite : des réponses automatiques dans Gmail."
+- 
+  singleparagraph: |
+    ## Un futur incertain
+    
+    Ces évolutions récentes soulèvent la question de comment les mécanismes d'autocomplétion vont évoluer. Tout particulièrement, comment les algorithmes de _machine learning_ vont-ils les influencer ? Ces aides à l'écriture vont-elles nous rendre plus honête ou au contraire plus manipulateurs ? Quelle place souhaite-t-on laisser à ces logiciels dans notre vie de tous les jours ?
+    
+    Ce travail est fortement lié au mémoire de recherche que j'ai écrit sur le design des systèmes automatisé, [Converser à l'ère de l'autocomplétion](http://www.chilidesign.fr/memoire/converser-a-l-ere-de-l-autocompletion-mathilde-buenerd.pdf).
+  associatedimage: preview-write-in-the-style-of-2000.png
+  alternativetext: ""
+  figcaptionimage: ""
+- 
+  singleparagraph: ""
+  associatedimage: >
+    preview-current-mood-suggestions-2000.png
+  alternativetext: ""
+  figcaptionimage: ""
+- 
+  singleparagraph: ""
+  associatedimage: preview-vocabulary-manager-2000.png
+  alternativetext: ""
+  figcaptionimage: ""
+- 
+  singleparagraph: ""
+  associatedimage: preview-conversation-templates-2000.png
+  alternativetext: ""
+  figcaptionimage: ""
+- 
+  singleparagraph: ""
+  associatedimage: preview-feel-the-honesty-2000.png
+  alternativetext: ""
+  figcaptionimage: ""
+
+----
+
+Categories: fictionDesign, ux, ui
+
+----
+
+Thematics: writing, talking, autocomplete
+
+----
+
+Maindescription: f
+
+----
+
+Illustration-0: 
+
+----
+
+Description-1: 
+
+----
+
+Illustration-1: 
+
+----
+
+Description-2: 
+
+----
+
+Website: 
+
+----
+
+Video: 
+
+----
+
+Press: 
+
+----
+
+Links: 
+
+----
+
+Misc: 

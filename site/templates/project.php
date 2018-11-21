@@ -26,7 +26,7 @@
 
 
             <div class="small-description">
-                <?= $page->smalldescription() ?>
+                <?= $page->smalldescription()->kirbytext() ?>
             </div>
 
 
