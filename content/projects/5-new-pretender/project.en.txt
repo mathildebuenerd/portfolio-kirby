@@ -81,3 +81,45 @@ Description-2:
 ----
 
 Links: 
+
+----
+
+Descriptionparagraphs: 
+
+- 
+  singleparagraph: |
+    ## A 2.0 Love coach
+    
+    <div class="videoWrapper">
+    <iframe src="https://www.youtube.com/embed/KeIWxqlzba8" allowfullscreen></iframe>
+    </div>
+    
+    New Pretender is first of all a digital _love coach_, in other words, a tool for helping men manage their romantic relationships.
+    It takes the form of an earpiece whispering phrases to repeat in order to pick up a lady. A joystick allows the man to control an app to switch to a new sentence. The app contains several pre-written phrases and injunctions, distributed into four categories: compliments, lies, conversation and suggestive gestures.
+  associatedimage: repartition-sentences-white.png
+  alternativetext: ""
+  figcaptionimage: ""
+- 
+  singleparagraph: |
+    ## Using design fiction to underline current issues
+    
+    The design of the controller is intended to be ironic, it gathers all things men are supposed to like: joysticks, leather and boobs. The purpose of this project is to enable people to experiment manipulation techniques (compliment, lie, promise) while playing in the literal sense with people around them.
+  associatedimage: >
+    new-pretender-credit-photo-raphaelle-mueller-web-2.jpg
+  alternativetext: ""
+  figcaptionimage: ""
+- 
+  singleparagraph: >
+    To push the project further, a website
+    was developed to explain and brand the
+    product.
+  associatedimage: mock-up-features-rose.jpg
+  alternativetext: ""
+  figcaptionimage: ""
+- 
+  singleparagraph: |
+    ## Beyond « optimized talk »
+    This is also a critique of what I call « optimized talk », a talk where every word is written and prepared in advance in order to have a meaning. This controlled way of talking is used every day by both womanizers or politicians. With New Pretender men can try their luck with ladies at the same time they experiment the limits of this way of talking: being out of touch with reality, not taking into account the context, the difficulty of improvising its own talk.
+  associatedimage: ""
+  alternativetext: ""
+  figcaptionimage: ""

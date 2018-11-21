@@ -80,4 +80,44 @@ Description-2:
 
 ----
 
-Links: 
+Links:
+
+----
+
+Descriptionparagraphs:
+
+-
+  singleparagraph: |
+    ## Un coach 2.0
+
+    <div class="videoWrapper">
+    <iframe src="https://www.youtube.com/embed/KeIWxqlzba8" allowfullscreen></iframe>
+    </div>
+
+    New Pretender est avant tout un coach de drague numérique, c'est-à-dire un object pour aider les hommes dans leurs relations amoureuses.
+    Ce coach prend la forme d'une oreillette qui sussure des phrases à répéter pour draguer une femme. Un joystick permet à l'usager de contrôler une application et de passer à la phrase suivante. L'application contient une multitude de phrases pré-écrites, réparties dans quatre catégories : les compliments, les mensonges, les éléments de conversation et les gestes suggestifs.
+  associatedimage: repartition-sentences-white.png
+  alternativetext: ""
+  figcaptionimage: ""
+-
+  singleparagraph: |
+    ## Utiliser le design fiction pour parler de problèmes réels
+
+    Le design de l'objet est évidemment loufoque, il rassemble tout ce que les hommes sont supposés aimer : les jeux vidéo, le cuir et les seins. Le but du projet est de permettre aux gens d'expérimenter des techniques de manipulation (complimenter, mentir, promettre), en jouant - au sens litéral - avec la personne en face d'eux.
+  associatedimage: >
+    new-pretender-credit-photo-raphaelle-mueller-web-2.jpg
+  alternativetext: ""
+  figcaptionimage: ""
+-
+  singleparagraph: >
+    Pour ajouter du réalisme au projet, un site web vitrine a été développé.
+  associatedimage: mock-up-features-rose.jpg
+  alternativetext: ""
+  figcaptionimage: ""
+-
+  singleparagraph: |
+    ## Au-delà d'un « discours optimisé »
+    New Pretender est également une critique de ce qu'on peut appeler des « discours optimisés », c'est-à-dire une manière de parler dans laquelle chaque mot est écrit et préparé à l'avance. Cette manière de contrôler son langage est utilisée tous les jours par les dragueurs compulsifs mais aussi les hommes politiques par exemple. Grâce à l'objet, les usagers peuvent expérimenter les limites de cette manière de parler : être en dehors de la réalité, ne pas prendre en compte le contexte, difficulté d'improviser.
+  associatedimage: ""
+  alternativetext: ""
+  figcaptionimage: ""

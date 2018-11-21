@@ -54,3 +54,42 @@ Links:
   type: Github
   url: >
     https://github.com/mathildebuenerd/emotional-radio
+
+----
+
+Descriptionparagraphs:
+
+-
+  singleparagraph: |
+    ## Explorer
+
+    *Empathic Frequency* a été réalisé pendant une résidence organisée dans le cadre du Fak'ugesi African Digital Festival (Johannesbourg).
+
+    C'est une installation musicale dans laquelle une personne contrôle grâce à ses expressions faciales la musique que les visiteurs écoutent. Pour cela, elle peut par exemple faire un sourire ou une grimace.
+
+    > Le projet explore l'utilisation de moyens d'un moyen de communication universel, les émotions. Il se cherche à transcender la barrière du langage.
+  associatedimage: empathic-frequency-grimace.jpg
+  alternativetext: ""
+  figcaptionimage: "Le projet a été réalisé pour une exposition en Afrique du Sud, pays dans lequel 11 langues officielles cohabitent. C'est la raison pour laquelle j'ai choisi d'utiliser les expressions faciales comme mode d'interaction."
+-
+  singleparagraph: ""
+  associatedimage: empathic-frequency-face-recognition.jpg
+  alternativetext: ""
+  figcaptionimage: >
+    L'interaction reposait sur un logiciel de reconnaissance faciale.
+-
+  singleparagraph: |
+    ## Une installation pour favoriser la découverte
+    Ce projet montre une manière collaborative d'écouter de la musique. C'est aussi une expérience découvrir la musique d'un point de vue computationel, dans le sens où le hasard et les erreurs de reconnaissance faciale font autant partie de l'installation que les actions délibérées des visiteurs.
+    This piece shows a collaborative way to listen to music, and also an experience of discovering music from a "computational point-of-view." It is also an attempt to unravel the way in which computers and algorithms view traditional cultures on a more global scale, and how technologies could open up alien means of perception.
+  associatedimage: empathic-frequency-music.jpg
+  alternativetext: ""
+  figcaptionimage: "The person who was listening to music wasn't the one who was controlling it, so she was always surprised."
+-
+  singleparagraph: |
+    ## Development
+
+    The app was developed using FaceOSC (face recognition) + Wekinator (classification of the faces) + Processing (control of the music) + Arduino (control of the lights).
+  associatedimage: ""
+  alternativetext: ""
+  figcaptionimage: ""

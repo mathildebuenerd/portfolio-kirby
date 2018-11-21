@@ -14,7 +14,7 @@ Tags: sentiment analysis,face recognition
 
 ----
 
-Categories: iot, interactionDesign
+Categories: iot, installation, interactionDesign, dev
 
 ----
 
@@ -22,17 +22,11 @@ Thematics:
 
 ----
 
-Maindescription: 
-
-This piece shows a collaborative way to listen to music, and also an experience of discovering music from a "computational point-of-view." The interactive concept is based on human interaction with one person acting as a listener to the music while the other is able to control the music playing on the device by adjusting their facial expression through a smile or a funny face for example. This project explores the use of universal means of communication – emotions. It focuses on ways of communicating universally, transcending language barriers between people.
-It is also an attempt to unravel the way in which computers and algorithms view traditional cultures on a more global scale, and how technologies could open up alien means of perception.
-
-
-*Empathic Frequency* was created during the Fak'ugesi African Digital Residency (Johannesburg)
+Maindescription: The interactive concept is based on human interaction with one person acting as a listener to the music while the other is able to control the music playing on the device by adjusting their facial expression through a smile or a funny face for example. This project explores the use of universal means of communication – emotions. It focuses on ways of communicating universally, transcending language barriers between people.
 
 ----
 
-Website: https://github.com/mathildebuenerd/emotional-radio
+Website:
 
 ----
 
@@ -68,4 +62,48 @@ Description-2:
 
 ----
 
-Links: 
+Links:
+
+-
+  type: Github
+  url: >
+    https://github.com/mathildebuenerd/emotional-radio
+
+----
+
+Descriptionparagraphs: 
+
+- 
+  singleparagraph: |
+    ## Universal means of communication
+    
+    *Empathic Frequency* was created during the Fak'ugesi African Digital Residency (Johannesburg).
+    
+    The interactive concept is based on human interaction with one person acting as a listener to the music while the other is able to control the music playing on the device by adjusting their facial expression through a smile or a funny face for example.
+    
+    > This project explores the use of universal means of communication – emotions. It focuses on ways of communicating universally, transcending language barriers between people.
+  associatedimage: empathic-frequency-grimace.jpg
+  alternativetext: ""
+  figcaptionimage: "The project was realised during a residency in South Africa, a country in which 11 official languages coexist. That's why I chose to use emotion recognition for this exhibition."
+- 
+  singleparagraph: ""
+  associatedimage: empathic-frequency-face-recognition.jpg
+  alternativetext: ""
+  figcaptionimage: >
+    The interaction relied on a face
+    recognition software.
+- 
+  singleparagraph: |
+    ## Designed for discovery
+    This piece shows a collaborative way to listen to music. And also is an experience of discovering music from a "computational point-of-view.", in the sens that the software "misrecognitions" are as important as the visitor's deliberate actions. It is also an attempt to unravel the way in which computers and algorithms view traditional cultures on a more global scale, and how technologies could open up alien means of perception.
+  associatedimage: empathic-frequency-music.jpg
+  alternativetext: ""
+  figcaptionimage: "The person who was listening to music wasn't the one who was controlling it, so she was always surprised."
+- 
+  singleparagraph: |
+    ## Development
+    
+    The app was developed using FaceOSC (face recognition) + Wekinator (classification of the faces) + Processing (control of the music) + Arduino (control of the lights).
+  associatedimage: ""
+  alternativetext: ""
+  figcaptionimage: ""

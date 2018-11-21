@@ -75,3 +75,50 @@ Illustration-1:
 ----
 
 Description-2: 
+
+----
+
+Descriptionparagraphs: 
+
+- 
+  singleparagraph: |
+    Based on a non-linear scenario, Fate is an interactive story confronting the player with ordinary, curious or wild choices. These apparently mundane decisions will eventually affect him at an economic, social, family or professional level. The game puts the protagonist into a world that is unpredictable, unexpected and often unfair. During his experience, he will discover complex sociological concepts such as homogamy or peer pressure.
+    
+    ## A unique user journey
+    
+    <div class="videoWrapper">
+    <iframe src="https://player.vimeo.com/video/252514133" allowfullscreen></iframe>
+    </div>
+    
+    The above video presents an example of a user journey. As the player's choices or unexpected events can change the story, there are a large number of different journeys.
+  associatedimage: ""
+  alternativetext: ""
+  figcaptionimage: ""
+- 
+  singleparagraph: |
+    ## A synoptic and pedagogical design
+    
+    Fate can be defined as a _serious game_, because its first goal is to popularize complex scientific concepts. So a big challenge in the project was to produce both attractive and explanatory visuals and pictograms.
+  associatedimage: concepts-expliques.jpg
+  alternativetext: ""
+  figcaptionimage: 'Sociological concepts explained thanks to pictograms. Graphic design by Zoé Paille & Max Maury Martineau.'
+- 
+  singleparagraph: |
+    ## Development
+    
+    The game was developed with Unity and Fungus. Twine was also used to prototype the multiple choices scenario.
+  associatedimage: fate-fungus-1500.jpg
+  alternativetext: ""
+  figcaptionimage: >
+    Unity interface. At the top, a visual
+    preview of the game, at the bottom, the
+    complex system of branching on which the
+    game design rely.
+- 
+  singleparagraph: |
+    ## Credits
+    
+    Fate was realised during the Scientific Game Jam organised my la Casemate (Grenoble, France).
+  associatedimage: fate-team.jpg
+  alternativetext: ""
+  figcaptionimage: 'The project was realised in a multidisciplinary team: Titouan Lafarge (sound design), Rémi Levillain and Thomas Berard (development), Zoé Paille and Max Maury Martineau (graphic & game design), Richard Marion (PhD in Sociology), and myself (game design et development).'

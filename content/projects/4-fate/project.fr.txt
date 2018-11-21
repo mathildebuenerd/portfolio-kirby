@@ -98,7 +98,7 @@ Descriptionparagraphs:
   singleparagraph: |
     ## Développement
     
-    Le jeu s'appuyant sur scénario à choix complexe, il a été choisi de le réaliser avec Unity et Fungus.
+    Le jeu s'appuyant sur scénario à choix complexe, il a été choisi de le réaliser avec Unity et Fungus. Twine a également été utilisé pour prototyper le scénario à choix multiples.
   associatedimage: fate-fungus-1500.jpg
   alternativetext: ""
   figcaptionimage: "Interface de Unity. En haut l'aperçu du jeu, en bas le complexe système d'embranchements sur lequel repose le game design."
