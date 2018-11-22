@@ -1,6 +1,6 @@
 
 <div id="logo-chili-design">
-    <a href="<?php echo url('') ?>">
+    <a href="<?php echo $site->language()->url() ?>">
         <img src="<?php echo url('assets/images/logo-chili-design-black.png') ?>" alt="Logo de chili design">
     </a>
 </div>

@@ -1,0 +1,117 @@
+Featuredproject: true
+
+----
+
+Title: Jouska - The messenging app
+
+----
+
+Year: 
+
+----
+
+Smalldescription: A prototype of an app providing a sentiment analysis of its personal conversations.
+
+----
+
+Tags: mobile app,prototype,sentiment analysis,quantified-self
+
+----
+
+Descriptionparagraphs: 
+
+- 
+  singleparagraph: |
+    > **jouska.** n. a hypothetical conversation that you compulsively play out in your head—a crisp analysis, a cathartic dialogue, a devastating comeback—which serves as a kind of psychological batting cage where you can connect more deeply with people than in the small ball of everyday life, which is a frustratingly cautious game of change-up pitches, sacrifice bunts, and intentional walks. [The Dictionary of Obscure Sorrows](http://www.dictionaryofobscuresorrows.com/post/24567910939/jouska)
+    
+    ## Quantifying the way we talk
+    
+    This project is a semi-working prototype of an app to quantify the way we talk. The app analyzes the valence of the user’s text messages. It compares the positivity of the messages sent and received, in order to see if there’s a loss of balance between the two people’s writing. It also looks at the personality of these contacts, to show which kind of personality is the most compatible with the user. Finally, it looks at the positivity of the messages depending on the weekdays/hours they were sent, in order, for example, to recommend people to avoid sending messages on certain days/hours, or on the contrary, to nudge them to do so.
+  associatedimage: interfaces-dessinees.png
+  alternativetext: ""
+  figcaptionimage: Prototypes of user interfaces.
+- 
+  singleparagraph: |
+    ## Understanding the hidden mechanics underlying sentiment analysis
+    
+    During the Brexit or after Donald Trump has been elected, people have started to claim that we now live in a post-factual era - an era in which public discourse is dealing with people’s emotions instead of objective facts. I think that the development of sentiment analysis algorithms has something to do with that phenomenon. Let’s think about Facebook new reaction buttons, that allow companies or political parties to have a more and more precise idea of our feelings.
+  associatedimage: facebook-reaction-buttons.png
+  alternativetext: ""
+  figcaptionimage: >
+    Facebook new reaction buttons now allow
+    companies to have a more subtle
+    knowledge of our emotions.
+- 
+  singleparagraph: |
+    If we prepare ourselves to enter a world that is using our emotions to nudge our impulse buys or to orient our votes, then it’s an act of resistance to create tools for making people understand the machinery behind sentiment analysis.
+    
+    ## Developing an immunity at targeted solicitations
+    
+    That's why the main purpose of the app is not to make people talk more efficiently.
+    
+    > The idea behind is, by allowing people to have a better understanding of the way they talk, the app trains them to read between the lines of one of the others.
+    
+    This way, they can develop a form of immunity at targeted solicitations from advertisers, politicians, or noxious relations.
+  associatedimage: ""
+  alternativetext: ""
+  figcaptionimage: ""
+- 
+  singleparagraph: |
+    ## An emotional writing interface
+    
+    This part of the app is focused on giving an emotional feedback of the message currently written. This emotional analysis is made with
+  associatedimage: correction-positivite2.jpg
+  alternativetext: ""
+  figcaptionimage: |
+    Illustration of how an emotional feedback can make people change the way they write.
+    Left: "Hey what has happened to you yesterday? You looked sad..."
+    Center: "Your message seems negative because of the word "sad" and the ellipsis"
+    Right: "Hey Laura, how are you feeling today? :)"
+
+----
+
+Categories: interactionDesign, ux, dev
+
+----
+
+Thematics: writing, socialHacking
+
+----
+
+Maindescription: d
+
+----
+
+Illustration-0: 
+
+----
+
+Description-1: 
+
+----
+
+Illustration-1: 
+
+----
+
+Description-2: 
+
+----
+
+Website: 
+
+----
+
+Video: 
+
+----
+
+Press: 
+
+----
+
+Links: 
+
+----
+
+Misc: 

@@ -1,4 +1,4 @@
-Title: Jouska
+Title: Jouska - A speculation on sentiment analysis
 
 ----
 
@@ -6,7 +6,7 @@ Year: 2018
 
 ----
 
-Smalldescription: Jouska is a speculative design project exploring the future of sentiment analysis.
+Smalldescription: A video imagining how people can take advantage of the daily use of sentiment analysis.
 
 ----
 
@@ -23,8 +23,6 @@ Thematics: writing, talking, socialHacking
 ----
 
 Maindescription: 
-
-The project focuses on an app, imagined in a near future, that collects and analyzes the user’s text messages, and give him an emotional feedback. The app allows users to have a better understanding of the way they talk, and in the end, of one of the others. This way, they can develop a form of immunity at targeted solicitations from advertisers, politicians, or noxious relations.
 
 <div class="videoWrapper">
 <iframe src="https://player.vimeo.com/video/276232389" allowfullscreen></iframe>
@@ -74,3 +72,7 @@ Illustration-1:
 ----
 
 Description-2: 
+
+----
+
+Descriptionparagraphs: 

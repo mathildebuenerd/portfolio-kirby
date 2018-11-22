@@ -38,7 +38,14 @@
                         <!-- on checke s'il y a bien une image associée -->
                         <?php if ($singleEntryP['associatedimage'] != ""): ?>
                             <figure>
-                                <?php if($image = $page->image($singleEntryP['associatedimage'])) echo $image->html() ?>
+
+
+                                <?php if($image = $page->image($singleEntryP['associatedimage'])): ?>
+                                    <a target="_blank" href="<?php echo $image->url() ?>">
+                                        <?php echo $image->html() ?>
+                                    </a>
+
+                                 <?php endif?>
 
                                 <?php if ($singleEntryP['figcaptionimage'] != ""): ?>
                                 <figcaption>
