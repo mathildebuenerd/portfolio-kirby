@@ -2,7 +2,7 @@
 
 <?php echo css('@auto') ?>
 
-<main class="main" role="main">
+<main class="main">
 
 
     <section class="text wrap">
@@ -31,6 +31,9 @@
 
 
             <section class="main-description">
+
+                <h2 class="hidden-title">Project description</h2>
+
                 <?php foreach($page->descriptionparagraphs()->yaml() as $singleEntryP): ?>
                     <div class="single-description-paragraph">
                         <?= kirbytext($singleEntryP['singleparagraph']) ?>
@@ -42,7 +45,7 @@
 
                                 <?php if($image = $page->image($singleEntryP['associatedimage'])): ?>
                                     <a target="_blank" href="<?php echo $image->url() ?>">
-                                        <?php echo $image->html() ?>
+                                        <img src="<?php echo $image->url() ?>" alt="<?php echo $singleEntryP['figcaptionimage'] ?>">
                                     </a>
 
                                  <?php endif?>
@@ -115,46 +118,13 @@
 
         <div id="container-for-hiding-scrollbar-project">
             <div class="allimages fadeIn">
-                <?php
-                // Images for the "project" template are sortable. You
-                // can change the display by clicking the 'edit' button
-                // above the files list in the sidebar.
-//                foreach($page->images()->sortBy('sort', 'asc') as $image): ?>
                     <figure>
                         <img src="<?= $page->images()->first()->url() ?>" alt="<?= $page->title()->html() ?>" />
                     </figure>
-<!--                --><?php //endforeach ?>
             </div> <!-- allimages -->
         </div>
 
-<!--        <div class="alltags">-->
-<!--            <div class="tags">-->
-<!--                <!-- La fonction split permet de séparer chaque tag -->-->
-<!--                --><?php //foreach($page->content()->tags()->split(',') as $tag): ?>
-<!--                    <span>-->
-<!--          --><?php //echo html($tag) ?>
-<!--        </span>-->
-<!--                --><?php //endforeach ?>
-<!---->
-<!--            </div>-->
-<!---->
-<!--            <div class="thematics">-->
-<!--                --><?php //foreach($page->content()->thematics()->split(',') as $thematic): ?>
-<!--                    <span>-->
-<!--          --><?php //echo html($thematic) ?>
-<!--        </span>-->
-<!--                --><?php //endforeach ?>
-<!--            </div>-->
-<!---->
-<!--            <div class="categories">-->
-<!--                --><?php //foreach($page->content()->categories()->split(',') as $category): ?>
-<!--                    <span>-->
-<!--          --><?php //echo html($category) ?>
-<!--        </span>-->
-<!--                --><?php //endforeach ?>
-<!---->
-<!--            </div>-->
-<!--        </div>-->
+
 
     </section>
 

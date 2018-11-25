@@ -1,6 +1,6 @@
 <?php snippet('header') ?>
 
-    <main class="main single-page" role="main">
+    <main class="main single-page">
 
         <header class="wrap">
             <h1><?= $page->title()->html() ?></h1>
@@ -14,7 +14,7 @@
             </section>
 
             <section id="chili-principles">
-                <h2><?= $page->chiliPrinciplesTitle()->kirbytext() ?></h2>
+                <h2><?= $page->chiliPrinciplesTitle()->kirbytextRaw() ?></h2>
                 <?= $page->chiliPrinciples()->kirbytext() ?>
             </section>
         </div>

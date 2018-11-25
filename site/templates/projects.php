@@ -1,21 +1,24 @@
 <?php snippet('header') ?>
 
-<main class="main fadeIn" role="main">
+<main class="main fadeIn">
 
     <!-- Presentation text -->
     <section id="introduction">
+        <h2 class="hidden-title">Introduction</h2>
         <?= $page->textIntro()->kirbytext() ?>
     </section>
 
     <!-- Presentation of chili design -->
     <section id="chilidesign">
-        <p><?= $page->textChili()->kirbytext() ?></p>
+        <h2 class="hidden-title">Chili design</h2>
+        <?= $page->textChili()->kirbytext() ?>
 
     </section>
 
 
 
     <section id="preview-projects">
+        <h2 class="hidden-title">All Projects</h2>
 
         <section id="featured-projects">
 
@@ -36,7 +39,7 @@
                                 <?php foreach ($subpage->content()->categories()->split(',') as $category): ?>
                                     <span>
                                         <?php
-                                            echo html($category)
+                                        echo html($category)
                                         ?>
                                      </span>
                                 <?php endforeach ?>
@@ -53,29 +56,6 @@
                             </p>
 
                             <p class="project-read-more"><a href="<?php echo $subpage->url() ?>">Read more</a></p>
-
-                            <!--                            <div class="alltags">-->
-                            <!--                                <div class="tags">-->
-                            <!--                                    <!-- La fonction split permet de séparer chaque tag -->
-                            <!--                                    --><?php //foreach ($subpage->content()->tags()->split(',') as $tag): ?>
-                            <!--                                        <span>-->
-                            <!--                                        --><?php //echo html($tag) ?>
-                            <!--                                    </span>-->
-                            <!--                                    --><?php //endforeach ?>
-                            <!---->
-                            <!--                                </div>-->
-                            <!---->
-                            <!--                                <div class="thematics">-->
-                            <!--                                    --><?php //foreach ($subpage->content()->thematics()->split(',') as $thematic): ?>
-                            <!--                                        <span>-->
-                            <!--                                        --><?php //echo html($thematic) ?>
-                            <!--                                     </span>-->
-                            <!--                                    --><?php //endforeach ?>
-                            <!--                                </div>-->
-                            <!---->
-                            <!--                                -->
-                            <!---->
-                            <!--                            </div> <!-- all tags -->
                         </div>
                     </article>
                 <?php endif ?>
@@ -120,37 +100,12 @@
 
                             <p class="project-read-more"><a href="<?php echo $subpage->url() ?>">Read more</a></p>
 
-                            <!--                            <div class="alltags">-->
-                            <!--                                <div class="tags">-->
-                            <!--                                    <!-- La fonction split permet de séparer chaque tag -->
-                            <!--                                    --><?php //foreach ($subpage->content()->tags()->split(',') as $tag): ?>
-                            <!--                                        <span>-->
-                            <!--                                        --><?php //echo html($tag) ?>
-                            <!--                                    </span>-->
-                            <!--                                    --><?php //endforeach ?>
-                            <!---->
-                            <!--                                </div>-->
-                            <!---->
-                            <!--                                <div class="thematics">-->
-                            <!--                                    --><?php //foreach ($subpage->content()->thematics()->split(',') as $thematic): ?>
-                            <!--                                        <span>-->
-                            <!--                                        --><?php //echo html($thematic) ?>
-                            <!--                                     </span>-->
-                            <!--                                    --><?php //endforeach ?>
-                            <!--                                </div>-->
-                            <!---->
-                            <!--                                -->
-                            <!---->
-                            <!--                            </div> <!-- all tags -->
                         </div>
                     </article>
                 <?php endif ?>
             <?php endforeach ?>
         </section>
-
     </section>
-
-
 </main>
 
 

@@ -72,6 +72,18 @@ p a, p a:visited {
     transform: rotate(-360deg);
 }
 
+/* Pour ne pas afficher certains titres de section */
+.hidden-title {
+    position: absolute;
+    clip: rect(1px 1px 1px 1px); /* for Internet Explorer */
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 0;
+    border: 0;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+}
+
 
 /*******
     GENERAL
@@ -522,7 +534,18 @@ nav ul {
     }
 }
 
+@media (max-width: 400px) {
+    #logo-chili-design {
+        display: none;
+    }
+}
+
 @media (max-width: 768px) and (max-height: 768px) {
+
+    #logo-chili-design {
+        top: 5px !important;
+        left: -5px !important;
+    }
 
     #introduction, #chilidesign {
         padding: 55px !important;

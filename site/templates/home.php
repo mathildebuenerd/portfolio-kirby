@@ -1,6 +1,6 @@
 <?php snippet('header') ?>
 
-  <main class="main" role="main">
+  <main class="main">
     
     <header class="wrap">
       <h1><?= $page->title()->html() ?></h1>

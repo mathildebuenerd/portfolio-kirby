@@ -15,6 +15,10 @@ fields:
     label: Title
     type: title
 
+  bioTitle:
+    label: Biographie Titre
+    type: text
+
   biography:
     label: Biographie
     type: textarea

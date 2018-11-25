@@ -1,6 +1,6 @@
 <?php snippet('header') ?>
 
-    <main class="main single-page" role="main">
+    <main class="main single-page">
 
         <div class="wrap">
 
@@ -10,6 +10,7 @@
             </header>
 
             <section id="biography" class="text">
+                <h2><?= $page->bioTitle()->kirbytextRaw() ?></h2>
                 <?= $page->biography()->kirbytext() ?>
             </section>
 

@@ -30,12 +30,7 @@
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
 
-    <!--    include p5 library -->
-<!--    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.16/p5.js"></script>-->
-
-<!--    <script src="https://use.fontawesome.com/e7a889ab23.js"></script>-->
-
-<!--    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,400,600" rel="stylesheet">-->
+    <!--    inclunding fonts -->
     <link href="https://fonts.googleapis.com/css?family=Chivo:300,300i,400,400i,700" rel="stylesheet">
 <body>
 
