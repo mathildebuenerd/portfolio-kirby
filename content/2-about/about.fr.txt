@@ -104,3 +104,7 @@ Cv: <a href="http://www.chilidesign.fr/cv2018.10.31-en.pdf" target="_blank">Engl
 ----
 
 Biotitle: Biographie
+
+----
+
+Metadescription: Mathilde Buenerd une creative technologist explorant nos futures relations avec l'IA, telles que l'analyse de sentiment ou les assistants personnels.

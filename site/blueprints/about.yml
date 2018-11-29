@@ -11,6 +11,10 @@ options:
   status: false  
   
 fields:
+  metadescription:
+    label: Meta description
+    type: textarea
+
   title:
     label: Title
     type: title

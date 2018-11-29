@@ -52,3 +52,7 @@ An automated system should not act in the background. It should push the user a 
 
 ### A visible interface
 The GUI is not a decoration layer and its value should never be minimized. It has to help the user to understand how the system operates.
+
+----
+
+Metadescription: Chili design gathers three design principles for designing algorithm-based technologies in the era of ubiquitous computing.

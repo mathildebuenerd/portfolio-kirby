@@ -5,24 +5,36 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
 
-    <title><?= $site->title()->html() ?> | <?= $page->title()->html() ?></title>
-    <meta name="description" content="<?= $site->description()->html() ?>">
+    <title><?= $page->title()->html() ?></title>
+
+    <!--    Pour toutes les pages on prend la meta description indiquée dans la page. Pour les pages projet on prend la petite description -->
+    <meta name="description" content="<?= ($page->metadescription()->kirbytextRaw() != '') ? $page->metadescription()->kirbytextRaw() : $page->smalldescription()->kirbytextRaw() ?>">
 
     <!--    Balises réseaux sociaux   -->
 
-    <meta property="og:title" content="Chili Design - Mathilde Buenerd"/>
+    <meta property="og:title" content="<?= $page->title()->html() ?>"/>
     <meta property="og:type" content="website"/>
-    <meta property="og:url" content="http://www.chilidesign.fr/"/>
-    <meta property="og:image" content="http://www.chilidesign.fr/preview-social.jpg"/>
-    <meta property="og:description" content="Interaction designer exploring our future relationships with AI."/>
+    <meta property="og:url" content="<?php echo $site->language()->url() ?>"/>
+    <meta property="og:image" content="<?php
+    if($image = $page->image()) {
+        echo $image->url();
+    } else {
+        echo 'http://www.chilidesign.fr/preview-social.jpg';
+    } ?>"/>
+    <meta property="og:description" content="<?= ($page->metadescription()->kirbytextRaw() != '') ? $page->metadescription()->kirbytextRaw() : $page->smalldescription()->kirbytextRaw() ?>"/>
 
     <!-- Twitter Card data -->
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@mathildebuenerd">
-    <meta name="twitter:title" content="Chili Design - Mathilde Buenerd">
-    <meta name="twitter:description" content="Interaction designer exploring our future relationships with AI.">
+    <meta name="twitter:title" content="<?= $page->title()->html() ?>">
+    <meta name="twitter:description" content="<?= ($page->metadescription()->kirbytextRaw() != '') ? $page->metadescription()->kirbytextRaw() : $page->smalldescription()->kirbytextRaw() ?>">
     <meta name="twitter:creator" content="@mathildebuenerd">
-    <meta name="twitter:image" content="http://www.chilidesign.fr/preview-social.jpg">
+    <meta name="twitter:image" content="<?php
+    if($image = $page->image()) {
+        echo $image->url();
+    } else {
+       echo 'http://www.chilidesign.fr/preview-social.jpg';
+    } ?>">
 
     <?= css('assets/css/mystyle.css') ?>
 

@@ -6,7 +6,11 @@ options:
   delete: false
   status: false
 
-fields: 
+fields:
+  metadescription:
+    label: Meta description
+    type: textarea
+
   title:
     label: Title
     type: title

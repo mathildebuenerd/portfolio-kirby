@@ -11,6 +11,15 @@ options:
   url: false  
 
 fields:
+
+  title:
+    label: Title
+    type: text
+
+  metadescription:
+    label: Meta description
+    type: textarea
+
   textIntro:
     label: Introduction/Présentation
     type: textarea

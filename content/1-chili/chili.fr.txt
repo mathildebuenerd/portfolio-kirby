@@ -49,3 +49,7 @@ Un système automatisé n’agit pas en arrière-plan. Il pousse l’usager à s
 
 ### Une interface visible
 L’interface n’est ni une couche d’embellissement, ni une couche accessoire. Elle doit donner les clés de compréhension du fonctionnement du système.
+
+----
+
+Metadescription: Le chili design regroupe trois principes pour le design de systèmes automatisés à l'ère du machine learning.

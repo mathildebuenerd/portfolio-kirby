@@ -2,6 +2,15 @@ title: Project
 
 
 fields:
+
+  title:
+    label: Title
+    type: text
+
+  metadescription:
+    label: Meta description
+    type: textarea
+
   chiliDefinitionTitle:
     label: What is chili design - title
     type: text

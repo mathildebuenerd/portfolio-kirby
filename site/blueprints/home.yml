@@ -3,6 +3,10 @@ title: Home
 pages: false
 
 fields:
+  metadescription:
+    label: Meta description
+    type: textarea
+
   title:
     label: Title
     type:  text

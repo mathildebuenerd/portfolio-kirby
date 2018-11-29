@@ -1,4 +1,4 @@
-Title: Work
+Title: Mathilde Buenerd - Creative Technologist
 
 ----
 
@@ -72,3 +72,7 @@ Titlefeaturedprojects: Projects
 ----
 
 Titleotherprojects: Other projects
+
+----
+
+Metadescription: Mathilde Buenerd is a creative technologist exploring our future relationships with AI, such as sentiment analysis or natural language processing.
