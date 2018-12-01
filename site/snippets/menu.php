@@ -16,6 +16,9 @@
         <li class="single-social-link">
             <a target="_blank" href="https://www.linkedin.com/in/mathilde-buenerd-9b5585a1/">linkedin</a>
         </li>
+        <li class="single-social-link">
+            <a target="_blank" href="http://blog.mathildebuenerd.fr">blog</a>
+        </li>
     </ul>
 </nav>
 
