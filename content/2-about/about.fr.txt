@@ -38,7 +38,7 @@ Design d'interaction, Humour & Intelligence artificielle, _Humours numériques, 
 
 _Introducing Chili Design_, Fak’ugesi Talks: Premonition and Digital Imaginaries, 06.09.2018. Johannesburg (South Africa). <a href="https://fr.slideshare.net/MathildeBuenerd/introducing-chili-design-fakugesi-talks" target="_blank">Slides</a>.
 
-_Optimized talk : what future for digital personal assistants?_, GSGS'18, 06.06.2018 NIFFF (Neuchâtel). *(video about to come)*
+_Optimized talk : what future for digital personal assistants?_, GSGS'18, 06.06.2018 NIFFF (Neuchâtel). <a href="ftp://ftp.he-arc.ch/2018/videos/GSGS_Session5.23.mp4" target="_blank">Video</a>.
 
 _How autocompletion is going to change the way we interact with each other ?_, Junior Design Research Conference, 10.11.2017, ZHDK (Zürich). <a href="https://www.slideshare.net/MathildeBuenerd/conversing-in-the-era-of-autocomplete" target="_blank">Slides</a>.
 
