@@ -67,7 +67,7 @@ Descriptionparagraphs:
 
     C'est une installation musicale dans laquelle une personne contrôle grâce à ses expressions faciales la musique que les visiteurs écoutent. Pour cela, elle peut par exemple faire un sourire ou une grimace.
 
-    > Le projet explore l'utilisation de moyens d'un moyen de communication universel, les émotions. Il se cherche à transcender la barrière du langage.
+    > Le projet explore l'utilisation de moyens de communication universels, les émotions, pour transcender la barrière du langage.
   associatedimage: empathic-frequency-grimace.jpg
   alternativetext: ""
   figcaptionimage: "Le projet a été réalisé pour une exposition en Afrique du Sud, pays dans lequel 11 langues officielles cohabitent. C'est la raison pour laquelle j'ai choisi d'utiliser les expressions faciales comme mode d'interaction."

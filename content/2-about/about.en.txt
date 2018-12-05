@@ -53,7 +53,7 @@ Biography:
 
 Mathilde Buenerd is a creative technologist whose work explores the connections between language, algorithms and social relationships. Her work embodies various forms like mobile apps, web extensions, connected devices or generative art. Her main interest lies in how technologies could permit alien ways of looking at things. 
 After studying graphic design and media art, she obtained a master's degree in interaction design from the Geneva School of Art and Design (HEAD). 
-Her work and lectures have been presented in events and institutions such as Fak'ugesi Digital Residency (Johannesburg), Fondation Vasarely (Aix-en-Provence), Lift Conference (Geneva), Design Junior Research Conference (Zürich), Ludicious (Zürich), Maker Faire (Grenoble), Freeson (Avignon), Eniarof, Fondation Martin Bodmer (Geneva), GSGS (Neuchâtel).
+Her work and lectures have been presented in international events and institutions such as Fak'ugesi Digital Residency (Johannesburg), HER Arts + Data + AI festival (Roma), Lift Conference (Geneva), Fondation Vasarely (Aix-en-Provence), Design Junior Research Conference (Zürich), Ludicious (Zürich), Maker Faire (Grenoble), Freeson (Avignon), Eniarof, Fondation Martin Bodmer (Geneva), GSGS (Neuchâtel).
 
 ----
 
@@ -107,4 +107,4 @@ Biotitle: Biography
 
 ----
 
-Metadescription: Mathilde Buenerd is a creative technologist exploring our future relationships with AI, such as sentiment analysis or natural language processing.
+Metadescription: Her work embodies various forms like mobile apps, web extensions, connected devices or generative art. Her main interest lies in how technologies could permit alien ways of looking at things.

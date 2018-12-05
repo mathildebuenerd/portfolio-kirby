@@ -14,7 +14,7 @@
 
     <meta property="og:title" content="<?= $page->title()->html() ?>"/>
     <meta property="og:type" content="website"/>
-    <meta property="og:url" content="<?php echo $site->language()->url() ?>"/>
+    <meta property="og:url" content="<?php echo $page->url() ?>"/>
     <meta property="og:image" content="<?php
     if($image = $page->image()) {
         echo $image->url();
