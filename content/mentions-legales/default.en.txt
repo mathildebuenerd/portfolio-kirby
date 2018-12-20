@@ -1,0 +1,24 @@
+Title: Mentions légales
+
+----
+
+Text: 
+
+## Contact 
+Developed and administrated by Mathilde Buenerd.
+mathilde.buenerd[at]gmail.com
+
+Hosted by OVH,  2 rue Kellermann – 59100 ROUBAIX – France. 
+http://www.ovh.com/fr/support/
+
+## Personal data
+This website does not collect any personal data and does not use cookies.
+
+## Credits 
+
+### CMS
+Site made with [Kirby](http://getkirby.com/).
+
+### Fonts
+Titles use *[Sporting Grotesque](https://velvetyne.fr/fonts/sporting-grotesque/)*,  originally created by Lucas Le Bihan.
+Main text uses [*Chivo*](https://fonts.google.com/specimen/Chivo)
