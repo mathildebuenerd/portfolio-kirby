@@ -4,11 +4,7 @@ pages: false
 
 fields:
   title:
-    label: Titre de l'article
-    type:  title
-
-  subtitle:
-    label: Sous-titre de l'article
+    label: Title
     type:  title
     
   coverimage:
@@ -25,20 +21,7 @@ fields:
     default: today
     required: true
     width: 1/2
-
-  descriptionparagraphs:
-    label: Description du projet
-    type: structure
-    fields:
-      singleparagraph:
-        label: Paragraphe simple
-        type: textarea
-      associatedimage:
-        label: Illustration
-        type: image
-      alternativetext:
-        label: Texte alternative
-        type: text
-      figcaptionimage:
-        label: Légende (figcaption)
-        type: textarea
+  
+  text:
+    label: Text
+    type: textarea

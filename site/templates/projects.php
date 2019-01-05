@@ -55,7 +55,18 @@
                                 <?php echo html($subpage->smalldescription()) ?>
                             </p>
 
-                            <p class="project-read-more"><a href="<?php echo $subpage->url() ?>">Read more</a></p>
+                            <p class="project-read-more">
+                                <!-- Check la langue pour écris 'Lire plus' ou 'Read more' et ajuster le aria-label -->
+                                <?php if(strtolower($site->language()->name()) == 'english'): ?>
+                                <a href='<?php echo $subpage->url() ?>'
+                                   aria-label='Read more about <?php echo $subpage->title() ?>'>Read more</a></p>
+                                <?php endif ?>
+
+                                <?php if(strtolower($site->language()->name()) == 'français'): ?>
+                                    <a href='<?php echo $subpage->url() ?>'
+                                    aria-label='En savoir plus sur <?php echo $subpage->title() ?>'>En savoir plus</a></p>
+                                <?php endif ?>
+                            <p></p>
                         </div>
                     </article>
                 <?php endif ?>
