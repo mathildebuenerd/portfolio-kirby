@@ -35,9 +35,10 @@
         aria-label="Languages menu"<?php endif ?>>
     <ul id="list-languages">
         <?php foreach($site->languages() as $language): ?>
-            <li<?php e($site->language() == $language, ' class="active"') ?>>
+            <li <?php e($site->language() == $language, ' class="active"') ?>
+                    id="single-language-<?= $language->code()?>">
                 <a href="<?= $page->url($language->code()) ?>">
-                    <?= html($language->code()) ?>
+                    <?= html($language->name()) ?>
                 </a>
             </li>
         <?php endforeach ?>

@@ -1,9 +1,9 @@
-Caption: 
+Caption:
 
 ----
 
-Alttext: 
+Alttext:
 
 ----
 
-Source: 
+Source:

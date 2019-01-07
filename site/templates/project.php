@@ -45,7 +45,8 @@
 
                                 <?php if($image = $page->image($singleEntryP['associatedimage'])): ?>
                                     <a target="_blank" href="<?php echo $image->url() ?>">
-                                        <img src="<?php echo $image->url() ?>" alt="<?php echo $singleEntryP['figcaptionimage'] ?>">
+                                        <!-- Pas de texte alternatif car l'image est suivie d'une figcaption-->
+                                        <img src="<?php echo $image->url() ?>" alt="">
                                     </a>
 
                                  <?php endif?>

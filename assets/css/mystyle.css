@@ -144,6 +144,7 @@ nav ul {
     width: 15px;
 }
 
+
 /*Menu principal*/
 #nav-main {
     width: 100%;
@@ -174,12 +175,16 @@ nav ul {
     /*writing-mode: vertical-rl;*/
     /*text-orientation: mixed;*/
     width: 15px;
-    transform: rotate(90deg) translate(-200%);
-    text-transform: uppercase;
+    transform: rotate(90deg) translate(-700%);
+    /*text-transform: uppercase;*/
 }
 
 #list-languages li:not(:last-child) {
     margin-right: 10px;
+}
+
+#list-languages li.active {
+    font-weight: bold;
 }
 
 /*Menu social media*/

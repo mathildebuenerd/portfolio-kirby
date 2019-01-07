@@ -66,7 +66,6 @@
                                     <a href='<?php echo $subpage->url() ?>'
                                     aria-label='En savoir plus sur <?php echo $subpage->title() ?>'>En savoir plus</a></p>
                                 <?php endif ?>
-                            <p></p>
                         </div>
                     </article>
                 <?php endif ?>
