@@ -20,7 +20,7 @@ Textchili:
 
 These last months, I have worked on developing **principles** for the design of **automated systems**.
 
-That's what I call ***chili&nbsp;design***, and you can [discover it here](chili).
+That's what I call ***chili design***, and you can [discover it here](chili).
 
 ----
 

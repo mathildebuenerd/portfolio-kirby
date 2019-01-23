@@ -10,7 +10,16 @@ mathilde[dot]buenerd[at]gmail[dot]com
 
 This website doesn't use any tracker or web analytics service. But if you want to tell me you were here, I invite you to fill [this form](https://docs.google.com/forms/d/e/1FAIpQLSeYAobi-gwHL5g85EXXJA_w-Ps1TZ0UEEIeDXuv4IW-5_xvcQ/viewform).
 
-Website designed and developed by Mathilde Buenerd, using [Kirby](https://getkirby.com/).
+
+## Credits
+
+### Fonts
+The titles use [_Sporting Grotesque_](https://www.velvetyne.fr/fonts/sporting-grotesque/). It was originally created by Lucas Le Bihan. George Triantafyllakos adapted the greek in summer 2017. Polish diacritics added by Maciej Połczyński.
+
+The main text uses [Chivo](https://fonts.google.com/specimen/Chivo), by Omnibus-Type.
+
+### Development
+Website designed and developed by Mathilde Buenerd, using [Kirby CMS](https://getkirby.com/).
 
 ----
 

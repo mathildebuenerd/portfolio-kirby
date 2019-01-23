@@ -10,7 +10,15 @@ mathilde[dot]buenerd[at]gmail[dot]com
 
 Ce site n'utilise pas de tracker ou de service d'analyse d'audience. En revanche, si vous souhaitez m'indiquer que vous êtes passé sur le site, je vous invite à remplir [ce formulaire](https://docs.google.com/forms/d/e/1FAIpQLSeYAobi-gwHL5g85EXXJA_w-Ps1TZ0UEEIeDXuv4IW-5_xvcQ/viewform).
 
-Design et développement du site par Mathilde Buenerd, avec [Kirby](https://getkirby.com/).
+## Crédits
+
+### Polices
+Les titres utilisent [_Sporting Grotesque_](https://www.velvetyne.fr/fonts/sporting-grotesque/). Cette police a été crée originellement par Lucas Le Bihan. George Triantafyllakos l'a adaptée pour le grec et Maciej Połczyński a ajouté les diacritiques.
+
+Le texte principal utilise [Chivo](https://fonts.google.com/specimen/Chivo), par Omnibus-Type.
+
+### Développement
+Design et développement du site par Mathilde Buenerd, avec [Kirby CMS](https://getkirby.com/).
 
 ----
 

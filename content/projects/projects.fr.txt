@@ -20,7 +20,7 @@ Textchili:
 
 Ces derniers mois, j'ai développé des principes de design d'interaction pour le design de systèmes automatisés.
 
-C'est ce que j'appelle ***design&nbsp;pimenté*** ou ***chili&nbsp;design***. [Découvrez-le ici](chili).
+C'est ce que j'appelle ***design pimenté*** ou ***chili design***. [Découvrez-le ici](chili).
 
 ----
 
