@@ -529,7 +529,14 @@ nav ul {
     margin-top: 70px;
 }
 
+#about-picture {
+    overflow: hidden;
+    margin-top: 30px;
+}
 
+#about-picture img {
+    max-width: 90vw;
+}
 
 
 
@@ -581,6 +588,14 @@ nav ul {
         padding: 40px 0 0 0 !important;
         margin-left: 0 !important;
         border-top: 3px solid black !important;
+    }
+
+    #about-picture {
+        /*height: 300px;*/
+    }
+
+    #about-picture img {
+        /*object-fit: cover;*/
     }
 
 }

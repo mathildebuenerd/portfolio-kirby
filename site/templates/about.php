@@ -8,6 +8,10 @@
                 <h1><?= $page->title()->html() ?></h1>
                 <hr />
             </header>
+            
+            <div id="about-picture">
+                <img src="<?php echo url('assets/images/talk-gsgs18.png') ?>" alt="Mathilde giving a talk at the Gamification and Serious Games Symposium in 2018">
+            </div>
 
             <section id="biography" class="text">
                 <h2><?= $page->bioTitle()->kirbytextRaw() ?></h2>
