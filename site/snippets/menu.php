@@ -56,7 +56,7 @@
             <a target="_blank" href="https://twitter.com/mathildebuenerd">twitter</a>
         </li>
         <li class="single-social-link">
-            <a target="_blank" href="https://twitter.com/mathildebuenerd">github</a>
+            <a target="_blank" href="https://github.com/mathildebuenerd">github</a>
         </li>
         <li class="single-social-link">
             <a target="_blank" href="https://www.linkedin.com/in/mathilde-buenerd-9b5585a1/">linkedin</a>
