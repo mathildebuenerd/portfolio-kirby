@@ -1,3 +1,7 @@
+---
+permalink: /index.php
+---
+
 # Portfolio
 
 ## Credits
