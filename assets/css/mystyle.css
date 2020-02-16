@@ -382,7 +382,7 @@ nav ul {
     max-width: 500px;
 }
 
-#featured-projects .project-title a {
+#featured-projects .project-title {
     font-size: 2em;
     line-height: 110%;
 }
@@ -552,7 +552,8 @@ nav ul {
         font-size: 2em;
     }
 
-    .project-title a {
+    #featured-projects .project-title,
+    #other-projects .project-title {
         font-size: 1.3em;
     }
 }
@@ -650,7 +651,7 @@ nav ul {
         margin: 15px 0;
     }
 
-    #featured-projects .project-title a {
+    #featured-projects .project-title {
         font-size: 1.2em !important;
     }
 
