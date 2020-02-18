@@ -8,9 +8,9 @@ Intro:
 
 Text: 
 
-Mathilde est une designer d’interaction et artiste basée à Genève. Son travail explore les connections entre le langage, les algorithmes et les relations sociales. Ses projets sont hybrides et prennent des formes variées, de l’application mobile à l’extension web, de l’objet connecté à l’art génératif. Un sujet récurrent dans sa pratique est la question de comment les technologies numériques peuvent permettre des modes de pensée inédits.
+Mathilde est une designer d’interaction et artiste basée à Hambourg. Son travail explore les connections entre le langage, les algorithmes et les relations sociales. Ses projets sont hybrides et prennent des formes variées, de l’application mobile à l’extension web, de l’objet connecté à l’art génératif. Un sujet récurrent dans sa pratique est la question de comment les technologies numériques peuvent permettre des modes de pensée inédits.
 Après avoir étudié le design graphique et l’art numérique en France, elle obtient un master en Media Design à la HEAD - Genève.
-Son travail a été présenté dans des évènements et musées internationaux comme le Festival Fak’ugesi (Johannesbourg), la Fondation Vasarely (Aix-en-Provence), Lift Conference (Genève), la Design Junior Research Conference (Zürich), Ludicious (Zürich), la Fondation Martin Bodmer (Geneva), la Maker Faire (Grenoble), Eniarof, la GSGS (Neuchâtel).
+Son travail a été présenté dans des évènements et musées internationaux comme le Festival Fak’ugesi (Johannesbourg), la HEK (Basel), HER Arts + Data + AI festival (Rome), la Fondation Vasarely (Aix-en-Provence), Lift Conference (Genève), la Design Junior Research Conference (Zürich), Ludicious (Zürich), la Fondation Martin Bodmer (Geneva), la Maker Faire (Grenoble), Eniarof, la GSGS (Neuchâtel).
 
 
 
@@ -53,7 +53,7 @@ Biography:
 
 Mathilde est une designer d’interaction et artiste basée à Genève. Son travail explore les connections entre le langage, les algorithmes et les relations sociales. Ses projets sont hybrides et prennent des formes variées, de l’application mobile à l’extension web, de l’objet connecté à l’art génératif. Un sujet récurrent dans sa pratique est la question de comment les technologies numériques peuvent permettre des modes de pensée inédits.
 Après avoir étudié le design graphique et l’art numérique en France, elle obtient un master en Media Design à la HEAD - Genève.
-Son travail a été présenté dans des institutions et évènements internationaux comme le Festival Fak’ugesi (Johannesbourg), HER Arts + Data + AI festival (Rome), Lift Conference (Genève), la Fondation Vasarely (Aix-en-Provence), la Design Junior Research Conference (Zürich), Ludicious (Zürich), la Fondation Martin Bodmer (Geneva), la Maker Faire (Grenoble), Eniarof, la GSGS (Neuchâtel).
+Son travail a été présenté dans des institutions et évènements internationaux comme le Festival Fak’ugesi (Johannesbourg),  la HEK (Basel), HER Arts + Data + AI festival (Rome), Lift Conference (Genève), la Fondation Vasarely (Aix-en-Provence), la Design Junior Research Conference (Zürich), Ludicious (Zürich), la Fondation Martin Bodmer (Geneva), la Maker Faire (Grenoble), Eniarof, la GSGS (Neuchâtel).
 
 ----
 

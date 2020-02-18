@@ -314,8 +314,8 @@ nav ul {
 
 .project-read-more a {
     text-decoration: none !important;
-    color: #a8a8a8;
-    border: 1px solid #a8a8a8;
+    color: #a8a8a8 !important;
+    border: 1px solid #a8a8a8 !important;
     text-transform: uppercase;
     padding: 8px;
 }
