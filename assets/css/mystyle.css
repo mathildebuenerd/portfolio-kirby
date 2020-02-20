@@ -59,6 +59,12 @@ p a:visited {
   color: blue;
   text-decoration: none;
   border-bottom: 2px solid blue;
+  transition: 0.1s;
+}
+
+p a:hover {
+  border-bottom: 2px solid white;
+  transition: 0.1s;
 }
 
 #logo-chili-design {
@@ -473,7 +479,8 @@ nav ul {
 }
 
 #details-contact .single-footer p {
-  color: #999;
+  color: #686868;
+  font-weight: 300;
   line-height: 1.5;
   letter-spacing: 0.5px;
 }
@@ -502,7 +509,7 @@ nav ul {
 }
 
 .single-page header h1 {
-  font-size: 4em;
+  font-size: 3em;
 }
 
 .single-page header hr {
@@ -603,7 +610,7 @@ nav ul {
   }
 
   .single-page header h1 {
-    font-size: 2.2em !important;
+    font-size: 1.8em !important;
   }
 
   .single-page .text p {
