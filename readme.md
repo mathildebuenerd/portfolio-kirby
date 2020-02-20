@@ -9,7 +9,7 @@ permalink: /index.php
 Run dev servers with 
 
 ```
-php -S localhost:8000 kirby/router.php
+npm start
 ```
 
 ## Credits

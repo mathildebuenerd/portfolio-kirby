@@ -1,0 +1,20 @@
+{
+  "name": "chili-design-portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio of Chili Desing, made with Kirby",
+  "main": "index.js",
+  "scripts": {
+    "start": "php -S localhost:8000 kirby/router.php",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mathildebuenerd/portfolio-kirby.git"
+  },
+  "author": "Mathilde Buenerd",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mathildebuenerd/portfolio-kirby/issues"
+  },
+  "homepage": "https://github.com/mathildebuenerd/portfolio-kirby#readme"
+}
