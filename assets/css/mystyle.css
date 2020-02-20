@@ -322,7 +322,7 @@ nav ul {
 
 .project-read-more a:hover {
     background-color: #a8a8a8;
-    color: white;
+    color: white !important;
     transition: 0.5s;
 }
 

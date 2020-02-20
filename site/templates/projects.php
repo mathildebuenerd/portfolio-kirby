@@ -57,15 +57,16 @@
 
                             <p class="project-read-more">
                                 <!-- Check la langue pour écris 'Lire plus' ou 'Read more' et ajuster le aria-label -->
-                                <?php if(strtolower($site->language()->name()) == 'english'): ?>
+                                <?php if($site->language()->name() == 'English'): ?>
                                 <a href='<?php echo $subpage->url() ?>'
-                                   aria-label='Read more about <?php echo $subpage->title() ?>'>Read more</a></p>
+                                aria-label='Read more about <?php echo $subpage->title() ?>'>Read more</a>
                                 <?php endif ?>
 
-                                <?php if(strtolower($site->language()->name()) == 'français'): ?>
+                                <?php if($site->language()->name() == 'Français'): ?>
                                     <a href='<?php echo $subpage->url() ?>'
-                                    aria-label='En savoir plus sur <?php echo $subpage->title() ?>'>En savoir plus</a></p>
+                                    aria-label='En savoir plus sur <?php echo $subpage->title() ?>'>Lire plus</a>
                                 <?php endif ?>
+                            </p>
                         </div>
                     </article>
                 <?php endif ?>
