@@ -330,23 +330,21 @@ body {
 .text .video a,
 .text .website a,
 .single-link-label {
-  background-color: blue;
-  color: white !important;
+  color: #737373 !important;
+  padding: 10px;
+  font-size: 1.1em;
+  border: 1px solid #d9d9d9;
+  border-radius: 20px;
   text-decoration: none;
-  padding: 15px;
-  letter-spacing: 3px;
-  text-transform: uppercase;
-  font-size: 1.2em;
   margin-right: 10px;
-  border: 1px solid white;
   transition: 0.5s ease;
+  text-transform: capitalize;
 }
 
-.video a:hover,
-.website a:hover {
-  background-color: white;
-  color: blue;
-  border: 1px solid blue;
+.text .video a:hover,
+.text .website a:hover,
+.single-link-label:hover {
+  box-shadow: 0 3px 7px lightgrey;
 }
 
 .videoWrapper {

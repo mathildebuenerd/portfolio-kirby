@@ -65,9 +65,16 @@
 
                 <!-- Other links -->
                 <div class="other-links">
-                    <?php foreach($page->links()->yaml() as $links): ?>
+                    <?php foreach($page->links()->yaml() as $link): ?>
                         <div class="single-link">
-                            <a href="<?= $links['url']?>" class="single-link-label" target="_blank"><?= $links['type'] ?></a>
+                            <a
+                                href="<?= $link['url']?>"
+                                class="single-link-label"
+                                target="_blank"
+                                data-type="<?= strtolower($link['type']) ?>"
+                            >
+                                <?= $link['type'] ?>
+                            </a>
                         </div>
                     <?php endforeach ?>
                 </div>
