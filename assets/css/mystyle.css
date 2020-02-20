@@ -3,87 +3,95 @@
 *******/
 
 @font-face {
-    font-family: 'Sporting Grotesque_Regular';
-    src:    url('../fonts/Sporting/Regular/Sporting_Grotesque-Regular_web.eot');
-    src:    url('../fonts/Sporting/Regular/Sporting_Grotesque-Regular_web.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/Sporting/Regular/Sporting_Grotesque-Regular_web.woff') format('woff'),
-    url('../fonts/Sporting/Regular/Sporting_Grotesque-Regular_web.woff2') format('woff2'),
-    url('../fonts/Sporting/Regular/Sporting_Grotesque-Regular_web.ttf') format('truetype'),
-    url('../fonts/Sporting/Regular/Sporting_Grotesque-Regular_web.svg#svgFontName') format('svg');
-    font-weight: normal;
-    font-style: normal;
+  font-family: "Sporting Grotesque_Regular";
+  src: url("../fonts/Sporting/Regular/Sporting_Grotesque-Regular_web.eot");
+  src: url("../fonts/Sporting/Regular/Sporting_Grotesque-Regular_web.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/Sporting/Regular/Sporting_Grotesque-Regular_web.woff")
+      format("woff"),
+    url("../fonts/Sporting/Regular/Sporting_Grotesque-Regular_web.woff2")
+      format("woff2"),
+    url("../fonts/Sporting/Regular/Sporting_Grotesque-Regular_web.ttf")
+      format("truetype"),
+    url("../fonts/Sporting/Regular/Sporting_Grotesque-Regular_web.svg#svgFontName")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'Sporting Grotesque_Regular';
-    src:    url('../fonts/Sporting/Bold/Sporting_Grotesque-Bold_web.eot');
-    src:    url('../fonts/Sporting/Bold/Sporting_Grotesque-Bold_web.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/Sporting/Bold/Sporting_Grotesque-Bold_web.woff') format('woff'),
-    url('../fonts/Sporting/Bold/Sporting_Grotesque-Bold_web.woff2') format('woff2'),
-    url('../fonts/Sporting/Bold/Sporting_Grotesque-Bold_web.ttf') format('truetype'),
-    url('../fonts/Sporting/Bold/Sporting_Grotesque-Bold_web.svg#svgFontName') format('svg');
-    font-weight: bold;
-    font-style: normal;
+  font-family: "Sporting Grotesque_Regular";
+  src: url("../fonts/Sporting/Bold/Sporting_Grotesque-Bold_web.eot");
+  src: url("../fonts/Sporting/Bold/Sporting_Grotesque-Bold_web.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/Sporting/Bold/Sporting_Grotesque-Bold_web.woff")
+      format("woff"),
+    url("../fonts/Sporting/Bold/Sporting_Grotesque-Bold_web.woff2")
+      format("woff2"),
+    url("../fonts/Sporting/Bold/Sporting_Grotesque-Bold_web.ttf")
+      format("truetype"),
+    url("../fonts/Sporting/Bold/Sporting_Grotesque-Bold_web.svg#svgFontName")
+      format("svg");
+  font-weight: bold;
+  font-style: normal;
 }
-
-
 
 /*******
     RESET
 *******/
 
 body {
-    margin: 0;
-    overflow-x: hidden;
-    font-family: "Chivo", "Helvetica", "Roboto", sans-serif;
+  margin: 0;
+  overflow-x: hidden;
+  font-family: "Chivo", "Helvetica", "Roboto", sans-serif;
 }
 
 ul li {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 ul {
-    padding: 0;
+  padding: 0;
 }
 
-p a, p a:visited {
-    color: blue;
-    text-decoration: none;
-    border-bottom: 2px solid blue;
+p a,
+p a:visited {
+  color: blue;
+  text-decoration: none;
+  border-bottom: 2px solid blue;
 }
 
 #logo-chili-design {
-    position: fixed;
-    z-index: 999;
-    top: 20px;
-    left: 10px;
+  position: fixed;
+  z-index: 999;
+  top: 20px;
+  left: 10px;
 }
 
 #logo-chili-design img {
-    width: 40px;
-    transition: 0.5s ease;
+  width: 40px;
+  transition: 0.5s ease;
 }
 
 #logo-chili-design a {
-    padding: 10px;
+  padding: 10px;
 }
 
 #logo-chili-design a:hover img {
-    transform: rotate(-360deg);
+  transform: rotate(-360deg);
 }
 
 /* Pour ne pas afficher certains titres de section */
 .hidden-title {
-    position: absolute;
-    clip: rect(1px 1px 1px 1px); /* for Internet Explorer */
-    clip: rect(1px, 1px, 1px, 1px);
-    padding: 0;
-    border: 0;
-    height: 1px;
-    width: 1px;
-    overflow: hidden;
+  position: absolute;
+  clip: rect(1px 1px 1px 1px); /* for Internet Explorer */
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0;
+  border: 0;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
 }
-
 
 /*******
     GENERAL
@@ -91,141 +99,152 @@ p a, p a:visited {
 
 /*dégradé*/
 
-#introduction, #chilidesign p, #contact-me {
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#05abe0+0,0000ff+79 */
-    background: rgb(5,171,224); /* Old browsers */
-    background: -moz-linear-gradient(-45deg, rgb(5,171,224) 0%, rgb(0,0,255) 79%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(-45deg, rgb(5,171,224) 0%,rgb(0,0,255) 79%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(135deg, rgb(5,171,224) 0%,rgb(0,0,255) 79%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+#introduction,
+#chilidesign p,
+#contact-me {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#05abe0+0,0000ff+79 */
+  background: rgb(5, 171, 224); /* Old browsers */
+  background: -moz-linear-gradient(
+    -45deg,
+    rgb(5, 171, 224) 0%,
+    rgb(0, 0, 255) 79%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    -45deg,
+    rgb(5, 171, 224) 0%,
+    rgb(0, 0, 255) 79%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    135deg,
+    rgb(5, 171, 224) 0%,
+    rgb(0, 0, 255) 79%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 
-#introduction a, #chilidesign a {
-    border-bottom: 5px solid;
-    /*color: #f0f;*/
+#introduction a,
+#chilidesign a {
+  border-bottom: 5px solid;
+  /*color: #f0f;*/
 }
-
 
 /*******
     HEADER
     (Links all around the page)
 *******/
 
-
-
-
 /*******
     MENUS
 *******/
 
 nav {
-    background-color: white;
-    padding: 25px;
-    position: fixed;
-    z-index: 99;
-    box-sizing: border-box;
+  background-color: white;
+  padding: 25px;
+  position: fixed;
+  z-index: 99;
+  box-sizing: border-box;
 }
 
-nav a, nav a:visited {
-    text-decoration: none;
-    color: black;
-    padding: 5px 0;
+nav a,
+nav a:visited {
+  text-decoration: none;
+  color: black;
+  padding: 5px 0;
 }
 
 nav a:hover {
-    border-bottom: 2px solid black;
+  border-bottom: 2px solid black;
 }
 
 nav ul {
-    display: flex;
-    margin: 0;
+  display: flex;
+  margin: 0;
 }
 
-#list-languages, #list-social-media {
-    width: 15px;
+#list-languages,
+#list-social-media {
+  width: 15px;
 }
-
 
 /*Menu principal*/
 #nav-main {
-    width: 100%;
-    display: flex;
-    justify-content: flex-end;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
 }
 
-
 #nav-main .menu-item:not(:first-child) {
-    padding: 0 0 0 15px;
+  padding: 0 0 0 15px;
 }
 
 #nav-main .menu-item:last-child {
-    padding-right: 40px; /* pour compenser la barre de menu à droite */
+  padding-right: 40px; /* pour compenser la barre de menu à droite */
 }
 
 /*Menu lang*/
 #nav-languages {
-    height: 100vh;
-    box-sizing: border-box;
-    right: 0;
-    display: flex;
-    align-items: flex-end;
+  height: 100vh;
+  box-sizing: border-box;
+  right: 0;
+  display: flex;
+  align-items: flex-end;
 }
 
 #list-languages {
-    /*On pourrait écrire le texte en vertical mais la compatibilité n'est pas top*/
-    /*writing-mode: vertical-rl;*/
-    /*text-orientation: mixed;*/
-    width: 15px;
-    transform: rotate(90deg) translate(-700%);
-    /*text-transform: uppercase;*/
+  /*On pourrait écrire le texte en vertical mais la compatibilité n'est pas top*/
+  /*writing-mode: vertical-rl;*/
+  /*text-orientation: mixed;*/
+  width: 15px;
+  transform: rotate(90deg) translate(-700%);
+  /*text-transform: uppercase;*/
 }
 
 #list-languages li:not(:last-child) {
-    margin-right: 10px;
+  margin-right: 10px;
 }
 
 #list-languages li.active {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 /*Menu social media*/
 #nav-social-media {
-    height: 100vh;
-    box-sizing: border-box;
-    left: 0;
-    display: flex;
-    align-items: flex-end;
+  height: 100vh;
+  box-sizing: border-box;
+  left: 0;
+  display: flex;
+  align-items: flex-end;
 }
 
 #list-social-media {
-    transform: rotate(-90deg);
+  transform: rotate(-90deg);
 }
 
 #list-social-media li:not(:last-child) {
-    margin-right: 25px;
+  margin-right: 25px;
 }
 
 .single-social-link {
-    position: relative;
-    z-index: 101;
+  position: relative;
+  z-index: 101;
 }
-
 
 /*******
     Accueil,
     Textes d'introduction
 *******/
 
-#introduction, #chilidesign {
-    min-height: 100vh;
-    padding: 10% 15% 5%;
-    font-size: 2.4em;
-    line-height: 1.3;
-    box-sizing: border-box;
-    font-family: "Sporting Grotesque_Regular", "Helvetica", sans-serif;
+#introduction,
+#chilidesign {
+  min-height: 100vh;
+  padding: 10% 15% 5%;
+  font-size: 2.4em;
+  line-height: 1.3;
+  box-sizing: border-box;
+  font-family: "Sporting Grotesque_Regular", "Helvetica", sans-serif;
 }
 
 /*#introduction strong, #chilidesign strong, #contact-me strong {*/
-    /*font-family: "Sporting Grotesque_Bold", "Helvetica", sans-serif;*/
+/*font-family: "Sporting Grotesque_Bold", "Helvetica", sans-serif;*/
 /*}*/
 
 /*******
@@ -233,42 +252,40 @@ nav ul {
 *******/
 
 #introduction {
-    color: white;
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#05abe0', endColorstr='#0000ff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  color: white;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#05abe0', endColorstr='#0000ff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
 #introduction p::selection {
-    background-color: white;
-    color: #f0f;
+  background-color: white;
+  color: #f0f;
 }
-
 
 /*******
     Présentation Chili design
 *******/
 
 #chilidesign {
-    color: blue;
-    background-color: white;
+  color: blue;
+  background-color: white;
 }
 
 /* On a un dégradé inscrusté dans le texte*/
 #chilidesign p {
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 #chilidesign p::selection {
-    color: white;
-    background: #f0f;
+  color: white;
+  background: #f0f;
 }
 
 /* emphased word "chili design"*/
 #chilidesign strong em {
-    font-size: 1.5em;
-    font-style: italic;
+  font-size: 1.5em;
+  font-style: italic;
 }
-
 
 /*******
 
@@ -277,63 +294,64 @@ nav ul {
 *******/
 
 .project-main-image {
-    overflow: hidden;
+  overflow: hidden;
 }
 
 .project-main-image img {
-    object-fit: cover;
-    object-position: center;
+  object-fit: cover;
+  object-position: center;
 }
 
 /* Typography of the captions*/
 
-.project-title a, .project-title a:visited {
-    color: blue;
-    text-decoration: none;
-    font-family: "Sporting Grotesque_Regular", "Helvetica", sans-serif;
+.project-title a,
+.project-title a:visited {
+  color: blue;
+  text-decoration: none;
+  font-family: "Sporting Grotesque_Regular", "Helvetica", sans-serif;
 }
 
 .project-description .categories {
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #a8a8a8;
-    font-size: 0.9em;
-    margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #a8a8a8;
+  font-size: 0.9em;
+  margin-bottom: 10px;
 }
 
 .project-description .categories span:not(:last-child) {
-    margin-right: 10px;
+  margin-right: 10px;
 }
 
 .project-short-description {
-    color: #333;
-    line-height: 1.4;
-    font-size: 1.1em;
-    margin-top: 0;
+  color: #333;
+  line-height: 1.4;
+  font-size: 1.1em;
+  margin-top: 0;
 }
 
 .project-read-more a {
-    text-decoration: none !important;
-    color: #a8a8a8 !important;
-    border: 1px solid #a8a8a8 !important;
-    text-transform: uppercase;
-    padding: 8px;
+  text-decoration: none !important;
+  color: #a8a8a8 !important;
+  border: 1px solid #a8a8a8 !important;
+  text-transform: uppercase;
+  padding: 8px;
 }
 
 .project-read-more a:hover {
-    background-color: #a8a8a8;
-    color: white !important;
-    transition: 0.5s;
+  background-color: #a8a8a8;
+  color: white !important;
+  transition: 0.5s;
 }
 
 .title-projects {
-    text-align: center;
-    font-family: "Sporting Grotesque_Regular", "Helvetica", sans-serif;
-    font-size: 3em;
-    border-bottom: 10px solid #f0f0f0;
-    display: inline-block;
-    transform: translateX(-50%);
-    margin-left: 50%;
+  text-align: center;
+  font-family: "Sporting Grotesque_Regular", "Helvetica", sans-serif;
+  font-size: 3em;
+  border-bottom: 10px solid #f0f0f0;
+  display: inline-block;
+  transform: translateX(-50%);
+  margin-left: 50%;
 }
 
 /*******
@@ -341,83 +359,81 @@ nav ul {
 *******/
 
 #featured-projects .single-project {
-    display: flex;
-    height: 50vh;
-    padding: 0 65px 0 70px; /* pour compenser les bordures sur les côtés*/
+  display: flex;
+  height: 50vh;
+  padding: 0 65px 0 70px; /* pour compenser les bordures sur les côtés*/
 }
 
 #featured-projects .single-project:nth-child(odd) {
-    flex-direction: row-reverse;
-    justify-content: space-between;
+  flex-direction: row-reverse;
+  justify-content: space-between;
 }
 
-#featured-projects .project-main-image, #featured-projects .project-description {
-    width:50%;
-    height: 50vh;
-    box-sizing: border-box;
+#featured-projects .project-main-image,
+#featured-projects .project-description {
+  width: 50%;
+  height: 50vh;
+  box-sizing: border-box;
 }
-
-
 
 #featured-projects .project-main-image img {
-    transition: 0.5s;
+  transition: 0.5s;
 }
 
 #featured-projects .single-project a:hover img {
-    opacity: 0.7;
-    transition: 0.5s;
-    transform: scale(1.1);
+  opacity: 0.7;
+  transition: 0.5s;
+  transform: scale(1.1);
 }
 
 #featured-projects .project-main-image img {
-    height: 50vh;
-    width: 50vw; /* pour que la propriété object-position fonctionne à peu près*/
+  height: 50vh;
+  width: 50vw; /* pour que la propriété object-position fonctionne à peu près*/
 }
 
 #featured-projects .project-description {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 0 60px;
-    max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 60px;
+  max-width: 500px;
 }
 
 #featured-projects .project-title {
-    font-size: 2em;
-    line-height: 110%;
+  font-size: 2em;
+  line-height: 110%;
 }
-
 
 /*******
     Other Projects
 *******/
 
 #other-projects {
-    padding: 100px 65px 0 70px; /* pour compenser les bordures sur les côtés*/
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    max-width: 1300px;
+  padding: 100px 65px 0 70px; /* pour compenser les bordures sur les côtés*/
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 1300px;
 }
 
 #other-projects .single-other-project {
-    margin-right: 20px;
-    width: 500px;
+  margin-right: 20px;
+  width: 500px;
 }
 
 #other-projects .project-main-image {
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 #other-projects .project-main-image img {
-    height: 300px;
-    width: 500px;
+  height: 300px;
+  width: 500px;
 }
 
 #other-projects .project-title {
-    font-size: 1.2em;
-    font-weight: normal;
+  font-size: 1.2em;
+  font-weight: normal;
 }
 
 /*******
@@ -425,51 +441,49 @@ nav ul {
 *******/
 
 #contact-me {
-    position: relative /* pour que le z-index fonctionne*/;
-    z-index: 100;
-    padding: 50px 100px;
-    margin-top: 100px;
-    color: white;
-    font-family: "Sporting Grotesque_Regular", "Helvetica", sans-serif;
-    font-size: 1.7em;
+  position: relative /* pour que le z-index fonctionne*/;
+  z-index: 100;
+  padding: 50px 100px;
+  margin-top: 100px;
+  color: white;
+  font-family: "Sporting Grotesque_Regular", "Helvetica", sans-serif;
+  font-size: 1.7em;
 }
 
 #contact-me p {
-    margin: 0 10px;
+  margin: 0 10px;
 }
 
 #contact-me a {
-    color: white;
-    border-bottom-color: white;
-    border-bottom-width: 3px;
+  color: white;
+  border-bottom-color: white;
+  border-bottom-width: 3px;
 }
 
 #details-contact {
-    padding: 0 65px 0 70px; /* pour compenser les bordures sur les côtés*/
-    display: flex;
-    flex-wrap: wrap;
+  padding: 0 65px 0 70px; /* pour compenser les bordures sur les côtés*/
+  display: flex;
+  flex-wrap: wrap;
 }
 
 #details-contact .single-footer {
-    width: 33%;
-    padding: 30px;
-    box-sizing: border-box;
+  width: 33%;
+  padding: 30px;
+  box-sizing: border-box;
 }
 
 #details-contact .single-footer p {
-    color: #999;
-    line-height: 1.5;
-    letter-spacing: 0.5px;
+  color: #999;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
 }
 
 #details-contact h4 {
-    text-transform: uppercase;
-    font-size: 0.9em;
-    font-weight: 600;
-    letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  font-weight: 600;
+  letter-spacing: 2px;
 }
-
-
 
 /******
 
@@ -479,205 +493,204 @@ nav ul {
 *******/
 
 .single-page {
-    padding: 100px;
+  padding: 100px;
 }
 
-.single-page h1, .single-page h2 {
-    font-family: "Sporting Grotesque_Regular", "Helvetica", sans-serif;
+.single-page h1,
+.single-page h2 {
+  font-family: "Sporting Grotesque_Regular", "Helvetica", sans-serif;
 }
 
 .single-page header h1 {
-    font-size: 4em;
+  font-size: 4em;
 }
 
 .single-page header hr {
-    width: 50px;
-    border: none;
-    border-bottom: 4px solid black;
-    margin: 0;
+  width: 50px;
+  border: none;
+  border-bottom: 4px solid black;
+  margin: 0;
 }
 
 .single-page h2 {
-    margin-top: 60px;
+  margin-top: 60px;
 }
 
 .single-page h3 {
-    font-size: 1.4em;
-    margin-bottom: 0;
+  font-size: 1.4em;
+  margin-bottom: 0;
 }
 
 .single-page h3 + p {
-    margin-top: 8px;
+  margin-top: 8px;
 }
 
 .single-page p {
-    width: 100%;
-    max-width: 650px;
-    font-size: 1.2em;
-    line-height: 1.4;
+  width: 100%;
+  max-width: 650px;
+  font-size: 1.2em;
+  line-height: 1.4;
 }
 
 .single-page + footer #contact-me {
-    margin-top: 30px !important;
-    z-index: 0 !important;
+  margin-top: 30px !important;
+  z-index: 0 !important;
 }
 
 .single-page + footer #details-contact {
-    display: none;
+  display: none;
 }
 
 #chili-principles h1 {
-    margin-top: 0;
+  margin-top: 0;
 }
 #chili-principles {
-    padding: 1px 0 20px 50px;
-    border-left: 10px solid black;
-    margin-left: 15px;
-    margin-top: 70px;
+  padding: 1px 0 20px 50px;
+  border-left: 10px solid black;
+  margin-left: 15px;
+  margin-top: 70px;
 }
 
 #about-picture {
-    overflow: hidden;
-    margin-top: 30px;
+  overflow: hidden;
+  margin-top: 30px;
 }
 
 #about-picture img {
-    max-width: 90vw;
+  max-width: 90vw;
 }
 
-
-
 @media (max-width: 1200px) {
-    #introduction, #chilidesign {
-        font-size: 2em;
-    }
+  #introduction,
+  #chilidesign {
+    font-size: 2em;
+  }
 
-    #featured-projects .project-title,
-    #other-projects .project-title {
-        font-size: 1.3em;
-    }
+  #featured-projects .project-title,
+  #other-projects .project-title {
+    font-size: 1.3em;
+  }
 }
 
 @media (max-width: 400px) {
-    #logo-chili-design {
-        display: none;
-    }
+  #logo-chili-design {
+    display: none;
+  }
 }
 
 @media (max-width: 768px) and (max-height: 768px) {
+  #logo-chili-design {
+    top: 5px !important;
+    left: -5px !important;
+  }
 
-    #logo-chili-design {
-        top: 5px !important;
-        left: -5px !important;
-    }
+  #introduction,
+  #chilidesign {
+    padding: 55px !important;
+    height: auto !important;
+    font-size: 1.2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  #introduction p,
+  #chilidesign p {
+    margin: 0 0 10px 0;
+  }
 
-    #introduction, #chilidesign {
-        padding: 55px !important;
-        height: auto !important;
-        font-size: 1.2em;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-    #introduction p, #chilidesign p {
-        margin: 0 0 10px 0;
-    }
+  .single-page {
+    padding: 50px;
+  }
 
-    .single-page {
-        padding:50px;
-    }
+  .single-page header h1 {
+    font-size: 2.2em !important;
+  }
 
-    .single-page header h1 {
-        font-size: 2.2em !important;
-    }
+  .single-page .text p {
+    font-size: 1.1em !important;
+  }
 
-    .single-page .text p {
-        font-size: 1.1em !important;
-    }
+  #chili-principles {
+    border: none !important;
+    padding: 40px 0 0 0 !important;
+    margin-left: 0 !important;
+    border-top: 3px solid black !important;
+  }
 
-    #chili-principles {
-        border: none !important;
-        padding: 40px 0 0 0 !important;
-        margin-left: 0 !important;
-        border-top: 3px solid black !important;
-    }
+  #about-picture {
+    /*height: 300px;*/
+  }
 
-    #about-picture {
-        /*height: 300px;*/
-    }
-
-    #about-picture img {
-        /*object-fit: cover;*/
-    }
-
+  #about-picture img {
+    /*object-fit: cover;*/
+  }
 }
 
 @media (max-width: 768px) {
+  nav {
+    padding: 10px;
+  }
 
-    nav {
-        padding: 10px;
-    }
+  .project-main-image img {
+    height: 250px !important;
+    max-height: 60vw;
+    width: 100% !important;
+    max-width: initial !important;
+  }
 
-    .project-main-image img {
-        height: 250px !important;
-        max-height: 60vw;
-        width: 100% !important;
-        max-width: initial !important;
-    }
+  .project-description .categories,
+  .project-read-more {
+    display: none;
+  }
 
-    .project-description .categories, .project-read-more {
-        display: none;
-    }
+  .title-projects {
+    font-size: 2em;
+    border-bottom-width: 5px;
+  }
 
-    .title-projects {
-        font-size: 2em;
-        border-bottom-width: 5px;
-    }
+  #featured-projects .single-project {
+    flex-direction: column !important;
+    height: auto !important;
+    padding: 0 40px 0 40px !important;
+  }
 
-    #featured-projects .single-project {
-        flex-direction: column !important;
-        height: auto !important;
-        padding: 0 40px 0 40px !important;
-    }
+  #featured-projects .project-main-image,
+  #featured-projects .project-description {
+    width: 100% !important;
+    height: auto !important;
+  }
 
-    #featured-projects .project-main-image, #featured-projects .project-description {
-        width: 100% !important;
-        height: auto !important;
-    }
+  #featured-projects .project-description {
+    padding: 0 !important;
+    margin: 15px 0;
+  }
 
+  #featured-projects .project-title {
+    font-size: 1.2em !important;
+  }
 
-    #featured-projects .project-description {
-        padding: 0 !important;
-        margin: 15px 0;
-    }
+  #other-projects {
+    padding: 0 40px 0 40px !important;
+    justify-content: initial !important;
+  }
 
-    #featured-projects .project-title {
-        font-size: 1.2em !important;
-    }
+  #other-projects .single-other-project {
+    width: 100% !important;
+  }
 
-    #other-projects {
-        padding: 0 40px 0 40px !important;
-        justify-content: initial !important;
-    }
+  #contact-me {
+    padding: 10% !important;
+    font-size: 1.4em !important;
+    line-height: 1.4 !important;
+  }
 
-    #other-projects .single-other-project {
-        width: 100% !important;
-    }
+  #details-contact {
+    flex-direction: column !important;
+    padding: 40px 40px 0 40px !important;
+  }
 
-    #contact-me {
-        padding: 10% !important;
-        font-size: 1.4em !important;
-        line-height: 1.4 !important;
-    }
-
-    #details-contact {
-        flex-direction: column !important;
-        padding: 40px 40px 0 40px !important;
-    }
-
-    #details-contact .single-footer {
-        width: 100% !important;
-        padding: 0 !important;
-    }
-
+  #details-contact .single-footer {
+    width: 100% !important;
+    padding: 0 !important;
+  }
 }

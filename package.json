@@ -4,7 +4,7 @@
   "description": "Portfolio of Chili Desing, made with Kirby",
   "main": "index.js",
   "scripts": {
-    "start": "php -S localhost:8000 kirby/router.php",
+    "start": "php -S localhost:8000 kirby/router.php"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/mathildebuenerd/portfolio-kirby/issues"
   },
-  "homepage": "https://github.com/mathildebuenerd/portfolio-kirby#readme"
+  "homepage": "https://github.com/mathildebuenerd/portfolio-kirby#readme",
+  "devDependencies": {
+    "prettier": "^1.19.1"
+  }
 }
