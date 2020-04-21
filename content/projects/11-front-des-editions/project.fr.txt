@@ -14,7 +14,7 @@ Tags: generative litterature,politicians,poetry
 
 ----
 
-Categories: publishing
+Categories: graphicDesign
 
 ----
 
@@ -22,28 +22,62 @@ Thematics: writing, rhetorics, democracy
 
 ----
 
-Maindescription: Cette maison d’édition fictive rassemble plusieurs petits recueils de poèmes. Ces poèmes ont été écrits par moi-même à partir de bribes assemblées extraites de discours de personnalités politiques françaises comme Marine Le Pen, Jean-Luc Mélenchon ou Nicolas Sarkozy.
+Maindescription: This fictional publishing house gathers few little volumes of poetry. These poems where written by me, using snippets of speeches from French politicians such as Marine Le Pen, Jean-Luc Mélenchon or Nicolas Sarkozy.
 
 ----
 
-Website: 
+Website:
 
 ----
 
-Press: 
+Press:
 
 ----
 
-Misc: 
+Misc:
 
 ----
 
-Video: 
+Video:
 
 ----
 
-Featuredproject: no
+Featuredproject: false
 
 ----
 
-Links: 
+Illustration-0:
+
+----
+
+Description-1:
+
+----
+
+Illustration-1:
+
+----
+
+Description-2:
+
+----
+
+Links:
+
+----
+
+Descriptionparagraphs:
+
+-
+  singleparagraph: '*Le Front des Editions* is a fictional publishing house editing volumes of poetry. These poems where written by me, using snippets of speeches from French politicians such as Marine Le Pen, Jean-Luc Mélenchon or Nicolas Sarkozy.'
+  associatedimage: >
+    front-des-editions-collection_mathilde-buenerd.jpg
+  alternativetext: ""
+  figcaptionimage: Preview of the collection
+-
+  singleparagraph: >
+    Poems were written using text generation
+    with Processing.
+  associatedimage: front-des-editions-interieur-web.jpg
+  alternativetext: ""
+  figcaptionimage: An example of a poem

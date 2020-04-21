@@ -6,7 +6,7 @@ Year: 2017
 
 ----
 
-Smalldescription: Un sac-à-dos anti-comportement-antisocial
+Smalldescription: An anti-antisocial behavior backpack for children
 
 ----
 
@@ -22,23 +22,23 @@ Thematics: democracy, socialHacking
 
 ----
 
-Maindescription: *« Séries TV brutales, jeux vidéos violents, ou même camarades de classe vulgaires, vos enfants sont confrontés au quotidien aux incivilités et à la violence verbale. Dans notre monde actuel où la criminalité ne cesse d’augmenter, personne n’est à l’abri de voir son enfant mal tourner. En imitant le monde qui les entoure, les paisibles enfants d’aujourd’hui peuvent devenir les criminels de demain.»*
+Maindescription: *« Brutal TV series, violent video games, or even crude classmates, your children are confronted everyday with incivility and impoliteness. We live in a world where crime levels have never been higher. By imitating the others, your calm kids can become the criminals of tomorrow's world. »*
 
 ----
 
-Website: 
+Website:
 
 ----
 
-Press: 
+Press:
 
 ----
 
-Misc: 
+Misc:
 
 ----
 
-Video: 
+Video:
 
 ----
 
@@ -46,15 +46,11 @@ Featuredproject: false
 
 ----
 
-Links: 
-
-----
-
 Illustration-0: asb-bag-manuel-web.png
 
 ----
 
-Description-1: Sorte de bracelet électronique pour pré-délinquants (car tous les enfants sont des délinquants potentiels). Le principe est simple : chaque fois que l’enfant dit un gros mot, un petit moteur vibre derrière sa nuque. ASB-BAG est une caricature des objets connectés qui poussent comme des champignons, se vantant tous de faire du monde un meilleur endroit (« make the world a better place »).
+Description-1: ASB-BAG is an electronic bag for pre-delinquent (because any kid can be a potential delinquent). Everytime the child says a swear word, a little motor starts vibrating behind his neck... Just kidding, it's actually a caricature of all these connected devices sprouting up everywhere, boasting about « making the world a better place ».
 
 ----
 
@@ -62,8 +58,38 @@ Illustration-1: asb-bag-essai-web.jpg
 
 ----
 
-Description-2: 
+Description-2:
 
 ----
 
-Descriptionparagraphs: 
+Links:
+
+----
+
+Descriptionparagraphs:
+
+-
+  singleparagraph: "*« Brutal TV series, violent video games, or even crude classmates, your children are confronted everyday with incivility and impoliteness. We live in a world where crime levels have never been higher. By imitating the others, your calm kids can become the criminals of tomorrow's world. »*"
+  associatedimage: asb-bag-manuel-web.png
+  alternativetext: ""
+  figcaptionimage: Technical drawing of ASB-BAG
+-
+  singleparagraph: >
+    ASB-BAG is an electronic tag for
+    pre-delinquent (because any kid can be a
+    potential delinquent). Everytime the
+    child says a swear word, a little motor
+    starts vibrating behind his neck.
+  associatedimage: asb-bag-essai-web.jpg
+  alternativetext: ""
+  figcaptionimage: ""
+-
+  singleparagraph: >
+    ...no just kidding... it is first of all
+    a caricature of all these connected
+    devices sprouting up everywhere,
+    boasting aboutt « making the world a
+    better place » 😇
+  associatedimage: ""
+  alternativetext: ""
+  figcaptionimage: ""
