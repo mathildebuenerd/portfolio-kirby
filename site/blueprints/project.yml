@@ -93,27 +93,6 @@ fields:
       democracy: democracy
       socialHacking: social hacking
 
-  maindescription:
-    label: Main Description
-    type:  textarea
-    required: true
-
-  illustration_0:
-    label: Illustration 1
-    type:  image
-
-  description_1:
-    label: Description Part 2
-    type: textarea
-
-  illustration_1:
-    label: Illustration 2
-    type:  image
-
-  description_2:
-    label: Description Part 3
-    type: textarea
-
   website:
       label: Website
       type: url
