@@ -1,0 +1,9 @@
+Caption: You can access the list of words and how many times they appear in the page.
+
+----
+
+Alttext: Table in the console, with the list of all words found and the number of occurrence.
+
+----
+
+Source: 

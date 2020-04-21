@@ -39,10 +39,10 @@
                 <?= $page->talks()->kirbytext() ?>
             </section>
 
-//             <section class="text" id="cv">
-//                 <h2>CV</h2>
-//                 <?= $page->cv()->kirbytext() ?>
-//             </section>
+            <section class="text" id="cv">
+                <h2>CV</h2>
+                <?= $page->cv()->kirbytext() ?>
+            </section>
 
         </div>
 

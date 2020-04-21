@@ -26,6 +26,10 @@ Thematics:
 
 ----
 
+Video: https://vimeo.com/169518122
+
+----
+
 Maindescription: The Museum’s room with the old TV’s inspired us for our project. We want to give the life back to these TV’s, that are unfortunately lifeless. Our idea, is to transport the visitor in time, to give him/her a historical context, and give them the possibility to see themselves inside an old TV.
 
 ----
@@ -67,3 +71,37 @@ Links:
 ----
 
 Misc:
+
+----
+
+Descriptionparagraphs:
+
+-
+  singleparagraph: >
+    The Museum’s room with the old TV’s
+    inspired us for our project. We want to
+    give the life back to these TV’s, that
+    are unfortunately lifeless. Our idea, is
+    to transport the visitor in time, to
+    give him/her a historical context, and
+    give them the possibility to see
+    themselves inside an old TV.
+  associatedimage: deja-vu-tv-room.jpg
+  alternativetext: Turned off TV on the walls.
+  figcaptionimage: The sad Museum TV room.
+-
+  singleparagraph: |
+    > We came up with the idea of “Time travel”, transporting the visitor in the past. We wanted to give the possibility to the visitor, to become a TV anchor of the 50’s, 60’s or 70’s, and relive a famous event of the past.
+
+    For achieving that, we set-up a display: we created a frame (in the back of the visitor) in order to recreate a setting, and the visitor was free to film himself or herself with the scenery in the back. Then he/she would take the iPad from its base, take it to the next room, and discover him or herself on an old screen, through the iPad.
+  associatedimage: deja-vu-installation.jpg
+  alternativetext: ""
+  figcaptionimage: 'TV setting. The visitor could choose and arrange the wooden magnets depending on the news he wanted to tell - for example: First step on the moon or Discovery of Lucy. Then, he sat on the stool and read the script to present the choosen event.'
+-
+  singleparagraph: |
+    <div class="videoWrapper">
+    <iframe src="https://player.vimeo.com/video/169518122" allowfullscreen></iframe>
+    </div>
+  associatedimage: ""
+  alternativetext: ""
+  figcaptionimage: ""
