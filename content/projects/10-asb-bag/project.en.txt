@@ -22,10 +22,6 @@ Thematics: democracy, socialHacking
 
 ----
 
-Maindescription: *« Brutal TV series, violent video games, or even crude classmates, your children are confronted everyday with incivility and impoliteness. We live in a world where crime levels have never been higher. By imitating the others, your calm kids can become the criminals of tomorrow's world. »*
-
-----
-
 Website: 
 
 ----
@@ -43,22 +39,6 @@ Video:
 ----
 
 Featuredproject: false
-
-----
-
-Illustration-0: asb-bag-manuel-web.png
-
-----
-
-Description-1: ASB-BAG is an electronic bag for pre-delinquent (because any kid can be a potential delinquent). Everytime the child says a swear word, a little motor starts vibrating behind his neck... Just kidding, it's actually a caricature of all these connected devices sprouting up everywhere, boasting about « making the world a better place ».
-
-----
-
-Illustration-1: asb-bag-essai-web.jpg
-
-----
-
-Description-2: 
 
 ----
 

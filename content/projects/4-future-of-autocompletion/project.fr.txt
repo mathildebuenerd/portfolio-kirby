@@ -74,26 +74,6 @@ Thematics: writing, talking, autocomplete
 
 ----
 
-Maindescription: f
-
-----
-
-Illustration-0: 
-
-----
-
-Description-1: 
-
-----
-
-Illustration-1: 
-
-----
-
-Description-2: 
-
-----
-
 Website: 
 
 ----

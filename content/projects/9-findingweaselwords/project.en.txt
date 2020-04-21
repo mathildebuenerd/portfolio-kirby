@@ -53,26 +53,6 @@ Thematics: rhetorics, democracy
 
 ----
 
-Maindescription: /
-
-----
-
-Illustration-0: 
-
-----
-
-Description-1: 
-
-----
-
-Illustration-1: 
-
-----
-
-Description-2: 
-
-----
-
 Website: http://www.chilidesign.fr/weaselwords/
 
 ----

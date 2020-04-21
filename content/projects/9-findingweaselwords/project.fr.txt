@@ -46,26 +46,6 @@ Thematics: rhetorics, democracy
 
 ----
 
-Maindescription: findingweaselwords est une extension pour navigateur qui permet de mesurer la fiabilité d’un texte en fonction de la quantité de weasel word utilisée, et de donner un feedback visuel à l’internaute. Les weasel words ont d’habitude un rôle de liant, ils servent à « faire glisser » le propos plus facilement en évitant de rentrer dans des détails problématiques.
-
-----
-
-Illustration-0: 
-
-----
-
-Description-1: 
-
-----
-
-Illustration-1: 
-
-----
-
-Description-2: 
-
-----
-
 Website: http://alternative.mathildebuenerd.fr/weaselwords/
 
 ----

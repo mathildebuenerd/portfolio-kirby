@@ -22,16 +22,6 @@ Thematics: writing, talking, socialHacking
 
 ----
 
-Maindescription: 
-
-The project focuses on an app, imagined in a near future, that collects and analyzes the user’s text messages, and give him an emotional feedback. The app allows users to have a better understanding of the way they talk, and in the end, of one of the others. This way, they can develop a form of immunity at targeted solicitations from advertisers, politicians, or noxious relations.
-
-<div class="videoWrapper">
-<iframe src="https://player.vimeo.com/video/276232389" allowfullscreen></iframe>
-</div>
-
-----
-
 Website: 
 
 ----
@@ -61,22 +51,6 @@ Featuredproject: true
 
 ----
 
-Illustration-0: 
-
-----
-
-Description-1: 
-
-----
-
-Illustration-1: 
-
-----
-
-Description-2: 
-
-----
-
 Descriptionparagraphs: 
 
 - 
@@ -89,7 +63,7 @@ Descriptionparagraphs:
     <div class="videoWrapper">
     <iframe src="https://player.vimeo.com/video/276232389" allowfullscreen></iframe>
     </div>
-    
+
     Jouska is speculative design project exploring the future of sentiment analysis. The project focuses on an app, imagined in a near future, that collects and analyzes the user’s text messages, and give him an emotional feedback. The app allows users to have a better understanding of the way they talk, and in the end, of one of the others. This way, they can develop a form of immunity at targeted solicitations from advertisers, politicians, or noxious relations.
   associatedimage: ""
   alternativetext: ""

@@ -22,15 +22,6 @@ Thematics: writing
 
 ----
 
-Maindescription: 
-
-    La collection Bodmer abrite plusieurs centaines d’éditions du Faust de Goethe. Pour rendre cette collection accessible au plus grand nombre, un travail de numérisation des ouvrages est réalisé.
-
-
-
-
-----
-
 Website: 
 
 ----
@@ -60,22 +51,6 @@ Featuredproject: false
 ----
 
 Links: 
-
-----
-
-Illustration-0: 
-
-----
-
-Description-1: 
-
-----
-
-Illustration-1: 
-
-----
-
-Description-2:
 
 ----
 

@@ -22,10 +22,6 @@ Thematics:
 
 ----
 
-Maindescription: The interactive concept is based on human interaction with one person acting as a listener to the music while the other is able to control the music playing on the device by adjusting their facial expression through a smile or a funny face for example. This project explores the use of universal means of communication – emotions. It focuses on ways of communicating universally, transcending language barriers between people.
-
-----
-
 Website:
 
 ----
@@ -43,22 +39,6 @@ Misc:
 ----
 
 Featuredproject: true
-
-----
-
-Illustration-0: 
-
-----
-
-Description-1: 
-
-----
-
-Illustration-1: 
-
-----
-
-Description-2: 
 
 ----
 

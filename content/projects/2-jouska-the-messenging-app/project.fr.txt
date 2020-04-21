@@ -96,26 +96,6 @@ Thematics: writing, socialHacking
 
 ----
 
-Maindescription: d
-
-----
-
-Illustration-0: 
-
-----
-
-Description-1: 
-
-----
-
-Illustration-1: 
-
-----
-
-Description-2: 
-
-----
-
 Website: 
 
 ----

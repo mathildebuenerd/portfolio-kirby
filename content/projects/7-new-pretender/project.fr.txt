@@ -22,16 +22,6 @@ Thematics: rhetorics, autocomplete, socialHacking
 
 ----
 
-Maindescription: 
-
-New Pretender est un coach personnel qui sussure à l'oreille de son interprète le discours à tenir pour séduire une femme. L'homme, devenu un véritable orateur, peut expérimenter en temps réel les techniques de manipulation (complimenter, faire des gestes évocateurs, mentir, promettre...), en jouant au sens littéral (avec un joystick) avec la personne en face de lui.
-
-<div class="videoWrapper">
-<iframe src="https://www.youtube.com/embed/KeIWxqlzba8" allowfullscreen></iframe>
-</div>
-
-----
-
 Website: 
 
 ----
@@ -61,22 +51,6 @@ Video: https://www.youtube.com/watch?v=KeIWxqlzba8
 ----
 
 Featuredproject: true
-
-----
-
-Illustration-0: 
-
-----
-
-Description-1: 
-
-----
-
-Illustration-1: 
-
-----
-
-Description-2: 
 
 ----
 

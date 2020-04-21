@@ -22,14 +22,6 @@ Thematics: writing, talking, socialHacking
 
 ----
 
-Maindescription: 
-
-<div class="videoWrapper">
-<iframe src="https://player.vimeo.com/video/276232389" allowfullscreen></iframe>
-</div>
-
-----
-
 Website: 
 
 ----
@@ -56,22 +48,6 @@ Links:
 ----
 
 Featuredproject: true
-
-----
-
-Illustration-0: 
-
-----
-
-Description-1: 
-
-----
-
-Illustration-1: 
-
-----
-
-Description-2: 
 
 ----
 

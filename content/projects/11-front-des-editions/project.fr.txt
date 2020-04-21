@@ -22,10 +22,6 @@ Thematics: writing, rhetorics, democracy
 
 ----
 
-Maindescription: This fictional publishing house gathers few little volumes of poetry. These poems where written by me, using snippets of speeches from French politicians such as Marine Le Pen, Jean-Luc Mélenchon or Nicolas Sarkozy.
-
-----
-
 Website:
 
 ----
@@ -43,22 +39,6 @@ Video:
 ----
 
 Featuredproject: false
-
-----
-
-Illustration-0:
-
-----
-
-Description-1:
-
-----
-
-Illustration-1:
-
-----
-
-Description-2:
 
 ----
 
