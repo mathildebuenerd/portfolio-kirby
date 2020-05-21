@@ -38,10 +38,6 @@
 
     <?= css('assets/css/mystyle.css') ?>
 
-    <!--    include jquery and jquery ui -->
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
-
     <!--    inclunding fonts -->
     <link href="https://fonts.googleapis.com/css?family=Chivo:300,300i,400,400i,700" rel="stylesheet">
 <body>
