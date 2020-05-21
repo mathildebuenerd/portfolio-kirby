@@ -6,7 +6,7 @@ Text:
 
 # What is chili design ?
 
-"Chili design" gathers three design principles for designing algorithm-based technologies in the era of ubiquitous computing (like recommender systems or mobile apps). Those principles are the conclusion of a research work conducted at HEAD - Geneva, and centered on the design of autocompletion systems ([Conversing in the era of autocompletion](http://www.chilidesign.fr/memoire/Converser%20à%20l'ère%20de%20l'autocomplétion.pdf), in french). It can be sum up in three points : using technology as a tool for _innovativeness_ by creating a _disturbing experience_, and through a _visible interface_.
+"Chili design" gathers three design principles for designing algorithm-based technologies in the era of ubiquitous computing (like recommender systems or mobile apps). Those principles are the conclusion of a research work conducted at HEAD - Geneva, and centered on the design of autocompletion systems ([Conversing in the era of autocompletion](https://www.chilidesign.fr/memoire/Converser%20à%20l'ère%20de%20l'autocomplétion.pdf), in french). It can be sum up in three points : using technology as a tool for _innovativeness_ by creating a _disturbing experience_, and through a _visible interface_.
 
 The three principles of the "chili" technology are the followings :
 
@@ -32,7 +32,7 @@ Chilidefinitiontitle: What is chili design ?
 
 Chilidefinition: 
 
-"Chili design" gathers three design principles for designing algorithm-based technologies in the era of ubiquitous computing (like recommender systems or mobile apps). Those principles are the conclusion of a research work conducted at HEAD - Geneva, and centered on the design of autocompletion systems ([Conversing in the era of autocompletion](http://www.chilidesign.fr/memoire/Converser%20à%20l'ère%20de%20l'autocomplétion.pdf), in french). It can be sum up in three points : using technology as a tool for _innovativeness_ by creating a _disturbing experience_, and through a _visible interface_.
+"Chili design" gathers three design principles for designing algorithm-based technologies in the era of ubiquitous computing (like recommender systems or mobile apps). Those principles are the conclusion of a research work conducted at HEAD - Geneva, and centered on the design of autocompletion systems ([Conversing in the era of autocompletion](https://www.chilidesign.fr/memoire/Converser%20à%20l'ère%20de%20l'autocomplétion.pdf), in french). It can be sum up in three points : using technology as a tool for _innovativeness_ by creating a _disturbing experience_, and through a _visible interface_.
 
 The three principles of the "chili" technology are the followings.
 

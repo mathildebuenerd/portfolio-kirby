@@ -19,7 +19,7 @@
     if($image = $page->image()) {
         echo $image->url();
     } else {
-        echo 'http://www.chilidesign.fr/preview-social.jpg';
+        echo 'https://www.chilidesign.fr/preview-social.jpg';
     } ?>"/>
     <meta property="og:description" content="<?= ($page->metadescription()->kirbytextRaw() != '') ? $page->metadescription()->kirbytextRaw() : $page->smalldescription()->kirbytextRaw() ?>"/>
 
@@ -33,7 +33,7 @@
     if($image = $page->image()) {
         echo $image->url();
     } else {
-       echo 'http://www.chilidesign.fr/preview-social.jpg';
+       echo 'https://www.chilidesign.fr/preview-social.jpg';
     } ?>">
 
     <?= css('assets/css/mystyle.css') ?>

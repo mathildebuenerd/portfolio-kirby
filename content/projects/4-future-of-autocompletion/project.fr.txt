@@ -38,7 +38,7 @@ Descriptionparagraphs:
     
     Ces évolutions récentes soulèvent la question de comment les mécanismes d'autocomplétion vont évoluer. Tout particulièrement, comment les algorithmes de _machine learning_ vont-ils les influencer ? Ces aides à l'écriture vont-elles nous rendre plus honête ou au contraire plus manipulateurs ? Quelle place souhaite-t-on laisser à ces logiciels dans notre vie de tous les jours ?
     
-    Ce travail est fortement lié au mémoire de recherche que j'ai écrit sur le design des systèmes automatisé, [Converser à l'ère de l'autocomplétion](http://www.chilidesign.fr/memoire/converser-a-l-ere-de-l-autocompletion-mathilde-buenerd.pdf).
+    Ce travail est fortement lié au mémoire de recherche que j'ai écrit sur le design des systèmes automatisé, [Converser à l'ère de l'autocomplétion](https://www.chilidesign.fr/memoire/converser-a-l-ere-de-l-autocompletion-mathilde-buenerd.pdf).
   associatedimage: preview-write-in-the-style-of-2000.png
   alternativetext: ""
   figcaptionimage: ""

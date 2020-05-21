@@ -1,1 +1,1 @@
-Sitemap: http://chilidesign.fr/sitemap.xml
+Sitemap: https://chilidesign.fr/sitemap.xml
