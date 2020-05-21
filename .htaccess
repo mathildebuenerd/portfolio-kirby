@@ -52,4 +52,7 @@ RewriteRule ^(.*) index.php [L]
 #
 # php_flag short_open_tag on
 
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^chilidesign\.fr [NC]
+RewriteCond %{SERVER_PORT} 80
 RewriteRule ^(.*)$ https://www.chilidesign.fr/$1 [R,L]
